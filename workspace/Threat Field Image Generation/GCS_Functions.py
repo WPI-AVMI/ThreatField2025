@@ -62,15 +62,25 @@ def generate_image_algo(Xr, Yr, Tr, U, V, img_height, img_width, Ks, As):
         pixelArray = algo_helper(Xs, Ys, Ts, Xr, Yr, Tr, U, V, Ks, As)
 
         # Normalize and convert to heatmap
+       
+        # scalar = np.max(pixelArray)
+        # normalized = (pixelArray / scalar * 255).astype(np.uint8)
+        # color_mapped = cv2.applyColorMap(normalized, cv2.COLORMAP_JET)
+
+
+        # to have gradient use the following 
+        # # Normalize and convert to heatmap
         if scalar is None:
             scalar = np.max(pixelArray)
 
         normalized = (pixelArray / scalar * 255).astype(np.uint8)
         color_mapped = cv2.applyColorMap(normalized, cv2.COLORMAP_JET)
 
+
+
         # Update global frame for MJPEG stream
         with frame_lock:
             current_frame = color_mapped.copy()
 
-        print(f"[t={t}] Frame streamed in {time.time() - start_time:.2f}s")
+        print(f"[t={Ts}]")
         time.sleep(timestep)

@@ -41,7 +41,7 @@ def generate_image_algo(Xr, Yr, Tr, U, V, img_height, img_width, Ks, As):
     threading.Thread(target=start_flask_server, daemon=True).start()
 
     ts = 0.1
-    timestep = 0.01
+    timestep = 0.005
     timeperiod = 6
     reps = int((timeperiod - ts) / timestep)
 
