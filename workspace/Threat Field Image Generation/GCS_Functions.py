@@ -146,13 +146,21 @@ def split_image(image_path):
 
 
 # current system functions 
-# === HELPER FUNCTION ===
-def algo_helper(Xs, Ys, ts, Xr, Yr, Tr, U, V, Ks, As):
-    Rcs2 = 4 * Ks * (ts - Tr)
-    rs2 = (Xs - (Xr + U * (ts - Tr)))**2 + (Ys - (Yr + V * (ts - Tr)))**2
-    Cs2 = np.exp(-rs2 / Rcs2)
-    Cs1 = As / (np.pi * Rcs2)**(1.5)
-    return Cs1 * Cs2
+
+# Helper function to calculate concentration at specific coordinate 
+def algo_helper(Xs,Ys,ts,Xr,Yr,Tr,U,V,Ks,As):
+
+    # Non dimentionalized Concentration Calculations 
+    Rcs2 = 4*Ks*(ts-Tr)
+    rs2 = (Xs - (Xr+U*(ts-Tr)))**2 + (Ys-(Yr+V*(ts-Tr)))**2
+    Cs2 = np.exp(-(rs2/Rcs2))
+    Cs1 = (As/(np.pi*Rcs2)**(3/2))
+    Cs = Cs1*Cs2
+
+    return Cs
+
+
+
 
 # === MAIN FUNCTION ===
 def generate_image_algo(Xr, Yr, Tr, U, V, img_height, img_width, Ks, As):
@@ -161,46 +169,48 @@ def generate_image_algo(Xr, Yr, Tr, U, V, img_height, img_width, Ks, As):
     # Start MJPEG Flask server once
     threading.Thread(target=start_flask_server, daemon=True).start()
 
-    ts = 0.1
-    timestep = 0.0001
-    timeperiod = 6
-    reps = int((timeperiod - ts) / timestep)
+    # Time constants 
+    ts = 0.1                             # initial reading time 
+    timestep = 0.01                      # time step 
+    timeperiod = 0.6                     # Ending reading time
+    reps = int((timeperiod-ts)/timestep) # iterations 
 
-    scalar = None  # for normalization
+    xcoord = [0 for i in range(reps)]
+    ycoord = [0 for i in range(reps)]
 
+    # iteration over time 
     for t in range(reps):
-        start_time = time.time()
-        Ts = ts + t * timestep
 
-        # Create meshgrid of dimensionless coordinates
-        Ys, Xs = np.meshgrid(
-            np.linspace(0, 1, img_height),
-            np.linspace(0, 1, img_width),
-            indexing="ij"
-        )
-
-        # Compute concentration field
-        pixelArray = algo_helper(Xs, Ys, Ts, Xr, Yr, Tr, U, V, Ks, As)
-
-        # Normalize and convert to heatmap
-       
-        # scalar = np.max(pixelArray)
-        # normalized = (pixelArray / scalar * 255).astype(np.uint8)
-        # color_mapped = cv2.applyColorMap(normalized, cv2.COLORMAP_JET)
+        # Define size of matrix for readings
+        pixelArray = [[0 for i in range(img_width)] for j in range(img_height)]
 
 
-        # to have gradient use the following 
-        # # Normalize and convert to heatmap
+
+        for x in range(img_height):
+            for y in range(img_width):
+
+                # Non Dimentionalized X and Y coord 
+                Xs = x/img_width
+                Ys = y/img_height
+
+                Ts =  ts+ t*timestep
+
+                # Calculate concentration at point (Xs,Ys)
+                Ts =  ts+ t*timestep
+
+                # Calculate concentration at point (Xs,Ys)
+                Cs =  algo_helper(Xs,Ys,Ts,Xr,Yr,Tr,U,V,Ks,As)    
+                pixelArray[x][y] = Cs
+
+            # max = np.amax(pixelArray[x])
 
 
-        if scalar is None:
-            scalar = np.max(pixelArray)
 
+        if t == 0: 
+            scalar = np.amax(pixelArray)
+            print("source concentration = " + str(scalar))
         normalized = (pixelArray / scalar * 255).astype(np.uint8)
         color_mapped = cv2.applyColorMap(normalized, cv2.COLORMAP_JET)
-
-
-
 
         # new image splitter 
          # Split the image into 4 quadrants
@@ -213,10 +223,16 @@ def generate_image_algo(Xr, Yr, Tr, U, V, img_height, img_width, Ks, As):
             color_mapped[half_h:h, 0:half_w],       # Bottom-left
             color_mapped[half_h:h, half_w:w]        # Bottom-right
         ]       
+        # Flip top-left and top-right horizontally
+        quadrant_frames[0] = cv2.flip(quadrant_frames[0], 0)  # Top-left
+        quadrant_frames[1] = cv2.flip(quadrant_frames[1], 0)  # Top-right
+        # Flip top-left and top-right horizontally
+        quadrant_frames[0] = cv2.flip(quadrant_frames[0], 1)  # Top-left
+        quadrant_frames[1] = cv2.flip(quadrant_frames[1], 1)  # Top-right
+
+
         # Update global frames for each quadrant
         with frame_lock:
             for i in range(4):
                 frames[i] = quadrant_frames[i].copy()
-
-        print(f"[t={t}] Frame streamed in {time.time() - start_time:.2f}s")
-        time.sleep(timestep)
+        time.sleep(0.001)

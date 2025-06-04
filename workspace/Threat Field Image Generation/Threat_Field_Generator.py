@@ -29,11 +29,11 @@ invert = True
 
 
 # Physics constants for source initial conditions 
-Xr=0 # release coord X
-Yr=0.5 # release coord Y
+Xr=0.3 # release coord X
+Yr=0 # release coord Y
 Tr = 0 # release Time
-U = 4  # Wind Velocity X
-V = 0  # Wind Velocity Y
+U = 0  # Wind Velocity X
+V = 4  # Wind Velocity Y
 # Diffusion Constants 
 Ks = 0.3      # Affects size of field
 As =  10**(-9) # Affects spread over time 
