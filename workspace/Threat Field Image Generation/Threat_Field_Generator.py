@@ -5,8 +5,8 @@ import GCS_Functions as GCS
 
 
 # THREAT FIELD PARAMETERS
-img_height = 1080
-img_width = 1920
+img_height = 1920
+img_width = 1080
 mu_x = 250
 mu_y = 250
 sigma_x = 100

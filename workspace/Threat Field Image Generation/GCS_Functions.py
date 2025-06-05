@@ -12,6 +12,7 @@ import rsync as sync
 
 
 
+
 # === FLASK STREAMING SETUP ===
 app = Flask(__name__)
 frames = [None, None, None, None]  # One frame per quadrant
@@ -162,55 +163,60 @@ def algo_helper(Xs,Ys,ts,Xr,Yr,Tr,U,V,Ks,As):
 
 
 
+
 # === MAIN FUNCTION ===
 def generate_image_algo(Xr, Yr, Tr, U, V, img_height, img_width, Ks, As):
     global current_frame
+    sim_size = max([img_height,img_width])
+
 
     # Start MJPEG Flask server once
     threading.Thread(target=start_flask_server, daemon=True).start()
 
     # Time constants 
     ts = 0.1                             # initial reading time 
-    timestep = 0.01                      # time step 
-    timeperiod = 0.6                     # Ending reading time
+    timestep = 0.001                      # time step 
+    timeperiod = 6                    # Ending reading time
     reps = int((timeperiod-ts)/timestep) # iterations 
 
     xcoord = [0 for i in range(reps)]
     ycoord = [0 for i in range(reps)]
-
+    scalar = None  # for normalization
     # iteration over time 
     for t in range(reps):
+        
+        scalar = None  # for normalization
 
         # Define size of matrix for readings
-        pixelArray = [[0 for i in range(img_width)] for j in range(img_height)]
+        pixelArray = [[0 for i in range(sim_size)] for j in range(sim_size)]
+        Ts = ts + t * timestep
 
 
 
-        for x in range(img_height):
-            for y in range(img_width):
+        # max = np.amax(pixelArray[x])
+        Ys, Xs = np.meshgrid(
+        np.linspace(0, 1, sim_size),
+        np.linspace(0, 1, sim_size),
+        indexing="ij"
+        )
 
-                # Non Dimentionalized X and Y coord 
-                Xs = x/img_width
-                Ys = y/img_height
-
-                Ts =  ts+ t*timestep
-
-                # Calculate concentration at point (Xs,Ys)
-                Ts =  ts+ t*timestep
-
-                # Calculate concentration at point (Xs,Ys)
-                Cs =  algo_helper(Xs,Ys,Ts,Xr,Yr,Tr,U,V,Ks,As)    
-                pixelArray[x][y] = Cs
-
-            # max = np.amax(pixelArray[x])
-
-
-
-        if t == 0: 
+        pixelArray = algo_helper(Xs, Ys, Ts, Xr, Yr, Tr, U, V, Ks, As)
+        if scalar is None:
             scalar = np.amax(pixelArray)
-            print("source concentration = " + str(scalar))
+
+        
         normalized = (pixelArray / scalar * 255).astype(np.uint8)
         color_mapped = cv2.applyColorMap(normalized, cv2.COLORMAP_JET)
+
+
+        if img_height > img_width:
+            crop_margin = int(abs(img_width-img_height)/2 )
+            color_mapped = color_mapped[crop_margin:-crop_margin, :]
+
+        elif img_width > img_height:
+            crop_margin = int(abs((img_height-img_width)/2))
+            color_mapped = color_mapped[: ,crop_margin:-crop_margin]
+            
 
         # new image splitter 
          # Split the image into 4 quadrants
