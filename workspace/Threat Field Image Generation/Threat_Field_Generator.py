@@ -2,7 +2,7 @@
 
 import math
 import GCS_Functions as GCS
-
+import GCS_Functions_Multi as GCSM
 
 # THREAT FIELD PARAMETERS
 img_height = 1920
@@ -32,7 +32,7 @@ invert = True
 Xr=0.5 # release coord X
 Yr=0.5 # release coord Y
 Tr = 0 # release Time
-U = 0  # Wind Velocity X
+U = 1  # Wind Velocity X
 V = 0  # Wind Velocity Y
 # Diffusion Constants 
 Ks = 0.005      # Eddy Diffusion term
@@ -41,4 +41,4 @@ As =  10**(-9) # Affects spread over time
 # generates image with physics based algorithm 
 # GCS.generate_image_algo(Xr,Yr,Tr,U,V,img_height, img_width,Ks,As)
 
-GCS.generate_image_algo_single(Xr,Yr,Tr,U,V,img_height, img_width,Ks,As)
+GCSM.generate_image_algo(Xr,Yr,Tr,U,V,img_height, img_width,Ks,As)

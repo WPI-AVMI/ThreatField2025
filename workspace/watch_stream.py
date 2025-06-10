@@ -4,7 +4,7 @@ import os
 import signal
 
 # === Configuration ===
-STREAM_URL = "http://192.168.1.10:8000/video_feed"  # CHANGE this to your host IP
+STREAM_URL = "http://192.168.1.10:8000/video_feed/0"  # CHANGE this to your host IP
 CHECK_INTERVAL = 2  # in seconds
 
 def is_stream_up():
