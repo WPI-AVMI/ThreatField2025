@@ -18,14 +18,13 @@ app = Flask(__name__)
 frames = [None, None, None, None]  # One frame per quadrant
 frame_lock = threading.Lock()
 
-@app.route('/video_feed/<int:quadrant_id>')
-def video_feed(quadrant_id):
+@app.route('/video_feed')
+def video_feed():
     def generate():
         while True:
             with frame_lock:
-                frame = frames[quadrant_id]
-                if frame is not None:
-                    ret, jpeg = cv2.imencode('.jpg', frame)
+                if current_frame is not None:
+                    ret, jpeg = cv2.imencode('.jpg', current_frame)
                     yield (b'--frame\r\n'
                            b'Content-Type: image/jpeg\r\n\r\n' + jpeg.tobytes() + b'\r\n')
             time.sleep(0.01)
@@ -149,10 +148,12 @@ def split_image(image_path):
 # current system functions 
 
 # Helper function to calculate concentration at specific coordinate 
+
+# IMPLEMENTATION OF ADVECTION DIFFUSION EQUATIONS 
 def algo_helper(Xs,Ys,ts,Xr,Yr,Tr,U,V,Ks,As):
 
     # Non dimentionalized Concentration Calculations 
-    Rcs2 = 4*Ks*(ts-Tr)
+    Rcs2 = 4*Ks
     rs2 = (Xs - (Xr+U*(ts-Tr)))**2 + (Ys-(Yr+V*(ts-Tr)))**2
     Cs2 = np.exp(-(rs2/Rcs2))
     Cs1 = (As/(np.pi*Rcs2)**(3/2))
@@ -162,9 +163,21 @@ def algo_helper(Xs,Ys,ts,Xr,Yr,Tr,U,V,Ks,As):
 
 
 
+def stay_helper(Xs,Ys,ts,Xr,Yr,Tr,U,V,Ks,As):
+
+    # Non dimentionalized Concentration Calculations 
+    Rcs2 = 4*Ks
+    X = Xs
+    rs2 =  (Ys-Yr)**2*U
+    Cs2 = np.exp((-rs2/(Rcs2*X)))
+    Cs1 = (As/(np.pi*Rcs2*(X)))
+    Cs = Cs1*Cs2
+    np.savetxt("output.txt",Cs)
+
+    return Cs
 
 
-# === MAIN FUNCTION ===
+# === MAIN FUNCTION WITH MULTI STREAM===
 def generate_image_algo(Xr, Yr, Tr, U, V, img_height, img_width, Ks, As):
     global current_frame
     sim_size = max([img_height,img_width])
@@ -242,3 +255,93 @@ def generate_image_algo(Xr, Yr, Tr, U, V, img_height, img_width, Ks, As):
             for i in range(4):
                 frames[i] = quadrant_frames[i].copy()
         time.sleep(0.001)
+
+
+
+
+
+# === MAIN FUNCTION WITH SINGLE STREAM===
+def generate_image_algo_single(Xr, Yr, Tr, U, V, img_height, img_width, Ks, As):
+    global current_frame
+    sim_size = max([img_height,img_width])
+
+
+    # Start MJPEG Flask server once
+    threading.Thread(target=start_flask_server, daemon=True).start()
+
+    # Time constants 
+    ts = 0                           # initial reading time 
+    timestep = 0.002                      # time step 
+    timeperiod = 6                    # Ending reading time
+    reps = int((timeperiod-ts)/timestep) # iterations 
+
+    xcoord = [0 for i in range(reps)]
+    ycoord = [0 for i in range(reps)]
+    scalar = None  # for normalization
+
+
+    ## coordinate translation for simulation crop 
+    S1 = img_height/sim_size
+    S2 = img_width/sim_size
+    Xr = (1-S1)/2+S1*Xr
+    Yr = (1-S2)/2+S2*Yr
+
+    # iteration over time 
+    for t in range(reps):
+        scalar = None  # for normalization
+
+        # Define size of matrix for readings
+        pixelArray = [[0 for i in range(sim_size)] for j in range(sim_size)]
+        Ts = ts + t * timestep
+
+
+        # max = np.amax(pixelArray[x])
+        Ys, Xs = np.meshgrid(
+        np.linspace(0, 1, sim_size),
+        np.linspace(0, 1, sim_size),
+        indexing="ij"
+        )
+
+
+
+        
+
+        if Ts <= Tr:
+            # Create and send a zero image
+            scalar = 0.00025076634654540655
+            
+            blank = np.zeros((img_width, img_height, 3), dtype=np.uint8)
+            normalized = (blank / scalar * 255).astype(np.uint8)
+            color_mapped = cv2.applyColorMap(normalized, cv2.COLORMAP_JET)
+            with frame_lock:
+                current_frame = color_mapped.copy()
+            scalar = None  # for normalization
+
+
+
+
+        if Ts > Tr:
+            pixelArray = algo_helper(Xs, Ys, Ts, Xr, Yr, Tr, U, V, Ks, As)
+            if scalar is None:
+                scalar = np.amax(pixelArray)
+                print(scalar)
+
+        
+            normalized = (pixelArray / scalar * 255).astype(np.uint8)
+            color_mapped = cv2.applyColorMap(normalized, cv2.COLORMAP_JET)
+
+
+            if img_height > img_width:
+                crop_margin = int(abs(img_width-img_height)/2 )
+                color_mapped = color_mapped[crop_margin:-crop_margin, :]
+
+            elif img_width > img_height:
+                crop_margin = int(abs((img_height-img_width)/2))
+                color_mapped = color_mapped[: ,crop_margin:-crop_margin]
+                
+
+            # Update global frame for MJPEG stream
+            with frame_lock:
+                current_frame = color_mapped.copy()
+
+
