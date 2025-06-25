@@ -1,0 +1,3 @@
+[console_scripts]
+client = py_sensor.client_member_function:main
+service = py_sensor.service_member_function:main

@@ -1,0 +1,36 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/sensor_py/lib/python3.10/site-packages",
+        "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages",
+        "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_srvcli/lib/python3.10/site-packages",
+        "/home/avmi-lab-user/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages",
+        "/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_navigation/local/lib/python3.10/dist-packages",
+        "/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_msgs/local/lib/python3.10/dist-packages",
+        "/home/avmi-lab-user/turtlebot4_ws/install/py_sub/lib/python3.10/site-packages",
+        "/home/avmi-lab-user/turtlebot4_ws/install/path_pubsub/lib/python3.10/site-packages",
+        "/home/avmi-lab-user/turtlebot4_ws/install/opencv_tests/lib/python3.10/site-packages",
+        "/home/avmi-lab-user/turtlebot4_ws/install/image_geometry/local/lib/python3.10/dist-packages",
+        "/home/avmi-lab-user/turtlebot4_ws/install/cv_bridge/local/lib/python3.10/dist-packages",
+        "/home/avmi-lab-user/turtlebot4_ws/install/avmi_lab_threat_field/lib/python3.10/site-packages",
+        "/home/avmi-lab-user/turtlebot4_ws/install/avmi_interfaces/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/sensor_py/lib/python3.10/site-packages",
+        "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages",
+        "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_srvcli/lib/python3.10/site-packages",
+        "/home/avmi-lab-user/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages",
+        "/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_navigation/local/lib/python3.10/dist-packages",
+        "/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_msgs/local/lib/python3.10/dist-packages",
+        "/home/avmi-lab-user/turtlebot4_ws/install/py_sub/lib/python3.10/site-packages",
+        "/home/avmi-lab-user/turtlebot4_ws/install/path_pubsub/lib/python3.10/site-packages",
+        "/home/avmi-lab-user/turtlebot4_ws/install/opencv_tests/lib/python3.10/site-packages",
+        "/home/avmi-lab-user/turtlebot4_ws/install/image_geometry/local/lib/python3.10/dist-packages",
+        "/home/avmi-lab-user/turtlebot4_ws/install/cv_bridge/local/lib/python3.10/dist-packages",
+        "/home/avmi-lab-user/turtlebot4_ws/install/avmi_lab_threat_field/lib/python3.10/site-packages",
+        "/home/avmi-lab-user/turtlebot4_ws/install/avmi_interfaces/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/turtlesim/include/**",
+        "/home/avmi-lab-user/ros2_ws/install/turtlesim/include/**",
+        "/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_node/include/**",
+        "/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_msgs/include/**",
+        "/home/avmi-lab-user/turtlebot4_ws/install/rviz_visual_tools/include/**",
+        "/home/avmi-lab-user/turtlebot4_ws/install/image_geometry/include/**",
+        "/home/avmi-lab-user/turtlebot4_ws/install/cv_bridge/include/**",
+        "/home/avmi-lab-user/turtlebot4_ws/install/avmi_interfaces/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/src/ros_tutorials/turtlesim/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

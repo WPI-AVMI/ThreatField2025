@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: py_srvcli
+Version: 0.0.0
+Summary: TODO: Package description
+Maintainer: avmi-lab-user
+Maintainer-email: delias.intr@gmail.com
+License: Apache-2.0
+License-File: LICENSE
+Requires-Dist: setuptools
+Dynamic: license
+Dynamic: license-file
+Dynamic: maintainer
+Dynamic: maintainer-email
+Dynamic: requires-dist
+Dynamic: summary

@@ -1,0 +1,40 @@
+[0.589s] Invoking command in '/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/src/sensor_py': PYTHONPATH=/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/sensor_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/sensor_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensor_py build --build-base /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/sensor_py/build install --record /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/sensor_py/install.log --single-version-externally-managed install_data
+[0.701s] /home/avmi-lab-user/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[0.701s]   warnings.warn(msg)
+[0.766s] running egg_info
+[0.776s] creating ../../build/sensor_py/sensor_py.egg-info
+[0.776s] writing ../../build/sensor_py/sensor_py.egg-info/PKG-INFO
+[0.776s] writing dependency_links to ../../build/sensor_py/sensor_py.egg-info/dependency_links.txt
+[0.776s] writing entry points to ../../build/sensor_py/sensor_py.egg-info/entry_points.txt
+[0.776s] writing requirements to ../../build/sensor_py/sensor_py.egg-info/requires.txt
+[0.776s] writing top-level names to ../../build/sensor_py/sensor_py.egg-info/top_level.txt
+[0.776s] writing manifest file '../../build/sensor_py/sensor_py.egg-info/SOURCES.txt'
+[0.798s] reading manifest file '../../build/sensor_py/sensor_py.egg-info/SOURCES.txt'
+[0.798s] adding license file 'LICENSE'
+[0.798s] writing manifest file '../../build/sensor_py/sensor_py.egg-info/SOURCES.txt'
+[0.799s] running build
+[0.799s] running build_py
+[0.799s] creating /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/sensor_py/build/lib/sensor_py
+[0.799s] copying sensor_py/__init__.py -> /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/sensor_py/build/lib/sensor_py
+[0.799s] copying sensor_py/service_member_function.py -> /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/sensor_py/build/lib/sensor_py
+[0.799s] copying sensor_py/client_member_function.py -> /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/sensor_py/build/lib/sensor_py
+[0.799s] running install
+[0.802s] running install_lib
+[0.812s] creating /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/sensor_py/lib/python3.10/site-packages/sensor_py
+[0.812s] copying /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/sensor_py/build/lib/sensor_py/__init__.py -> /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/sensor_py/lib/python3.10/site-packages/sensor_py
+[0.813s] copying /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/sensor_py/build/lib/sensor_py/service_member_function.py -> /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/sensor_py/lib/python3.10/site-packages/sensor_py
+[0.813s] copying /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/sensor_py/build/lib/sensor_py/client_member_function.py -> /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/sensor_py/lib/python3.10/site-packages/sensor_py
+[0.813s] byte-compiling /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/sensor_py/lib/python3.10/site-packages/sensor_py/__init__.py to __init__.cpython-310.pyc
+[0.813s] byte-compiling /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/sensor_py/lib/python3.10/site-packages/sensor_py/service_member_function.py to service_member_function.cpython-310.pyc
+[0.813s] byte-compiling /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/sensor_py/lib/python3.10/site-packages/sensor_py/client_member_function.py to client_member_function.cpython-310.pyc
+[0.814s] running install_data
+[0.814s] creating /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/sensor_py/share/ament_index/resource_index/packages
+[0.814s] copying resource/sensor_py -> /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/sensor_py/share/ament_index/resource_index/packages
+[0.814s] copying package.xml -> /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/sensor_py/share/sensor_py
+[0.814s] running install_egg_info
+[0.826s] Copying ../../build/sensor_py/sensor_py.egg-info to /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/sensor_py/lib/python3.10/site-packages/sensor_py-0.0.0-py3.10.egg-info
+[0.826s] running install_scripts
+[0.849s] Installing client script to /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/sensor_py/lib/sensor_py
+[0.849s] Installing service script to /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/sensor_py/lib/sensor_py
+[0.849s] writing list of installed files to '/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/sensor_py/install.log'
+[0.868s] Invoked command in '/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/src/sensor_py' returned '0': PYTHONPATH=/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/sensor_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/sensor_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensor_py build --build-base /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/sensor_py/build install --record /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/sensor_py/install.log --single-version-externally-managed install_data
