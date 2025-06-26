@@ -10,7 +10,12 @@ setup.py
 ../../build/py_sensor/py_sensor.egg-info/top_level.txt
 ../../build/py_sensor/py_sensor.egg-info/zip-safe
 py_sensor/__init__.py
+py_sensor/asdasdsadxsad.py
 py_sensor/client_member_function.py
+py_sensor/numpub.py
+py_sensor/numsub.py
+py_sensor/sensor_client.py
+py_sensor/sensor_service.py
 py_sensor/service_member_function.py
 resource/py_sensor
 test/test_copyright.py

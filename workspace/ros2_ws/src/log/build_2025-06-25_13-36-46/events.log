@@ -1,0 +1,4 @@
+[0.000000] (-) TimerEvent: {}
+[0.000251] (-) JobUnselected: {'identifier': 'interface'}
+[0.000270] (-) JobUnselected: {'identifier': 'py_sensor'}
+[0.000531] (-) EventReactorShutdown: {}

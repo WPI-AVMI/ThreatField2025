@@ -40,6 +40,7 @@ def generate_Data_3D(Xr, Yr, Zr, Tr, U, V, W, Ks, As,res):
     for t in range(reps):
         Ts = ts + t * timestep
         pixelArray = algo_helper_3D(Xs, Ys, Zs, Ts, Xr, Yr, Zr, Tr, U, V, W, Ks, As)
+
         
     #     # Update scalar data instead of recreating plot
     #     pts.mlab_source.scalars = pixelArray
