@@ -20,9 +20,10 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'talker = py_sensor.FakeTele:main',
+            'sense = py_sensor.sensor_node:main',
             'service = py_sensor.service_member_function:main',
             'client = py_sensor.client_member_function:main',
-            'talker = py_sensor.numpub:main',
             'listener = py_sensor.numsub:main',
             'sen_service = py_sensor.sensor_service:main',
             'sen_client = py_sensor.sensor_client:main',

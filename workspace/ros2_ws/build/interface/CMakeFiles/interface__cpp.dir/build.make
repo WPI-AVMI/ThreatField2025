@@ -76,6 +76,16 @@ CMakeFiles/interface__cpp: rosidl_generator_cpp/interface/msg/detail/sphere__bui
 CMakeFiles/interface__cpp: rosidl_generator_cpp/interface/msg/detail/sphere__struct.hpp
 CMakeFiles/interface__cpp: rosidl_generator_cpp/interface/msg/detail/sphere__traits.hpp
 CMakeFiles/interface__cpp: rosidl_generator_cpp/interface/msg/detail/sphere__type_support.hpp
+CMakeFiles/interface__cpp: rosidl_generator_cpp/interface/msg/sensor.hpp
+CMakeFiles/interface__cpp: rosidl_generator_cpp/interface/msg/detail/sensor__builder.hpp
+CMakeFiles/interface__cpp: rosidl_generator_cpp/interface/msg/detail/sensor__struct.hpp
+CMakeFiles/interface__cpp: rosidl_generator_cpp/interface/msg/detail/sensor__traits.hpp
+CMakeFiles/interface__cpp: rosidl_generator_cpp/interface/msg/detail/sensor__type_support.hpp
+CMakeFiles/interface__cpp: rosidl_generator_cpp/interface/msg/fake_data.hpp
+CMakeFiles/interface__cpp: rosidl_generator_cpp/interface/msg/detail/fake_data__builder.hpp
+CMakeFiles/interface__cpp: rosidl_generator_cpp/interface/msg/detail/fake_data__struct.hpp
+CMakeFiles/interface__cpp: rosidl_generator_cpp/interface/msg/detail/fake_data__traits.hpp
+CMakeFiles/interface__cpp: rosidl_generator_cpp/interface/msg/detail/fake_data__type_support.hpp
 CMakeFiles/interface__cpp: rosidl_generator_cpp/interface/srv/add_three_ints.hpp
 CMakeFiles/interface__cpp: rosidl_generator_cpp/interface/srv/detail/add_three_ints__builder.hpp
 CMakeFiles/interface__cpp: rosidl_generator_cpp/interface/srv/detail/add_three_ints__struct.hpp
@@ -105,6 +115,8 @@ rosidl_generator_cpp/interface/msg/num.hpp: /opt/ros/humble/share/rosidl_generat
 rosidl_generator_cpp/interface/msg/num.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/interface/msg/num.hpp: rosidl_adapter/interface/msg/Num.idl
 rosidl_generator_cpp/interface/msg/num.hpp: rosidl_adapter/interface/msg/Sphere.idl
+rosidl_generator_cpp/interface/msg/num.hpp: rosidl_adapter/interface/msg/Sensor.idl
+rosidl_generator_cpp/interface/msg/num.hpp: rosidl_adapter/interface/msg/FakeData.idl
 rosidl_generator_cpp/interface/msg/num.hpp: rosidl_adapter/interface/srv/AddThreeInts.idl
 rosidl_generator_cpp/interface/msg/num.hpp: rosidl_adapter/interface/srv/Concentration.idl
 rosidl_generator_cpp/interface/msg/num.hpp: /opt/ros/humble/share/geometry_msgs/msg/Accel.idl
@@ -199,6 +211,36 @@ rosidl_generator_cpp/interface/msg/detail/sphere__traits.hpp: rosidl_generator_c
 rosidl_generator_cpp/interface/msg/detail/sphere__type_support.hpp: rosidl_generator_cpp/interface/msg/num.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interface/msg/detail/sphere__type_support.hpp
 
+rosidl_generator_cpp/interface/msg/sensor.hpp: rosidl_generator_cpp/interface/msg/num.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interface/msg/sensor.hpp
+
+rosidl_generator_cpp/interface/msg/detail/sensor__builder.hpp: rosidl_generator_cpp/interface/msg/num.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interface/msg/detail/sensor__builder.hpp
+
+rosidl_generator_cpp/interface/msg/detail/sensor__struct.hpp: rosidl_generator_cpp/interface/msg/num.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interface/msg/detail/sensor__struct.hpp
+
+rosidl_generator_cpp/interface/msg/detail/sensor__traits.hpp: rosidl_generator_cpp/interface/msg/num.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interface/msg/detail/sensor__traits.hpp
+
+rosidl_generator_cpp/interface/msg/detail/sensor__type_support.hpp: rosidl_generator_cpp/interface/msg/num.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interface/msg/detail/sensor__type_support.hpp
+
+rosidl_generator_cpp/interface/msg/fake_data.hpp: rosidl_generator_cpp/interface/msg/num.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interface/msg/fake_data.hpp
+
+rosidl_generator_cpp/interface/msg/detail/fake_data__builder.hpp: rosidl_generator_cpp/interface/msg/num.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interface/msg/detail/fake_data__builder.hpp
+
+rosidl_generator_cpp/interface/msg/detail/fake_data__struct.hpp: rosidl_generator_cpp/interface/msg/num.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interface/msg/detail/fake_data__struct.hpp
+
+rosidl_generator_cpp/interface/msg/detail/fake_data__traits.hpp: rosidl_generator_cpp/interface/msg/num.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interface/msg/detail/fake_data__traits.hpp
+
+rosidl_generator_cpp/interface/msg/detail/fake_data__type_support.hpp: rosidl_generator_cpp/interface/msg/num.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interface/msg/detail/fake_data__type_support.hpp
+
 rosidl_generator_cpp/interface/srv/add_three_ints.hpp: rosidl_generator_cpp/interface/msg/num.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interface/srv/add_three_ints.hpp
 
@@ -230,15 +272,25 @@ rosidl_generator_cpp/interface/srv/detail/concentration__type_support.hpp: rosid
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interface/srv/detail/concentration__type_support.hpp
 
 interface__cpp: CMakeFiles/interface__cpp
+interface__cpp: rosidl_generator_cpp/interface/msg/detail/fake_data__builder.hpp
+interface__cpp: rosidl_generator_cpp/interface/msg/detail/fake_data__struct.hpp
+interface__cpp: rosidl_generator_cpp/interface/msg/detail/fake_data__traits.hpp
+interface__cpp: rosidl_generator_cpp/interface/msg/detail/fake_data__type_support.hpp
 interface__cpp: rosidl_generator_cpp/interface/msg/detail/num__builder.hpp
 interface__cpp: rosidl_generator_cpp/interface/msg/detail/num__struct.hpp
 interface__cpp: rosidl_generator_cpp/interface/msg/detail/num__traits.hpp
 interface__cpp: rosidl_generator_cpp/interface/msg/detail/num__type_support.hpp
+interface__cpp: rosidl_generator_cpp/interface/msg/detail/sensor__builder.hpp
+interface__cpp: rosidl_generator_cpp/interface/msg/detail/sensor__struct.hpp
+interface__cpp: rosidl_generator_cpp/interface/msg/detail/sensor__traits.hpp
+interface__cpp: rosidl_generator_cpp/interface/msg/detail/sensor__type_support.hpp
 interface__cpp: rosidl_generator_cpp/interface/msg/detail/sphere__builder.hpp
 interface__cpp: rosidl_generator_cpp/interface/msg/detail/sphere__struct.hpp
 interface__cpp: rosidl_generator_cpp/interface/msg/detail/sphere__traits.hpp
 interface__cpp: rosidl_generator_cpp/interface/msg/detail/sphere__type_support.hpp
+interface__cpp: rosidl_generator_cpp/interface/msg/fake_data.hpp
 interface__cpp: rosidl_generator_cpp/interface/msg/num.hpp
+interface__cpp: rosidl_generator_cpp/interface/msg/sensor.hpp
 interface__cpp: rosidl_generator_cpp/interface/msg/sphere.hpp
 interface__cpp: rosidl_generator_cpp/interface/srv/add_three_ints.hpp
 interface__cpp: rosidl_generator_cpp/interface/srv/concentration.hpp

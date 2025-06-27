@@ -97,10 +97,38 @@ CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/msg/
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/msg/_sphere_s.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface/rosidl_generator_py/interface/msg/_sphere_s.c -o CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/msg/_sphere_s.c.s
 
+CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/msg/_sensor_s.c.o: CMakeFiles/interface__rosidl_generator_py.dir/flags.make
+CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/msg/_sensor_s.c.o: rosidl_generator_py/interface/msg/_sensor_s.c
+CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/msg/_sensor_s.c.o: CMakeFiles/interface__rosidl_generator_py.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/msg/_sensor_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/msg/_sensor_s.c.o -MF CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/msg/_sensor_s.c.o.d -o CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/msg/_sensor_s.c.o -c /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface/rosidl_generator_py/interface/msg/_sensor_s.c
+
+CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/msg/_sensor_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/msg/_sensor_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface/rosidl_generator_py/interface/msg/_sensor_s.c > CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/msg/_sensor_s.c.i
+
+CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/msg/_sensor_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/msg/_sensor_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface/rosidl_generator_py/interface/msg/_sensor_s.c -o CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/msg/_sensor_s.c.s
+
+CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/msg/_fake_data_s.c.o: CMakeFiles/interface__rosidl_generator_py.dir/flags.make
+CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/msg/_fake_data_s.c.o: rosidl_generator_py/interface/msg/_fake_data_s.c
+CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/msg/_fake_data_s.c.o: CMakeFiles/interface__rosidl_generator_py.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/msg/_fake_data_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/msg/_fake_data_s.c.o -MF CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/msg/_fake_data_s.c.o.d -o CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/msg/_fake_data_s.c.o -c /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface/rosidl_generator_py/interface/msg/_fake_data_s.c
+
+CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/msg/_fake_data_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/msg/_fake_data_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface/rosidl_generator_py/interface/msg/_fake_data_s.c > CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/msg/_fake_data_s.c.i
+
+CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/msg/_fake_data_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/msg/_fake_data_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface/rosidl_generator_py/interface/msg/_fake_data_s.c -o CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/msg/_fake_data_s.c.s
+
 CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/srv/_add_three_ints_s.c.o: CMakeFiles/interface__rosidl_generator_py.dir/flags.make
 CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/srv/_add_three_ints_s.c.o: rosidl_generator_py/interface/srv/_add_three_ints_s.c
 CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/srv/_add_three_ints_s.c.o: CMakeFiles/interface__rosidl_generator_py.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/srv/_add_three_ints_s.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/srv/_add_three_ints_s.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/srv/_add_three_ints_s.c.o -MF CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/srv/_add_three_ints_s.c.o.d -o CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/srv/_add_three_ints_s.c.o -c /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface/rosidl_generator_py/interface/srv/_add_three_ints_s.c
 
 CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/srv/_add_three_ints_s.c.i: cmake_force
@@ -114,7 +142,7 @@ CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/srv/
 CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/srv/_concentration_s.c.o: CMakeFiles/interface__rosidl_generator_py.dir/flags.make
 CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/srv/_concentration_s.c.o: rosidl_generator_py/interface/srv/_concentration_s.c
 CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/srv/_concentration_s.c.o: CMakeFiles/interface__rosidl_generator_py.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/srv/_concentration_s.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/srv/_concentration_s.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/srv/_concentration_s.c.o -MF CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/srv/_concentration_s.c.o.d -o CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/srv/_concentration_s.c.o -c /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface/rosidl_generator_py/interface/srv/_concentration_s.c
 
 CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/srv/_concentration_s.c.i: cmake_force
@@ -129,6 +157,8 @@ CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/srv/
 interface__rosidl_generator_py_OBJECTS = \
 "CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/msg/_num_s.c.o" \
 "CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/msg/_sphere_s.c.o" \
+"CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/msg/_sensor_s.c.o" \
+"CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/msg/_fake_data_s.c.o" \
 "CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/srv/_add_three_ints_s.c.o" \
 "CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/srv/_concentration_s.c.o"
 
@@ -137,6 +167,8 @@ interface__rosidl_generator_py_EXTERNAL_OBJECTS =
 
 rosidl_generator_py/interface/libinterface__rosidl_generator_py.so: CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/msg/_num_s.c.o
 rosidl_generator_py/interface/libinterface__rosidl_generator_py.so: CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/msg/_sphere_s.c.o
+rosidl_generator_py/interface/libinterface__rosidl_generator_py.so: CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/msg/_sensor_s.c.o
+rosidl_generator_py/interface/libinterface__rosidl_generator_py.so: CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/msg/_fake_data_s.c.o
 rosidl_generator_py/interface/libinterface__rosidl_generator_py.so: CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/srv/_add_three_ints_s.c.o
 rosidl_generator_py/interface/libinterface__rosidl_generator_py.so: CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/srv/_concentration_s.c.o
 rosidl_generator_py/interface/libinterface__rosidl_generator_py.so: CMakeFiles/interface__rosidl_generator_py.dir/build.make
@@ -156,7 +188,7 @@ rosidl_generator_py/interface/libinterface__rosidl_generator_py.so: /opt/ros/hum
 rosidl_generator_py/interface/libinterface__rosidl_generator_py.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 rosidl_generator_py/interface/libinterface__rosidl_generator_py.so: /opt/ros/humble/lib/librcutils.so
 rosidl_generator_py/interface/libinterface__rosidl_generator_py.so: CMakeFiles/interface__rosidl_generator_py.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C shared library rosidl_generator_py/interface/libinterface__rosidl_generator_py.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C shared library rosidl_generator_py/interface/libinterface__rosidl_generator_py.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/interface__rosidl_generator_py.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -1,5 +1,9 @@
+msg/FakeData.idl
+msg/FakeData.msg
 msg/Num.idl
 msg/Num.msg
+msg/Sensor.idl
+msg/Sensor.msg
 msg/Sphere.idl
 msg/Sphere.msg
 srv/AddThreeInts.idl
