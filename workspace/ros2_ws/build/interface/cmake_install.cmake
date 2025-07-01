@@ -356,14 +356,6 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interface/msg" TYPE FILE FILES "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface/rosidl_adapter/interface/msg/Num.idl")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interface/msg" TYPE FILE FILES "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface/rosidl_adapter/interface/msg/Sphere.idl")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interface/msg" TYPE FILE FILES "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface/rosidl_adapter/interface/msg/Sensor.idl")
 endif()
 
@@ -372,51 +364,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interface/srv" TYPE FILE FILES "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface/rosidl_adapter/interface/srv/AddThreeInts.idl")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interface/srv" TYPE FILE FILES "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface/rosidl_adapter/interface/srv/Concentration.idl")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interface/msg" TYPE FILE FILES "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/src/interface/msg/Num.msg")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interface/msg" TYPE FILE FILES "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/src/interface/msg/Sphere.msg")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interface/msg" TYPE FILE FILES "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/src/interface/msg/Sensor.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interface/msg" TYPE FILE FILES "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/src/interface/msg/FakeData.msg")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interface/srv" TYPE FILE FILES "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/src/interface/srv/AddThreeInts.srv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interface/srv" TYPE FILE FILES "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface/rosidl_cmake/srv/AddThreeInts_Request.msg")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interface/srv" TYPE FILE FILES "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface/rosidl_cmake/srv/AddThreeInts_Response.msg")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interface/srv" TYPE FILE FILES "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/src/interface/srv/Concentration.srv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interface/srv" TYPE FILE FILES "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface/rosidl_cmake/srv/Concentration_Request.msg")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/interface/srv" TYPE FILE FILES "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface/rosidl_cmake/srv/Concentration_Response.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

@@ -1,0 +1,147 @@
+[0.188s] Invoking command in '/home/avmi-lab-user/ThreatField2025/workspace/example_ws/build/px4_ros_com': AMENT_PREFIX_PATH=/home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_msgs:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/turtlesim:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface:/home/avmi-lab-user/turtlebot4_ws/install/vision_opencv:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_simulator:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_ignition_bringup:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_node:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_navigation:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_ignition_toolbox:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_msgs:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_ignition_gui_plugins:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_description:/home/avmi-lab-user/turtlebot4_ws/install/rviz_visual_tools:/home/avmi-lab-user/turtlebot4_ws/install/image_geometry:/home/avmi-lab-user/turtlebot4_ws/install/cv_bridge:/home/avmi-lab-user/turtlebot4_ws/install/avmi_interfaces:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/sensor_py:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_srvcli:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_sensor:/home/avmi-lab-user/turtlebot4_ws/install/py_sub:/home/avmi-lab-user/turtlebot4_ws/install/path_pubsub:/home/avmi-lab-user/turtlebot4_ws/install/opencv_tests:/home/avmi-lab-user/turtlebot4_ws/install/avmi_lab_threat_field:/opt/ros/humble LD_LIBRARY_PATH=/home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/avmi-lab-user/ThreatField2025/workspace/example_ws/src/px4_ros_com -DCMAKE_INSTALL_PREFIX=/home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_ros_com
+[0.232s] -- The C compiler identification is GNU 11.4.0
+[0.276s] -- The CXX compiler identification is GNU 11.4.0
+[0.282s] -- Detecting C compiler ABI info
+[0.339s] -- Detecting C compiler ABI info - done
+[0.345s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.345s] -- Detecting C compile features
+[0.345s] -- Detecting C compile features - done
+[0.347s] -- Detecting CXX compiler ABI info
+[0.415s] -- Detecting CXX compiler ABI info - done
+[0.424s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.424s] -- Detecting CXX compile features
+[0.425s] -- Detecting CXX compile features - done
+[0.429s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.786s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.885s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.923s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.929s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.937s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.949s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.965s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.980s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.988s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.990s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.011s] -- Found px4_msgs: 2.0.1 (/home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_msgs/share/px4_msgs/cmake)
+[1.021s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[1.059s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.062s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.141s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.165s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.202s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.212s] -- Looking for pthread.h
+[1.271s] -- Looking for pthread.h - found
+[1.272s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.332s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.332s] -- Found Threads: TRUE  
+[1.365s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.379s] -- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)
+[1.389s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.510s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.514s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.514s] -- Configured cppcheck include dirs: /home/avmi-lab-user/ThreatField2025/workspace/example_ws/src/px4_ros_com/include;$<BUILD_INTERFACE:/home/avmi-lab-user/ThreatField2025/workspace/example_ws/src/px4_ros_com/include/px4_ros_com>
+[1.514s] -- Configured cppcheck exclude dirs and/or files: 
+[1.517s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.517s] -- Configured cpplint exclude dirs and/or files: 
+[1.517s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.518s] -- Added test 'lint_cmake' to check CMake code style
+[1.519s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.522s] -- Added test 'uncrustify' to check C / C++ code style
+[1.522s] -- Configured uncrustify additional arguments: 
+[1.523s] -- Added test 'xmllint' to check XML markup files
+[1.525s] -- Configuring done
+[1.546s] -- Generating done
+[1.553s] -- Build files have been written to: /home/avmi-lab-user/ThreatField2025/workspace/example_ws/build/px4_ros_com
+[1.563s] Invoked command in '/home/avmi-lab-user/ThreatField2025/workspace/example_ws/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_msgs:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/turtlesim:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface:/home/avmi-lab-user/turtlebot4_ws/install/vision_opencv:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_simulator:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_ignition_bringup:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_node:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_navigation:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_ignition_toolbox:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_msgs:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_ignition_gui_plugins:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_description:/home/avmi-lab-user/turtlebot4_ws/install/rviz_visual_tools:/home/avmi-lab-user/turtlebot4_ws/install/image_geometry:/home/avmi-lab-user/turtlebot4_ws/install/cv_bridge:/home/avmi-lab-user/turtlebot4_ws/install/avmi_interfaces:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/sensor_py:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_srvcli:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_sensor:/home/avmi-lab-user/turtlebot4_ws/install/py_sub:/home/avmi-lab-user/turtlebot4_ws/install/path_pubsub:/home/avmi-lab-user/turtlebot4_ws/install/opencv_tests:/home/avmi-lab-user/turtlebot4_ws/install/avmi_lab_threat_field:/opt/ros/humble LD_LIBRARY_PATH=/home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/avmi-lab-user/ThreatField2025/workspace/example_ws/src/px4_ros_com -DCMAKE_INSTALL_PREFIX=/home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_ros_com
+[1.564s] Invoking command in '/home/avmi-lab-user/ThreatField2025/workspace/example_ws/build/px4_ros_com': AMENT_PREFIX_PATH=/home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_msgs:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/turtlesim:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface:/home/avmi-lab-user/turtlebot4_ws/install/vision_opencv:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_simulator:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_ignition_bringup:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_node:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_navigation:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_ignition_toolbox:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_msgs:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_ignition_gui_plugins:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_description:/home/avmi-lab-user/turtlebot4_ws/install/rviz_visual_tools:/home/avmi-lab-user/turtlebot4_ws/install/image_geometry:/home/avmi-lab-user/turtlebot4_ws/install/cv_bridge:/home/avmi-lab-user/turtlebot4_ws/install/avmi_interfaces:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/sensor_py:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_srvcli:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_sensor:/home/avmi-lab-user/turtlebot4_ws/install/py_sub:/home/avmi-lab-user/turtlebot4_ws/install/path_pubsub:/home/avmi-lab-user/turtlebot4_ws/install/opencv_tests:/home/avmi-lab-user/turtlebot4_ws/install/avmi_lab_threat_field:/opt/ros/humble LD_LIBRARY_PATH=/home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/avmi-lab-user/ThreatField2025/workspace/example_ws/build/px4_ros_com -- -j8 -l8
+[1.613s] [  8%] [32mBuilding CXX object CMakeFiles/debug_vect_advertiser.dir/src/examples/advertisers/debug_vect_advertiser.cpp.o[0m
+[1.613s] [ 25%] [32mBuilding CXX object CMakeFiles/sensor_combined_listener.dir/src/examples/listeners/sensor_combined_listener.cpp.o[0m
+[1.613s] [ 41%] [32mBuilding CXX object CMakeFiles/vehicle_gps_position_listener.dir/src/examples/listeners/vehicle_gps_position_listener.cpp.o[0m
+[1.613s] [ 41%] [32mBuilding CXX object CMakeFiles/offboard_control_srv.dir/src/examples/offboard/offboard_control_srv.cpp.o[0m
+[1.613s] [ 41%] [32mBuilding CXX object CMakeFiles/frame_transforms.dir/src/lib/frame_transforms.cpp.o[0m
+[1.615s] [ 50%] [32mBuilding CXX object CMakeFiles/offboard_control.dir/src/examples/offboard/offboard_control.cpp.o[0m
+[1.625s] [ 50%] Built target ament_cmake_python_copy_px4_ros_com
+[2.002s] running egg_info
+[2.030s] creating px4_ros_com.egg-info
+[2.037s] writing px4_ros_com.egg-info/PKG-INFO
+[2.037s] writing dependency_links to px4_ros_com.egg-info/dependency_links.txt
+[2.037s] writing top-level names to px4_ros_com.egg-info/top_level.txt
+[2.037s] writing manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[2.114s] reading manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[2.114s] writing manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[2.170s] [ 50%] Built target ament_cmake_python_build_px4_ros_com_egg
+[7.567s] [ 58%] [32m[1mLinking CXX executable debug_vect_advertiser[0m
+[7.868s] [ 58%] Built target debug_vect_advertiser
+[8.721s] [ 66%] [32m[1mLinking CXX executable offboard_control[0m
+[9.035s] [ 66%] Built target offboard_control
+[9.469s] [ 75%] [32m[1mLinking CXX executable offboard_control_srv[0m
+[9.806s] [ 75%] Built target offboard_control_srv
+[10.731s] [ 83%] [32m[1mLinking CXX shared library libframe_transforms.so[0m
+[10.979s] [ 83%] Built target frame_transforms
+[11.479s] [ 91%] [32m[1mLinking CXX executable sensor_combined_listener[0m
+[11.638s] [100%] [32m[1mLinking CXX executable vehicle_gps_position_listener[0m
+[11.816s] [100%] Built target sensor_combined_listener
+[11.966s] [100%] Built target vehicle_gps_position_listener
+[11.976s] Invoked command in '/home/avmi-lab-user/ThreatField2025/workspace/example_ws/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_msgs:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/turtlesim:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface:/home/avmi-lab-user/turtlebot4_ws/install/vision_opencv:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_simulator:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_ignition_bringup:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_node:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_navigation:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_ignition_toolbox:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_msgs:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_ignition_gui_plugins:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_description:/home/avmi-lab-user/turtlebot4_ws/install/rviz_visual_tools:/home/avmi-lab-user/turtlebot4_ws/install/image_geometry:/home/avmi-lab-user/turtlebot4_ws/install/cv_bridge:/home/avmi-lab-user/turtlebot4_ws/install/avmi_interfaces:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/sensor_py:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_srvcli:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_sensor:/home/avmi-lab-user/turtlebot4_ws/install/py_sub:/home/avmi-lab-user/turtlebot4_ws/install/path_pubsub:/home/avmi-lab-user/turtlebot4_ws/install/opencv_tests:/home/avmi-lab-user/turtlebot4_ws/install/avmi_lab_threat_field:/opt/ros/humble LD_LIBRARY_PATH=/home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/avmi-lab-user/ThreatField2025/workspace/example_ws/build/px4_ros_com -- -j8 -l8
+[11.978s] Invoking command in '/home/avmi-lab-user/ThreatField2025/workspace/example_ws/build/px4_ros_com': AMENT_PREFIX_PATH=/home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_msgs:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/turtlesim:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface:/home/avmi-lab-user/turtlebot4_ws/install/vision_opencv:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_simulator:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_ignition_bringup:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_node:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_navigation:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_ignition_toolbox:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_msgs:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_ignition_gui_plugins:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_description:/home/avmi-lab-user/turtlebot4_ws/install/rviz_visual_tools:/home/avmi-lab-user/turtlebot4_ws/install/image_geometry:/home/avmi-lab-user/turtlebot4_ws/install/cv_bridge:/home/avmi-lab-user/turtlebot4_ws/install/avmi_interfaces:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/sensor_py:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_srvcli:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_sensor:/home/avmi-lab-user/turtlebot4_ws/install/py_sub:/home/avmi-lab-user/turtlebot4_ws/install/path_pubsub:/home/avmi-lab-user/turtlebot4_ws/install/opencv_tests:/home/avmi-lab-user/turtlebot4_ws/install/avmi_lab_threat_field:/opt/ros/humble LD_LIBRARY_PATH=/home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/avmi-lab-user/ThreatField2025/workspace/example_ws/build/px4_ros_com
+[11.984s] -- Install configuration: ""
+[11.984s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_ros_com/lib/px4_ros_com/sensor_combined_listener
+[11.986s] -- Set runtime path of "/home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_ros_com/lib/px4_ros_com/sensor_combined_listener" to ""
+[11.986s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_ros_com/lib/px4_ros_com/vehicle_gps_position_listener
+[11.988s] -- Set runtime path of "/home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_ros_com/lib/px4_ros_com/vehicle_gps_position_listener" to ""
+[11.988s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_ros_com/lib/px4_ros_com/debug_vect_advertiser
+[11.989s] -- Set runtime path of "/home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_ros_com/lib/px4_ros_com/debug_vect_advertiser" to ""
+[11.989s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control
+[11.990s] -- Set runtime path of "/home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control" to ""
+[11.990s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control_srv
+[11.991s] -- Set runtime path of "/home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control_srv" to ""
+[11.991s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_ros_com/share/px4_ros_com/environment/library_path.sh
+[11.991s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_ros_com/share/px4_ros_com/environment/library_path.dsv
+[11.991s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_ros_com/include/px4_ros_com
+[11.991s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_ros_com/include/px4_ros_com/frame_transforms.h
+[11.991s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_ros_com/lib/libframe_transforms.so
+[11.994s] -- Set runtime path of "/home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_ros_com/lib/libframe_transforms.so" to ""
+[11.994s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_ros_com/share/px4_ros_com//launch
+[11.994s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_ros_com/share/px4_ros_com//launch/offboard_control_launch.yaml
+[11.994s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_ros_com/share/px4_ros_com//launch/sensor_combined_listener.launch.py
+[11.994s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_ros_com/share/px4_ros_com//test
+[11.994s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_ros_com/share/px4_ros_com//test/pipeline_io_test.py
+[11.994s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_ros_com/share/px4_ros_com//test/__init__.py
+[11.994s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_ros_com/share/px4_ros_com//test/test_output.py
+[11.994s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_ros_com/share/px4_ros_com//test/test_input.py
+[11.994s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_ros_com/share/px4_ros_com/environment/pythonpath.sh
+[11.994s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_ros_com/share/px4_ros_com/environment/pythonpath.dsv
+[11.994s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info
+[11.994s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/dependency_links.txt
+[11.994s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/PKG-INFO
+[11.994s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/top_level.txt
+[11.994s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/SOURCES.txt
+[11.994s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com
+[11.995s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/__init__.py
+[11.995s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/module_to_import.py
+[12.028s] Listing '/home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com'...
+[12.028s] Compiling '/home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/__init__.py'...
+[12.028s] Compiling '/home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/module_to_import.py'...
+[12.031s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control.py
+[12.031s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_ros_com/share/ament_index/resource_index/package_run_dependencies/px4_ros_com
+[12.032s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_ros_com/share/ament_index/resource_index/parent_prefix_path/px4_ros_com
+[12.032s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.sh
+[12.032s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.dsv
+[12.032s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_ros_com/share/px4_ros_com/environment/path.sh
+[12.032s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_ros_com/share/px4_ros_com/environment/path.dsv
+[12.032s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_ros_com/share/px4_ros_com/local_setup.bash
+[12.032s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_ros_com/share/px4_ros_com/local_setup.sh
+[12.032s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_ros_com/share/px4_ros_com/local_setup.zsh
+[12.032s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_ros_com/share/px4_ros_com/local_setup.dsv
+[12.032s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_ros_com/share/px4_ros_com/package.dsv
+[12.032s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_ros_com/share/ament_index/resource_index/packages/px4_ros_com
+[12.032s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport.cmake
+[12.032s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport-noconfig.cmake
+[12.032s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.032s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_targets-extras.cmake
+[12.033s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.033s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_libraries-extras.cmake
+[12.033s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig.cmake
+[12.033s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig-version.cmake
+[12.033s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_ros_com/share/px4_ros_com/package.xml
+[12.035s] Invoked command in '/home/avmi-lab-user/ThreatField2025/workspace/example_ws/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_msgs:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/turtlesim:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface:/home/avmi-lab-user/turtlebot4_ws/install/vision_opencv:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_simulator:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_ignition_bringup:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_node:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_navigation:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_ignition_toolbox:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_msgs:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_ignition_gui_plugins:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_description:/home/avmi-lab-user/turtlebot4_ws/install/rviz_visual_tools:/home/avmi-lab-user/turtlebot4_ws/install/image_geometry:/home/avmi-lab-user/turtlebot4_ws/install/cv_bridge:/home/avmi-lab-user/turtlebot4_ws/install/avmi_interfaces:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/sensor_py:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_srvcli:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_sensor:/home/avmi-lab-user/turtlebot4_ws/install/py_sub:/home/avmi-lab-user/turtlebot4_ws/install/path_pubsub:/home/avmi-lab-user/turtlebot4_ws/install/opencv_tests:/home/avmi-lab-user/turtlebot4_ws/install/avmi_lab_threat_field:/opt/ros/humble LD_LIBRARY_PATH=/home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/avmi-lab-user/ThreatField2025/workspace/example_ws/build/px4_ros_com

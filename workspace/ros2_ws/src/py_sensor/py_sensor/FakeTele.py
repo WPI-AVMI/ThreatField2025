@@ -1,8 +1,7 @@
 import rclpy
 from rclpy.node import Node
-
 from interface.msg import FakeData                            # CHANGE
-
+import numpy as np
 
 class MinimalPublisher(Node):
 
@@ -14,10 +13,10 @@ class MinimalPublisher(Node):
         self.i = 0
 
     def timer_callback(self):
-        msg = FakeData()                                                # CHANGE
-        msg.x = 0.2                                           # CHANGE
-        msg.y = 0.2                                           # CHANGE
-        msg.z = 0.2                                           # CHANGE
+        msg = FakeData()                                                          # CHANGE
+        msg.x = 0.2 + np.random.rand()                                            # CHANGE
+        msg.y = 0.2 + np.random.rand()                                            # CHANGE
+        msg.z = 0.2 + np.random.rand()                                            # CHANGE
         msg.t = self.i*0.01                                   # CHANGE
 
 

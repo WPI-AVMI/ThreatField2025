@@ -1,11 +1,7 @@
 {
   "package_name": "interface",
   "non_idl_tuples": [
-    "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/src/interface:msg/Num.msg",
-    "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/src/interface:msg/Sphere.msg",
     "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/src/interface:msg/Sensor.msg",
-    "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/src/interface:msg/FakeData.msg",
-    "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/src/interface:srv/AddThreeInts.srv",
-    "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/src/interface:srv/Concentration.srv"
+    "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/src/interface:msg/FakeData.msg"
   ]
 }

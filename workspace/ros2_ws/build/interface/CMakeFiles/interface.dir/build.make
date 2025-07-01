@@ -66,16 +66,8 @@ include CMakeFiles/interface.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/interface.dir/progress.make
 
-CMakeFiles/interface: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/src/interface/msg/Num.msg
-CMakeFiles/interface: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/src/interface/msg/Sphere.msg
 CMakeFiles/interface: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/src/interface/msg/Sensor.msg
 CMakeFiles/interface: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/src/interface/msg/FakeData.msg
-CMakeFiles/interface: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/src/interface/srv/AddThreeInts.srv
-CMakeFiles/interface: rosidl_cmake/srv/AddThreeInts_Request.msg
-CMakeFiles/interface: rosidl_cmake/srv/AddThreeInts_Response.msg
-CMakeFiles/interface: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/src/interface/srv/Concentration.srv
-CMakeFiles/interface: rosidl_cmake/srv/Concentration_Request.msg
-CMakeFiles/interface: rosidl_cmake/srv/Concentration_Response.msg
 CMakeFiles/interface: /opt/ros/humble/share/geometry_msgs/msg/Accel.idl
 CMakeFiles/interface: /opt/ros/humble/share/geometry_msgs/msg/AccelStamped.idl
 CMakeFiles/interface: /opt/ros/humble/share/geometry_msgs/msg/AccelWithCovariance.idl

@@ -1,0 +1,43 @@
+[0.524s] Invoking command in '/home/avmi-lab-user/ThreatField2025/workspace/example_ws/src/px4-offboard': AMENT_PREFIX_PATH=/home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/avmi-lab-user/ThreatField2025/workspace/example_ws/build/px4_offboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_offboard/lib/python3.10/site-packages:/home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/px4_offboard build --build-base /home/avmi-lab-user/ThreatField2025/workspace/example_ws/build/px4_offboard/build install --record /home/avmi-lab-user/ThreatField2025/workspace/example_ws/build/px4_offboard/install.log --single-version-externally-managed install_data
+[0.748s] running egg_info
+[0.761s] creating ../../build/px4_offboard/px4_offboard.egg-info
+[0.761s] writing ../../build/px4_offboard/px4_offboard.egg-info/PKG-INFO
+[0.762s] writing dependency_links to ../../build/px4_offboard/px4_offboard.egg-info/dependency_links.txt
+[0.762s] writing entry points to ../../build/px4_offboard/px4_offboard.egg-info/entry_points.txt
+[0.762s] writing requirements to ../../build/px4_offboard/px4_offboard.egg-info/requires.txt
+[0.762s] writing top-level names to ../../build/px4_offboard/px4_offboard.egg-info/top_level.txt
+[0.762s] writing manifest file '../../build/px4_offboard/px4_offboard.egg-info/SOURCES.txt'
+[0.790s] reading manifest file '../../build/px4_offboard/px4_offboard.egg-info/SOURCES.txt'
+[0.790s] adding license file 'LICENSE'
+[0.791s] writing manifest file '../../build/px4_offboard/px4_offboard.egg-info/SOURCES.txt'
+[0.791s] running build
+[0.791s] running build_py
+[0.791s] creating /home/avmi-lab-user/ThreatField2025/workspace/example_ws/build/px4_offboard/build/lib/px4_offboard
+[0.791s] copying px4_offboard/__init__.py -> /home/avmi-lab-user/ThreatField2025/workspace/example_ws/build/px4_offboard/build/lib/px4_offboard
+[0.791s] copying px4_offboard/visualizer.py -> /home/avmi-lab-user/ThreatField2025/workspace/example_ws/build/px4_offboard/build/lib/px4_offboard
+[0.791s] copying px4_offboard/offboard_control.py -> /home/avmi-lab-user/ThreatField2025/workspace/example_ws/build/px4_offboard/build/lib/px4_offboard
+[0.792s] running install
+[0.796s] running install_lib
+[0.810s] creating /home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_offboard/lib/python3.10/site-packages/px4_offboard
+[0.810s] copying /home/avmi-lab-user/ThreatField2025/workspace/example_ws/build/px4_offboard/build/lib/px4_offboard/__init__.py -> /home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_offboard/lib/python3.10/site-packages/px4_offboard
+[0.810s] copying /home/avmi-lab-user/ThreatField2025/workspace/example_ws/build/px4_offboard/build/lib/px4_offboard/visualizer.py -> /home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_offboard/lib/python3.10/site-packages/px4_offboard
+[0.810s] copying /home/avmi-lab-user/ThreatField2025/workspace/example_ws/build/px4_offboard/build/lib/px4_offboard/offboard_control.py -> /home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_offboard/lib/python3.10/site-packages/px4_offboard
+[0.811s] byte-compiling /home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_offboard/lib/python3.10/site-packages/px4_offboard/__init__.py to __init__.cpython-310.pyc
+[0.811s] byte-compiling /home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_offboard/lib/python3.10/site-packages/px4_offboard/visualizer.py to visualizer.cpython-310.pyc
+[0.812s] byte-compiling /home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_offboard/lib/python3.10/site-packages/px4_offboard/offboard_control.py to offboard_control.cpython-310.pyc
+[0.813s] running install_data
+[0.813s] creating /home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_offboard/share/ament_index/resource_index/packages
+[0.813s] copying resource/px4_offboard -> /home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_offboard/share/ament_index/resource_index/packages
+[0.813s] copying resource/visualize.rviz -> /home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_offboard/share/ament_index/resource_index/packages
+[0.813s] copying package.xml -> /home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_offboard/share/px4_offboard
+[0.813s] copying launch/offboard_hardware_position_control.launch.py -> /home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_offboard/share/px4_offboard
+[0.814s] copying launch/visualize.launch.py -> /home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_offboard/share/px4_offboard
+[0.814s] copying launch/offboard_position_control.launch.py -> /home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_offboard/share/px4_offboard
+[0.814s] copying resource/visualize.rviz -> /home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_offboard/share/px4_offboard
+[0.814s] running install_egg_info
+[0.830s] Copying ../../build/px4_offboard/px4_offboard.egg-info to /home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_offboard/lib/python3.10/site-packages/px4_offboard-0.0.0-py3.10.egg-info
+[0.830s] running install_scripts
+[0.860s] Installing offboard_control script to /home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_offboard/lib/px4_offboard
+[0.860s] Installing visualizer script to /home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_offboard/lib/px4_offboard
+[0.861s] writing list of installed files to '/home/avmi-lab-user/ThreatField2025/workspace/example_ws/build/px4_offboard/install.log'
+[0.883s] Invoked command in '/home/avmi-lab-user/ThreatField2025/workspace/example_ws/src/px4-offboard' returned '0': AMENT_PREFIX_PATH=/home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/avmi-lab-user/ThreatField2025/workspace/example_ws/build/px4_offboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_offboard/lib/python3.10/site-packages:/home/avmi-lab-user/ThreatField2025/workspace/example_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/px4_offboard build --build-base /home/avmi-lab-user/ThreatField2025/workspace/example_ws/build/px4_offboard/build install --record /home/avmi-lab-user/ThreatField2025/workspace/example_ws/build/px4_offboard/install.log --single-version-externally-managed install_data

@@ -6,9 +6,4 @@ interface.egg-info/dependency_links.txt
 interface.egg-info/top_level.txt
 interface/msg/__init__.py
 interface/msg/_fake_data.py
-interface/msg/_num.py
 interface/msg/_sensor.py
-interface/msg/_sphere.py
-interface/srv/__init__.py
-interface/srv/_add_three_ints.py
-interface/srv/_concentration.py

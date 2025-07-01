@@ -12,12 +12,12 @@ setup.py
 py_sensor/FakeTele.py
 py_sensor/__init__.py
 py_sensor/client_member_function.py
-py_sensor/import rclpy.py
 py_sensor/numsub.py
 py_sensor/sensor_client.py
 py_sensor/sensor_node.py
 py_sensor/sensor_service.py
 py_sensor/service_member_function.py
+py_sensor/zx.py
 resource/py_sensor
 test/test_copyright.py
 test/test_flake8.py

@@ -1,0 +1,260 @@
+[0.008s] Invoking command in '/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/sensor_py:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_srvcli:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_sensor:/home/avmi-lab-user/turtlebot4_ws/install/py_sub:/home/avmi-lab-user/turtlebot4_ws/install/path_pubsub:/home/avmi-lab-user/turtlebot4_ws/install/opencv_tests:/home/avmi-lab-user/turtlebot4_ws/install/avmi_lab_threat_field:/opt/ros/humble /usr/bin/cmake /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/src/interface -DCMAKE_INSTALL_PREFIX=/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface
+[0.062s] -- The C compiler identification is GNU 11.4.0
+[0.119s] -- The CXX compiler identification is GNU 11.4.0
+[0.124s] -- Detecting C compiler ABI info
+[0.172s] -- Detecting C compiler ABI info - done
+[0.176s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.176s] -- Detecting C compile features
+[0.177s] -- Detecting C compile features - done
+[0.179s] -- Detecting CXX compiler ABI info
+[0.236s] -- Detecting CXX compiler ABI info - done
+[0.241s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.241s] -- Detecting CXX compile features
+[0.241s] -- Detecting CXX compile features - done
+[0.244s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.518s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.593s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.624s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.628s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.635s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.644s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.656s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.681s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.895s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.197s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.317s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.336s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.338s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.360s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.360s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.360s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.360s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.376s] -- Found PythonExtra: .so  
+[1.424s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.443s] -- Added test 'lint_cmake' to check CMake code style
+[1.444s] -- Added test 'xmllint' to check XML markup files
+[1.446s] -- Configuring done
+[1.477s] -- Generating done
+[1.489s] -- Build files have been written to: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface
+[1.498s] Invoked command in '/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/sensor_py:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_srvcli:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_sensor:/home/avmi-lab-user/turtlebot4_ws/install/py_sub:/home/avmi-lab-user/turtlebot4_ws/install/path_pubsub:/home/avmi-lab-user/turtlebot4_ws/install/opencv_tests:/home/avmi-lab-user/turtlebot4_ws/install/avmi_lab_threat_field:/opt/ros/humble /usr/bin/cmake /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/src/interface -DCMAKE_INSTALL_PREFIX=/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface
+[1.499s] Invoking command in '/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/sensor_py:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_srvcli:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_sensor:/home/avmi-lab-user/turtlebot4_ws/install/py_sub:/home/avmi-lab-user/turtlebot4_ws/install/path_pubsub:/home/avmi-lab-user/turtlebot4_ws/install/opencv_tests:/home/avmi-lab-user/turtlebot4_ws/install/avmi_lab_threat_field:/opt/ros/humble /usr/bin/cmake --build /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface -- -j8 -l8
+[1.528s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.535s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.541s] [  5%] Built target ament_cmake_python_copy_interface
+[1.704s] running egg_info
+[1.716s] creating interface.egg-info
+[1.717s] writing interface.egg-info/PKG-INFO
+[1.717s] writing dependency_links to interface.egg-info/dependency_links.txt
+[1.717s] writing top-level names to interface.egg-info/top_level.txt
+[1.717s] writing manifest file 'interface.egg-info/SOURCES.txt'
+[1.761s] reading manifest file 'interface.egg-info/SOURCES.txt'
+[1.761s] writing manifest file 'interface.egg-info/SOURCES.txt'
+[1.765s] [  5%] Built target interface__cpp
+[1.766s] [  7%] [32mBuilding C object CMakeFiles/interface__rosidl_generator_c.dir/rosidl_generator_c/interface/msg/detail/fake_data__functions.c.o[0m
+[1.767s] [ 10%] [32mBuilding C object CMakeFiles/interface__rosidl_generator_c.dir/rosidl_generator_c/interface/msg/detail/sensor__functions.c.o[0m
+[1.774s] [ 15%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.774s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.775s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.788s] [ 17%] Built target ament_cmake_python_build_interface_egg
+[1.808s] [ 20%] [32m[1mLinking C shared library libinterface__rosidl_generator_c.so[0m
+[1.836s] [ 20%] Built target interface__rosidl_generator_c
+[1.845s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.846s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.847s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.010s] [ 33%] [32mBuilding CXX object CMakeFiles/interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interface/msg/detail/dds_fastrtps/sensor__type_support.cpp.o[0m
+[2.011s] [ 33%] [32mBuilding CXX object CMakeFiles/interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interface/msg/detail/dds_fastrtps/fake_data__type_support.cpp.o[0m
+[2.051s] [ 35%] [32mBuilding CXX object CMakeFiles/interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface/msg/sensor__type_support.cpp.o[0m
+[2.053s] [ 38%] [32mBuilding CXX object CMakeFiles/interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface/msg/fake_data__type_support.cpp.o[0m
+[2.122s] [ 41%] [32mBuilding CXX object CMakeFiles/interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interface/msg/detail/sensor__type_support.cpp.o[0m
+[2.124s] [ 43%] [32mBuilding CXX object CMakeFiles/interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/interface/msg/sensor__type_support.cpp.o[0m
+[2.133s] [ 46%] [32mBuilding C object CMakeFiles/interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interface/msg/detail/sensor__type_support.c.o[0m
+[2.157s] [ 48%] [32mBuilding CXX object CMakeFiles/interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/interface/msg/fake_data__type_support.cpp.o[0m
+[2.173s] [ 51%] [32mBuilding C object CMakeFiles/interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interface/msg/detail/fake_data__type_support.c.o[0m
+[2.191s] [ 53%] [32m[1mLinking CXX shared library libinterface__rosidl_typesupport_c.so[0m
+[2.202s] [ 56%] [32mBuilding CXX object CMakeFiles/interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interface/msg/detail/sensor__type_support_c.cpp.o[0m
+[2.211s] [ 58%] [32m[1mLinking C shared library libinterface__rosidl_typesupport_introspection_c.so[0m
+[2.248s] [ 58%] Built target interface__rosidl_typesupport_introspection_c
+[2.255s] [ 58%] Built target interface__rosidl_typesupport_c
+[2.259s] [ 61%] [32mBuilding CXX object CMakeFiles/interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interface/msg/detail/fake_data__type_support.cpp.o[0m
+[2.266s] [ 64%] [32mBuilding CXX object CMakeFiles/interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interface/msg/detail/fake_data__type_support_c.cpp.o[0m
+[2.336s] [ 66%] [32m[1mLinking CXX shared library libinterface__rosidl_typesupport_cpp.so[0m
+[2.396s] [ 66%] Built target interface__rosidl_typesupport_cpp
+[2.408s] [ 69%] [32m[1mLinking CXX shared library libinterface__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.490s] [ 69%] Built target interface__rosidl_typesupport_fastrtps_cpp
+[2.526s] [ 71%] [32m[1mLinking CXX shared library libinterface__rosidl_typesupport_fastrtps_c.so[0m
+[2.564s] [ 74%] [32m[1mLinking CXX shared library libinterface__rosidl_typesupport_introspection_cpp.so[0m
+[2.581s] [ 74%] Built target interface__rosidl_typesupport_fastrtps_c
+[2.594s] [ 74%] Built target interface__rosidl_typesupport_introspection_cpp
+[2.608s] [ 74%] Built target interface
+[2.623s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.874s] [ 76%] Built target interface__py
+[2.889s] [ 82%] [32mBuilding C object CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/msg/_sensor_s.c.o[0m
+[2.889s] [ 82%] [32mBuilding C object CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/msg/_fake_data_s.c.o[0m
+[2.955s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/interface/libinterface__rosidl_generator_py.so[0m
+[2.984s] [ 84%] Built target interface__rosidl_generator_py
+[2.999s] [ 92%] [32mBuilding C object CMakeFiles/interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interface/_interface_s.ep.rosidl_typesupport_c.c.o[0m
+[3.000s] [ 92%] [32mBuilding C object CMakeFiles/interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interface/_interface_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.000s] [ 92%] [32mBuilding C object CMakeFiles/interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interface/_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.065s] [100%] [32m[1mLinking C shared library rosidl_generator_py/interface/interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.065s] [100%] [32m[1mLinking C shared library rosidl_generator_py/interface/interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.065s] [100%] [32m[1mLinking C shared library rosidl_generator_py/interface/interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.093s] [100%] Built target interface__rosidl_typesupport_c__pyext
+[3.093s] [100%] Built target interface__rosidl_typesupport_fastrtps_c__pyext
+[3.093s] [100%] Built target interface__rosidl_typesupport_introspection_c__pyext
+[3.102s] Invoked command in '/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/sensor_py:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_srvcli:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_sensor:/home/avmi-lab-user/turtlebot4_ws/install/py_sub:/home/avmi-lab-user/turtlebot4_ws/install/path_pubsub:/home/avmi-lab-user/turtlebot4_ws/install/opencv_tests:/home/avmi-lab-user/turtlebot4_ws/install/avmi_lab_threat_field:/opt/ros/humble /usr/bin/cmake --build /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface -- -j8 -l8
+[3.109s] Invoking command in '/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/sensor_py:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_srvcli:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_sensor:/home/avmi-lab-user/turtlebot4_ws/install/py_sub:/home/avmi-lab-user/turtlebot4_ws/install/path_pubsub:/home/avmi-lab-user/turtlebot4_ws/install/opencv_tests:/home/avmi-lab-user/turtlebot4_ws/install/avmi_lab_threat_field:/opt/ros/humble /usr/bin/cmake --install /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface
+[3.114s] -- Install configuration: ""
+[3.114s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/ament_index/resource_index/rosidl_interfaces/interface
+[3.115s] -- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface
+[3.115s] -- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg
+[3.115s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/sensor.h
+[3.115s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/fake_data.h
+[3.115s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/rosidl_generator_c__visibility_control.h
+[3.115s] -- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail
+[3.115s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/sensor__functions.c
+[3.115s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/fake_data__struct.h
+[3.115s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/sensor__struct.h
+[3.115s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/fake_data__functions.h
+[3.115s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/fake_data__functions.c
+[3.116s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/fake_data__type_support.h
+[3.116s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/sensor__type_support.h
+[3.116s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/sensor__functions.h
+[3.116s] -- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/environment/library_path.sh
+[3.116s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/environment/library_path.dsv
+[3.117s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/lib/libinterface__rosidl_generator_c.so
+[3.117s] -- Set runtime path of "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/lib/libinterface__rosidl_generator_c.so" to ""
+[3.117s] -- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface
+[3.117s] -- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg
+[3.117s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.117s] -- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail
+[3.118s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/sensor__rosidl_typesupport_fastrtps_c.h
+[3.118s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/fake_data__rosidl_typesupport_fastrtps_c.h
+[3.118s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/lib/libinterface__rosidl_typesupport_fastrtps_c.so
+[3.118s] -- Set runtime path of "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/lib/libinterface__rosidl_typesupport_fastrtps_c.so" to ""
+[3.118s] -- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface
+[3.118s] -- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg
+[3.118s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.118s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/fake_data.hpp
+[3.118s] -- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail
+[3.118s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/fake_data__type_support.hpp
+[3.119s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/sensor__struct.hpp
+[3.119s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/fake_data__traits.hpp
+[3.119s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/sensor__type_support.hpp
+[3.119s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/sensor__builder.hpp
+[3.119s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/fake_data__struct.hpp
+[3.119s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/fake_data__builder.hpp
+[3.119s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/sensor__traits.hpp
+[3.119s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/sensor.hpp
+[3.119s] -- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface
+[3.119s] -- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg
+[3.119s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.120s] -- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail
+[3.120s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/fake_data__rosidl_typesupport_fastrtps_cpp.hpp
+[3.120s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/sensor__rosidl_typesupport_fastrtps_cpp.hpp
+[3.120s] -- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/dds_fastrtps
+[3.120s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/lib/libinterface__rosidl_typesupport_fastrtps_cpp.so
+[3.120s] -- Set runtime path of "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/lib/libinterface__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.120s] -- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface
+[3.120s] -- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg
+[3.121s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.121s] -- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail
+[3.121s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/sensor__type_support.c
+[3.121s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/fake_data__type_support.c
+[3.121s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/sensor__rosidl_typesupport_introspection_c.h
+[3.121s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/fake_data__rosidl_typesupport_introspection_c.h
+[3.121s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/lib/libinterface__rosidl_typesupport_introspection_c.so
+[3.121s] -- Set runtime path of "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/lib/libinterface__rosidl_typesupport_introspection_c.so" to ""
+[3.122s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/lib/libinterface__rosidl_typesupport_c.so
+[3.122s] -- Set runtime path of "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/lib/libinterface__rosidl_typesupport_c.so" to ""
+[3.122s] -- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface
+[3.122s] -- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg
+[3.122s] -- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail
+[3.122s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/sensor__rosidl_typesupport_introspection_cpp.hpp
+[3.122s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/fake_data__rosidl_typesupport_introspection_cpp.hpp
+[3.122s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/sensor__type_support.cpp
+[3.122s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/fake_data__type_support.cpp
+[3.123s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/lib/libinterface__rosidl_typesupport_introspection_cpp.so
+[3.123s] -- Set runtime path of "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/lib/libinterface__rosidl_typesupport_introspection_cpp.so" to ""
+[3.123s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/lib/libinterface__rosidl_typesupport_cpp.so
+[3.123s] -- Set runtime path of "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/lib/libinterface__rosidl_typesupport_cpp.so" to ""
+[3.123s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/environment/pythonpath.sh
+[3.123s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/environment/pythonpath.dsv
+[3.124s] -- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface-0.0.0-py3.10.egg-info
+[3.124s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.124s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface-0.0.0-py3.10.egg-info/PKG-INFO
+[3.124s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface-0.0.0-py3.10.egg-info/top_level.txt
+[3.124s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.124s] -- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface
+[3.124s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.124s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/__init__.py
+[3.124s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.124s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.125s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.125s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/libinterface__rosidl_generator_py.so
+[3.125s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/_interface_s.ep.rosidl_typesupport_introspection_c.c
+[3.125s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/_interface_s.ep.rosidl_typesupport_c.c
+[3.125s] -- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/msg
+[3.125s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/msg/_sensor.py
+[3.125s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/msg/__init__.py
+[3.125s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/msg/_fake_data_s.c
+[3.125s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/msg/_sensor_s.c
+[3.126s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/msg/_fake_data.py
+[3.157s] Listing '/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface'...
+[3.157s] Compiling '/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/__init__.py'...
+[3.157s] Listing '/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/msg'...
+[3.157s] Compiling '/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/msg/__init__.py'...
+[3.157s] Compiling '/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/msg/_fake_data.py'...
+[3.157s] Compiling '/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/msg/_sensor.py'...
+[3.157s] Listing '/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/srv'...
+[3.161s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.161s] -- Set runtime path of "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.161s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.162s] -- Set runtime path of "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.162s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.162s] -- Set runtime path of "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.162s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/lib/libinterface__rosidl_generator_py.so
+[3.162s] -- Set runtime path of "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/lib/libinterface__rosidl_generator_py.so" to ""
+[3.162s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/msg/Sensor.idl
+[3.163s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/msg/FakeData.idl
+[3.163s] -- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/msg/Sensor.msg
+[3.163s] -- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/msg/FakeData.msg
+[3.163s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/ament_index/resource_index/package_run_dependencies/interface
+[3.163s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/ament_index/resource_index/parent_prefix_path/interface
+[3.163s] -- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/environment/ament_prefix_path.sh
+[3.163s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/environment/ament_prefix_path.dsv
+[3.163s] -- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/environment/path.sh
+[3.163s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/environment/path.dsv
+[3.163s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/local_setup.bash
+[3.164s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/local_setup.sh
+[3.164s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/local_setup.zsh
+[3.164s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/local_setup.dsv
+[3.164s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/package.dsv
+[3.164s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/ament_index/resource_index/packages/interface
+[3.164s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/export_interface__rosidl_generator_cExport.cmake
+[3.164s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/export_interface__rosidl_generator_cExport-noconfig.cmake
+[3.164s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/export_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[3.165s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/export_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.165s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/export_interface__rosidl_generator_cppExport.cmake
+[3.165s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/export_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.165s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/export_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.165s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/interface__rosidl_typesupport_introspection_cExport.cmake
+[3.165s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.166s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/interface__rosidl_typesupport_cExport.cmake
+[3.166s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/interface__rosidl_typesupport_cExport-noconfig.cmake
+[3.166s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/interface__rosidl_typesupport_introspection_cppExport.cmake
+[3.166s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.166s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/interface__rosidl_typesupport_cppExport.cmake
+[3.166s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/interface__rosidl_typesupport_cppExport-noconfig.cmake
+[3.166s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/export_interface__rosidl_generator_pyExport.cmake
+[3.167s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/export_interface__rosidl_generator_pyExport-noconfig.cmake
+[3.167s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/rosidl_cmake-extras.cmake
+[3.167s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.167s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.167s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/ament_cmake_export_libraries-extras.cmake
+[3.167s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/ament_cmake_export_targets-extras.cmake
+[3.167s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.167s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.168s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/interfaceConfig.cmake
+[3.168s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/interfaceConfig-version.cmake
+[3.168s] -- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/package.xml
+[3.171s] Invoked command in '/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/sensor_py:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_srvcli:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_sensor:/home/avmi-lab-user/turtlebot4_ws/install/py_sub:/home/avmi-lab-user/turtlebot4_ws/install/path_pubsub:/home/avmi-lab-user/turtlebot4_ws/install/opencv_tests:/home/avmi-lab-user/turtlebot4_ws/install/avmi_lab_threat_field:/opt/ros/humble /usr/bin/cmake --install /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface

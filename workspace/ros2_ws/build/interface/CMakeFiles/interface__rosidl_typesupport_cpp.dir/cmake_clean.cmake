@@ -1,24 +1,12 @@
 file(REMOVE_RECURSE
   "CMakeFiles/interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface/msg/fake_data__type_support.cpp.o"
   "CMakeFiles/interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface/msg/fake_data__type_support.cpp.o.d"
-  "CMakeFiles/interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface/msg/num__type_support.cpp.o"
-  "CMakeFiles/interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface/msg/num__type_support.cpp.o.d"
   "CMakeFiles/interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface/msg/sensor__type_support.cpp.o"
   "CMakeFiles/interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface/msg/sensor__type_support.cpp.o.d"
-  "CMakeFiles/interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface/msg/sphere__type_support.cpp.o"
-  "CMakeFiles/interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface/msg/sphere__type_support.cpp.o.d"
-  "CMakeFiles/interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface/srv/add_three_ints__type_support.cpp.o"
-  "CMakeFiles/interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface/srv/add_three_ints__type_support.cpp.o.d"
-  "CMakeFiles/interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface/srv/concentration__type_support.cpp.o"
-  "CMakeFiles/interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface/srv/concentration__type_support.cpp.o.d"
   "libinterface__rosidl_typesupport_cpp.pdb"
   "libinterface__rosidl_typesupport_cpp.so"
   "rosidl_typesupport_cpp/interface/msg/fake_data__type_support.cpp"
-  "rosidl_typesupport_cpp/interface/msg/num__type_support.cpp"
   "rosidl_typesupport_cpp/interface/msg/sensor__type_support.cpp"
-  "rosidl_typesupport_cpp/interface/msg/sphere__type_support.cpp"
-  "rosidl_typesupport_cpp/interface/srv/add_three_ints__type_support.cpp"
-  "rosidl_typesupport_cpp/interface/srv/concentration__type_support.cpp"
 )
 
 # Per-language clean rules from dependency scanning.

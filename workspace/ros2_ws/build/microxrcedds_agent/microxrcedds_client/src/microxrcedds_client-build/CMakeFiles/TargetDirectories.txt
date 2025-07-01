@@ -1,0 +1,7 @@
+/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/CMakeFiles/microxrcedds_client.dir
+/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/CMakeFiles/edit_cache.dir
+/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/CMakeFiles/rebuild_cache.dir
+/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/CMakeFiles/list_install_components.dir
+/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/CMakeFiles/install.dir
+/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/CMakeFiles/install/local.dir
+/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/CMakeFiles/install/strip.dir

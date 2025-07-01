@@ -3,12 +3,8 @@
   "output_dir": "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface/rosidl_typesupport_fastrtps_cpp/interface",
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource",
   "idl_tuples": [
-    "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface/rosidl_adapter/interface:msg/Num.idl",
-    "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface/rosidl_adapter/interface:msg/Sphere.idl",
     "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface/rosidl_adapter/interface:msg/Sensor.idl",
-    "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface/rosidl_adapter/interface:msg/FakeData.idl",
-    "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface/rosidl_adapter/interface:srv/AddThreeInts.idl",
-    "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface/rosidl_adapter/interface:srv/Concentration.idl"
+    "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface/rosidl_adapter/interface:msg/FakeData.idl"
   ],
   "ros_interface_dependencies": [
     "geometry_msgs:/opt/ros/humble/share/geometry_msgs/msg/Accel.idl",
@@ -83,12 +79,8 @@
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/msg__type_support.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/srv__rosidl_typesupport_fastrtps_cpp.hpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/srv__type_support.cpp.em",
-    "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface/rosidl_adapter/interface/msg/Num.idl",
-    "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface/rosidl_adapter/interface/msg/Sphere.idl",
     "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface/rosidl_adapter/interface/msg/Sensor.idl",
     "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface/rosidl_adapter/interface/msg/FakeData.idl",
-    "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface/rosidl_adapter/interface/srv/AddThreeInts.idl",
-    "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface/rosidl_adapter/interface/srv/Concentration.idl",
     "/opt/ros/humble/share/geometry_msgs/msg/Accel.idl",
     "/opt/ros/humble/share/geometry_msgs/msg/AccelStamped.idl",
     "/opt/ros/humble/share/geometry_msgs/msg/AccelWithCovariance.idl",

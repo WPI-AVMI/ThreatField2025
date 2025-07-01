@@ -5,17 +5,8 @@ file(REMOVE_RECURSE
   "../rosidl_generator_py/interface/msg/__init__.py"
   "../rosidl_generator_py/interface/msg/_fake_data.py"
   "../rosidl_generator_py/interface/msg/_fake_data_s.c"
-  "../rosidl_generator_py/interface/msg/_num.py"
-  "../rosidl_generator_py/interface/msg/_num_s.c"
   "../rosidl_generator_py/interface/msg/_sensor.py"
   "../rosidl_generator_py/interface/msg/_sensor_s.c"
-  "../rosidl_generator_py/interface/msg/_sphere.py"
-  "../rosidl_generator_py/interface/msg/_sphere_s.c"
-  "../rosidl_generator_py/interface/srv/__init__.py"
-  "../rosidl_generator_py/interface/srv/_add_three_ints.py"
-  "../rosidl_generator_py/interface/srv/_add_three_ints_s.c"
-  "../rosidl_generator_py/interface/srv/_concentration.py"
-  "../rosidl_generator_py/interface/srv/_concentration_s.c"
   "CMakeFiles/interface__py"
 )
 

@@ -1,0 +1,1062 @@
+[0.000000] (-) TimerEvent: {}
+[0.000216] (interface) JobQueued: {'identifier': 'interface', 'dependencies': OrderedDict()}
+[0.000392] (microxrcedds_agent) JobQueued: {'identifier': 'microxrcedds_agent', 'dependencies': OrderedDict()}
+[0.000416] (py_sensor) JobQueued: {'identifier': 'py_sensor', 'dependencies': OrderedDict([('interface', '/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface')])}
+[0.000575] (interface) JobStarted: {'identifier': 'interface'}
+[0.005066] (microxrcedds_agent) JobStarted: {'identifier': 'microxrcedds_agent'}
+[0.009185] (interface) JobProgress: {'identifier': 'interface', 'progress': 'cmake'}
+[0.010067] (interface) JobProgress: {'identifier': 'interface', 'progress': 'build'}
+[0.010208] (interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface', '--', '-j8', '-l8'], 'cwd': '/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'avmi-lab-user'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_msgs/lib:/home/avmi-lab-user/turtlebot4_ws/install/rviz_visual_tools/lib:/home/avmi-lab-user/turtlebot4_ws/install/image_geometry/lib:/home/avmi-lab-user/turtlebot4_ws/install/cv_bridge/lib:/home/avmi-lab-user/turtlebot4_ws/install/avmi_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/avmi-lab-user'), ('OLDPWD', '/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2078'), ('SYSTEMD_EXEC_PID', '2265'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '762744'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/avmi-lab-user/turtlebot4_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'avmi-lab-user'), ('JOURNAL_STREAM', '8:13064'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'avmi-lab-user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/avmi-lab-user/.pixi/bin:/opt/ros/humble/bin:/home/avmi-lab-user/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/avmi-lab-user/ardu_ws/Micro-XRCE-DDS-Gen/scripts'), ('SESSION_MANAGER', 'local/AVMI-LAB-RUGGED:@/tmp/.ICE-unix/2234,unix/AVMI-LAB-RUGGED:/tmp/.ICE-unix/2234'), ('INVOCATION_ID', 'c1e0751870c940d3af0d0c59a8166ef4'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.BGDM72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/avmi-lab-user/turtlebot4_ws/install/vision_opencv:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_simulator:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_ignition_bringup:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_node:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_navigation:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_ignition_toolbox:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_msgs:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_ignition_gui_plugins:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_description:/home/avmi-lab-user/turtlebot4_ws/install/rviz_visual_tools:/home/avmi-lab-user/turtlebot4_ws/install/py_sub:/home/avmi-lab-user/turtlebot4_ws/install/path_pubsub:/home/avmi-lab-user/turtlebot4_ws/install/opencv_tests:/home/avmi-lab-user/turtlebot4_ws/install/image_geometry:/home/avmi-lab-user/turtlebot4_ws/install/cv_bridge:/home/avmi-lab-user/turtlebot4_ws/install/avmi_lab_threat_field:/home/avmi-lab-user/turtlebot4_ws/install/avmi_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:02eb8f05-99bf-4f96-a9a7-792828838ed4'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_navigation/local/lib/python3.10/dist-packages:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_msgs/local/lib/python3.10/dist-packages:/home/avmi-lab-user/turtlebot4_ws/install/py_sub/lib/python3.10/site-packages:/home/avmi-lab-user/turtlebot4_ws/install/path_pubsub/lib/python3.10/site-packages:/home/avmi-lab-user/turtlebot4_ws/install/opencv_tests/lib/python3.10/site-packages:/home/avmi-lab-user/turtlebot4_ws/install/image_geometry/local/lib/python3.10/dist-packages:/home/avmi-lab-user/turtlebot4_ws/install/cv_bridge/local/lib/python3.10/dist-packages:/home/avmi-lab-user/turtlebot4_ws/install/avmi_lab_threat_field/lib/python3.10/site-packages:/home/avmi-lab-user/turtlebot4_ws/install/avmi_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/avmi-lab-user/turtlebot4_ws/install/vision_opencv:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_simulator:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_ignition_bringup:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_node:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_navigation:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_ignition_toolbox:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_msgs:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_ignition_gui_plugins:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_description:/home/avmi-lab-user/turtlebot4_ws/install/rviz_visual_tools:/home/avmi-lab-user/turtlebot4_ws/install/image_geometry:/home/avmi-lab-user/turtlebot4_ws/install/cv_bridge:/home/avmi-lab-user/turtlebot4_ws/install/avmi_interfaces:/home/avmi-lab-user/turtlebot4_ws/install/py_sub:/home/avmi-lab-user/turtlebot4_ws/install/path_pubsub:/home/avmi-lab-user/turtlebot4_ws/install/opencv_tests:/home/avmi-lab-user/turtlebot4_ws/install/avmi_lab_threat_field:/opt/ros/humble')]), 'shell': False}
+[0.013630] (microxrcedds_agent) JobProgress: {'identifier': 'microxrcedds_agent', 'progress': 'cmake'}
+[0.014083] (microxrcedds_agent) Command: {'cmd': ['/usr/bin/cmake', '/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/src/Micro-XRCE-DDS-Agent', '-DUAGENT_ISOLATED_INSTALL=OFF', '-DUAGENT_USE_SYSTEM_FASTCDR=ON', '-DUAGENT_USE_SYSTEM_FASTDDS=ON', '-DCMAKE_INSTALL_PREFIX=/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent'], 'cwd': '/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'avmi-lab-user'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_msgs/lib:/home/avmi-lab-user/turtlebot4_ws/install/rviz_visual_tools/lib:/home/avmi-lab-user/turtlebot4_ws/install/image_geometry/lib:/home/avmi-lab-user/turtlebot4_ws/install/cv_bridge/lib:/home/avmi-lab-user/turtlebot4_ws/install/avmi_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/avmi-lab-user'), ('OLDPWD', '/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2078'), ('SYSTEMD_EXEC_PID', '2265'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '762744'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/avmi-lab-user/turtlebot4_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'avmi-lab-user'), ('JOURNAL_STREAM', '8:13064'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'avmi-lab-user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/avmi-lab-user/.pixi/bin:/opt/ros/humble/bin:/home/avmi-lab-user/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/avmi-lab-user/ardu_ws/Micro-XRCE-DDS-Gen/scripts'), ('SESSION_MANAGER', 'local/AVMI-LAB-RUGGED:@/tmp/.ICE-unix/2234,unix/AVMI-LAB-RUGGED:/tmp/.ICE-unix/2234'), ('INVOCATION_ID', 'c1e0751870c940d3af0d0c59a8166ef4'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.BGDM72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/avmi-lab-user/turtlebot4_ws/install/vision_opencv:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_simulator:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_ignition_bringup:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_node:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_navigation:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_ignition_toolbox:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_msgs:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_ignition_gui_plugins:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_description:/home/avmi-lab-user/turtlebot4_ws/install/rviz_visual_tools:/home/avmi-lab-user/turtlebot4_ws/install/py_sub:/home/avmi-lab-user/turtlebot4_ws/install/path_pubsub:/home/avmi-lab-user/turtlebot4_ws/install/opencv_tests:/home/avmi-lab-user/turtlebot4_ws/install/image_geometry:/home/avmi-lab-user/turtlebot4_ws/install/cv_bridge:/home/avmi-lab-user/turtlebot4_ws/install/avmi_lab_threat_field:/home/avmi-lab-user/turtlebot4_ws/install/avmi_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:02eb8f05-99bf-4f96-a9a7-792828838ed4'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_navigation/local/lib/python3.10/dist-packages:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_msgs/local/lib/python3.10/dist-packages:/home/avmi-lab-user/turtlebot4_ws/install/py_sub/lib/python3.10/site-packages:/home/avmi-lab-user/turtlebot4_ws/install/path_pubsub/lib/python3.10/site-packages:/home/avmi-lab-user/turtlebot4_ws/install/opencv_tests/lib/python3.10/site-packages:/home/avmi-lab-user/turtlebot4_ws/install/image_geometry/local/lib/python3.10/dist-packages:/home/avmi-lab-user/turtlebot4_ws/install/cv_bridge/local/lib/python3.10/dist-packages:/home/avmi-lab-user/turtlebot4_ws/install/avmi_lab_threat_field/lib/python3.10/site-packages:/home/avmi-lab-user/turtlebot4_ws/install/avmi_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/avmi-lab-user/turtlebot4_ws/install/vision_opencv:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_simulator:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_ignition_bringup:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_node:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_navigation:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_ignition_toolbox:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_msgs:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_ignition_gui_plugins:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_description:/home/avmi-lab-user/turtlebot4_ws/install/rviz_visual_tools:/home/avmi-lab-user/turtlebot4_ws/install/image_geometry:/home/avmi-lab-user/turtlebot4_ws/install/cv_bridge:/home/avmi-lab-user/turtlebot4_ws/install/avmi_interfaces')]), 'shell': False}
+[0.054975] (interface) StdoutLine: {'line': b'[ 10%] Built target interface__rosidl_generator_c\n'}
+[0.055877] (interface) StdoutLine: {'line': b'[ 12%] Built target interface__cpp\n'}
+[0.068872] (interface) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_interface\n'}
+[0.071408] (microxrcedds_agent) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.081115] (interface) StdoutLine: {'line': b'[ 28%] Built target interface__rosidl_typesupport_cpp\n'}
+[0.083063] (interface) StdoutLine: {'line': b'[ 33%] Built target interface__rosidl_typesupport_fastrtps_c\n'}
+[0.083285] (interface) StdoutLine: {'line': b'[ 48%] Built target interface__rosidl_typesupport_introspection_cpp\n'}
+[0.083361] (interface) StdoutLine: {'line': b'[ 53%] Built target interface__rosidl_typesupport_introspection_c\n'}
+[0.084858] (microxrcedds_agent) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.085412] (interface) StdoutLine: {'line': b'[ 64%] Built target interface__rosidl_typesupport_fastrtps_cpp\n'}
+[0.086983] (interface) StdoutLine: {'line': b'[ 74%] Built target interface__rosidl_typesupport_c\n'}
+[0.099839] (-) TimerEvent: {}
+[0.105518] (interface) StdoutLine: {'line': b'[ 74%] Built target interface\n'}
+[0.127640] (interface) StdoutLine: {'line': b'[ 76%] Built target interface__py\n'}
+[0.143832] (microxrcedds_agent) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.149601] (interface) StdoutLine: {'line': b'[ 84%] Built target interface__rosidl_generator_py\n'}
+[0.150725] (microxrcedds_agent) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.150957] (microxrcedds_agent) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.151259] (microxrcedds_agent) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.169778] (interface) StdoutLine: {'line': b'[ 94%] Built target interface__rosidl_typesupport_c__pyext\n'}
+[0.170001] (interface) StdoutLine: {'line': b'[ 94%] Built target interface__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.172103] (interface) StdoutLine: {'line': b'[100%] Built target interface__rosidl_typesupport_introspection_c__pyext\n'}
+[0.195559] (microxrcedds_agent) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.199921] (-) TimerEvent: {}
+[0.200759] (microxrcedds_agent) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.263968] (microxrcedds_agent) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.265589] (interface) StdoutLine: {'line': b'running egg_info\n'}
+[0.269577] (microxrcedds_agent) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.269815] (microxrcedds_agent) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.270145] (microxrcedds_agent) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.278891] (interface) StdoutLine: {'line': b'writing interface.egg-info/PKG-INFO\n'}
+[0.279255] (interface) StdoutLine: {'line': b'writing dependency_links to interface.egg-info/dependency_links.txt\n'}
+[0.279508] (interface) StdoutLine: {'line': b'writing top-level names to interface.egg-info/top_level.txt\n'}
+[0.293963] (microxrcedds_agent) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.300007] (-) TimerEvent: {}
+[0.318008] (interface) StdoutLine: {'line': b"reading manifest file 'interface.egg-info/SOURCES.txt'\n"}
+[0.318892] (interface) StdoutLine: {'line': b"writing manifest file 'interface.egg-info/SOURCES.txt'\n"}
+[0.347866] (interface) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_interface_egg\n'}
+[0.354071] (microxrcedds_agent) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.354300] (microxrcedds_agent) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.357437] (interface) CommandEnded: {'returncode': 0}
+[0.358285] (interface) JobProgress: {'identifier': 'interface', 'progress': 'install'}
+[0.365844] (interface) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface'], 'cwd': '/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'avmi-lab-user'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_msgs/lib:/home/avmi-lab-user/turtlebot4_ws/install/rviz_visual_tools/lib:/home/avmi-lab-user/turtlebot4_ws/install/image_geometry/lib:/home/avmi-lab-user/turtlebot4_ws/install/cv_bridge/lib:/home/avmi-lab-user/turtlebot4_ws/install/avmi_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/avmi-lab-user'), ('OLDPWD', '/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2078'), ('SYSTEMD_EXEC_PID', '2265'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '762744'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/avmi-lab-user/turtlebot4_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'avmi-lab-user'), ('JOURNAL_STREAM', '8:13064'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'avmi-lab-user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/avmi-lab-user/.pixi/bin:/opt/ros/humble/bin:/home/avmi-lab-user/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/avmi-lab-user/ardu_ws/Micro-XRCE-DDS-Gen/scripts'), ('SESSION_MANAGER', 'local/AVMI-LAB-RUGGED:@/tmp/.ICE-unix/2234,unix/AVMI-LAB-RUGGED:/tmp/.ICE-unix/2234'), ('INVOCATION_ID', 'c1e0751870c940d3af0d0c59a8166ef4'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.BGDM72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/avmi-lab-user/turtlebot4_ws/install/vision_opencv:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_simulator:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_ignition_bringup:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_node:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_navigation:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_ignition_toolbox:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_msgs:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_ignition_gui_plugins:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_description:/home/avmi-lab-user/turtlebot4_ws/install/rviz_visual_tools:/home/avmi-lab-user/turtlebot4_ws/install/py_sub:/home/avmi-lab-user/turtlebot4_ws/install/path_pubsub:/home/avmi-lab-user/turtlebot4_ws/install/opencv_tests:/home/avmi-lab-user/turtlebot4_ws/install/image_geometry:/home/avmi-lab-user/turtlebot4_ws/install/cv_bridge:/home/avmi-lab-user/turtlebot4_ws/install/avmi_lab_threat_field:/home/avmi-lab-user/turtlebot4_ws/install/avmi_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:02eb8f05-99bf-4f96-a9a7-792828838ed4'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_navigation/local/lib/python3.10/dist-packages:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_msgs/local/lib/python3.10/dist-packages:/home/avmi-lab-user/turtlebot4_ws/install/py_sub/lib/python3.10/site-packages:/home/avmi-lab-user/turtlebot4_ws/install/path_pubsub/lib/python3.10/site-packages:/home/avmi-lab-user/turtlebot4_ws/install/opencv_tests/lib/python3.10/site-packages:/home/avmi-lab-user/turtlebot4_ws/install/image_geometry/local/lib/python3.10/dist-packages:/home/avmi-lab-user/turtlebot4_ws/install/cv_bridge/local/lib/python3.10/dist-packages:/home/avmi-lab-user/turtlebot4_ws/install/avmi_lab_threat_field/lib/python3.10/site-packages:/home/avmi-lab-user/turtlebot4_ws/install/avmi_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/avmi-lab-user/turtlebot4_ws/install/vision_opencv:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_simulator:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_ignition_bringup:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_node:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_navigation:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_ignition_toolbox:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_msgs:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_ignition_gui_plugins:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_description:/home/avmi-lab-user/turtlebot4_ws/install/rviz_visual_tools:/home/avmi-lab-user/turtlebot4_ws/install/image_geometry:/home/avmi-lab-user/turtlebot4_ws/install/cv_bridge:/home/avmi-lab-user/turtlebot4_ws/install/avmi_interfaces:/home/avmi-lab-user/turtlebot4_ws/install/py_sub:/home/avmi-lab-user/turtlebot4_ws/install/path_pubsub:/home/avmi-lab-user/turtlebot4_ws/install/opencv_tests:/home/avmi-lab-user/turtlebot4_ws/install/avmi_lab_threat_field:/opt/ros/humble')]), 'shell': False}
+[0.372514] (interface) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.372725] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/ament_index/resource_index/rosidl_interfaces/interface\n'}
+[0.372784] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface\n'}
+[0.372827] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg\n'}
+[0.372873] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/sensor.h\n'}
+[0.372926] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/fake_data.h\n'}
+[0.372987] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.373049] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail\n'}
+[0.373108] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/sensor__functions.c\n'}
+[0.373170] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/fake_data__struct.h\n'}
+[0.373282] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/sensor__struct.h\n'}
+[0.373351] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/fake_data__functions.h\n'}
+[0.373415] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/fake_data__functions.c\n'}
+[0.373477] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/fake_data__type_support.h\n'}
+[0.373545] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/sensor__type_support.h\n'}
+[0.373609] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/sensor__functions.h\n'}
+[0.373665] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/environment/library_path.sh\n'}
+[0.373718] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/environment/library_path.dsv\n'}
+[0.373910] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/lib/libinterface__rosidl_generator_c.so\n'}
+[0.374086] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface\n'}
+[0.374161] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg\n'}
+[0.374260] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.374379] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail\n'}
+[0.374445] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/sensor__rosidl_typesupport_fastrtps_c.h\n'}
+[0.374509] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/fake_data__rosidl_typesupport_fastrtps_c.h\n'}
+[0.374952] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/lib/libinterface__rosidl_typesupport_fastrtps_c.so\n'}
+[0.375063] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface\n'}
+[0.375103] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg\n'}
+[0.375139] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.375175] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/fake_data.hpp\n'}
+[0.375211] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail\n'}
+[0.375246] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/fake_data__type_support.hpp\n'}
+[0.375281] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/sensor__struct.hpp\n'}
+[0.375315] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/fake_data__traits.hpp\n'}
+[0.375350] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/sensor__type_support.hpp\n'}
+[0.375384] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/sensor__builder.hpp\n'}
+[0.375418] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/fake_data__struct.hpp\n'}
+[0.375534] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/fake_data__builder.hpp\n'}
+[0.375578] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/sensor__traits.hpp\n'}
+[0.375612] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/sensor.hpp\n'}
+[0.375645] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface\n'}
+[0.375678] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg\n'}
+[0.375711] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.375750] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail\n'}
+[0.375803] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/fake_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.375836] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/sensor__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.375868] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/dds_fastrtps\n'}
+[0.375902] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/lib/libinterface__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.375934] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface\n'}
+[0.375979] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg\n'}
+[0.376018] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.376057] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail\n'}
+[0.376090] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/sensor__type_support.c\n'}
+[0.376124] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/fake_data__type_support.c\n'}
+[0.376162] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/sensor__rosidl_typesupport_introspection_c.h\n'}
+[0.376205] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/fake_data__rosidl_typesupport_introspection_c.h\n'}
+[0.376240] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/lib/libinterface__rosidl_typesupport_introspection_c.so\n'}
+[0.376282] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/lib/libinterface__rosidl_typesupport_c.so\n'}
+[0.376321] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface\n'}
+[0.376353] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg\n'}
+[0.376396] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail\n'}
+[0.376446] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/sensor__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.376498] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/fake_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.376549] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/sensor__type_support.cpp\n'}
+[0.376604] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/fake_data__type_support.cpp\n'}
+[0.376659] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/lib/libinterface__rosidl_typesupport_introspection_cpp.so\n'}
+[0.376709] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/lib/libinterface__rosidl_typesupport_cpp.so\n'}
+[0.376765] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/environment/pythonpath.sh\n'}
+[0.376819] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/environment/pythonpath.dsv\n'}
+[0.376868] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface-0.0.0-py3.10.egg-info\n'}
+[0.376907] (interface) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.376940] (interface) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.376972] (interface) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.377010] (interface) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.377044] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface\n'}
+[0.377085] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.377125] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/__init__.py\n'}
+[0.377165] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/_interface_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.377222] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.377282] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.377342] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/libinterface__rosidl_generator_py.so\n'}
+[0.377398] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/_interface_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.377450] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/_interface_s.ep.rosidl_typesupport_c.c\n'}
+[0.377501] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/msg\n'}
+[0.377564] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/msg/_sensor.py\n'}
+[0.377619] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/msg/__init__.py\n'}
+[0.377670] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/msg/_fake_data_s.c\n'}
+[0.377721] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/msg/_sensor_s.c\n'}
+[0.377787] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/msg/_fake_data.py\n'}
+[0.400094] (-) TimerEvent: {}
+[0.404429] (interface) StdoutLine: {'line': b"Listing '/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface'...\n"}
+[0.404558] (interface) StdoutLine: {'line': b"Listing '/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/msg'...\n"}
+[0.404598] (interface) StdoutLine: {'line': b"Listing '/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/srv'...\n"}
+[0.408927] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.409302] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.409892] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.409971] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/lib/libinterface__rosidl_generator_py.so\n'}
+[0.410022] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/msg/Sensor.idl\n'}
+[0.410071] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/msg/FakeData.idl\n'}
+[0.410119] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/msg/Sensor.msg\n'}
+[0.410165] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/msg/FakeData.msg\n'}
+[0.410232] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/ament_index/resource_index/package_run_dependencies/interface\n'}
+[0.410285] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/ament_index/resource_index/parent_prefix_path/interface\n'}
+[0.410347] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/environment/ament_prefix_path.sh\n'}
+[0.410418] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/environment/ament_prefix_path.dsv\n'}
+[0.410892] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/environment/path.sh\n'}
+[0.411007] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/environment/path.dsv\n'}
+[0.411057] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/local_setup.bash\n'}
+[0.411117] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/local_setup.sh\n'}
+[0.411174] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/local_setup.zsh\n'}
+[0.411231] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/local_setup.dsv\n'}
+[0.411281] (interface) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/package.dsv\n'}
+[0.411338] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/ament_index/resource_index/packages/interface\n'}
+[0.411400] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/export_interface__rosidl_generator_cExport.cmake\n'}
+[0.411462] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/export_interface__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.411519] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/export_interface__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.411601] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/export_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.411691] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/export_interface__rosidl_generator_cppExport.cmake\n'}
+[0.411755] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/export_interface__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.411832] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/export_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.411881] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/interface__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.411928] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/interface__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.411976] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/interface__rosidl_typesupport_cExport.cmake\n'}
+[0.412024] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/interface__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.412070] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/interface__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.412120] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.412207] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/interface__rosidl_typesupport_cppExport.cmake\n'}
+[0.412244] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/interface__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.412277] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/export_interface__rosidl_generator_pyExport.cmake\n'}
+[0.412311] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/export_interface__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.412346] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/rosidl_cmake-extras.cmake\n'}
+[0.412379] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.412412] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.412452] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.412485] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.412518] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.412551] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.412583] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/interfaceConfig.cmake\n'}
+[0.412615] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/interfaceConfig-version.cmake\n'}
+[0.412648] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/package.xml\n'}
+[0.414205] (interface) CommandEnded: {'returncode': 0}
+[0.416487] (microxrcedds_agent) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.416999] (microxrcedds_agent) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.427008] (microxrcedds_agent) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.430547] (microxrcedds_agent) StdoutLine: {'line': b'-- Generating done\n'}
+[0.432604] (interface) JobEnded: {'identifier': 'interface', 'rc': 0}
+[0.432994] (py_sensor) JobStarted: {'identifier': 'py_sensor'}
+[0.433169] (microxrcedds_agent) StdoutLine: {'line': b'-- Build files have been written to: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent\n'}
+[0.438580] (microxrcedds_agent) CommandEnded: {'returncode': 0}
+[0.439105] (microxrcedds_agent) JobProgress: {'identifier': 'microxrcedds_agent', 'progress': 'build'}
+[0.439533] (microxrcedds_agent) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent', '--', '-j8', '-l8'], 'cwd': '/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'avmi-lab-user'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_msgs/lib:/home/avmi-lab-user/turtlebot4_ws/install/rviz_visual_tools/lib:/home/avmi-lab-user/turtlebot4_ws/install/image_geometry/lib:/home/avmi-lab-user/turtlebot4_ws/install/cv_bridge/lib:/home/avmi-lab-user/turtlebot4_ws/install/avmi_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/avmi-lab-user'), ('OLDPWD', '/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2078'), ('SYSTEMD_EXEC_PID', '2265'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '762744'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/avmi-lab-user/turtlebot4_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'avmi-lab-user'), ('JOURNAL_STREAM', '8:13064'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'avmi-lab-user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/avmi-lab-user/.pixi/bin:/opt/ros/humble/bin:/home/avmi-lab-user/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/avmi-lab-user/ardu_ws/Micro-XRCE-DDS-Gen/scripts'), ('SESSION_MANAGER', 'local/AVMI-LAB-RUGGED:@/tmp/.ICE-unix/2234,unix/AVMI-LAB-RUGGED:/tmp/.ICE-unix/2234'), ('INVOCATION_ID', 'c1e0751870c940d3af0d0c59a8166ef4'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.BGDM72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/avmi-lab-user/turtlebot4_ws/install/vision_opencv:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_simulator:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_ignition_bringup:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_node:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_navigation:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_ignition_toolbox:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_msgs:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_ignition_gui_plugins:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_description:/home/avmi-lab-user/turtlebot4_ws/install/rviz_visual_tools:/home/avmi-lab-user/turtlebot4_ws/install/py_sub:/home/avmi-lab-user/turtlebot4_ws/install/path_pubsub:/home/avmi-lab-user/turtlebot4_ws/install/opencv_tests:/home/avmi-lab-user/turtlebot4_ws/install/image_geometry:/home/avmi-lab-user/turtlebot4_ws/install/cv_bridge:/home/avmi-lab-user/turtlebot4_ws/install/avmi_lab_threat_field:/home/avmi-lab-user/turtlebot4_ws/install/avmi_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:02eb8f05-99bf-4f96-a9a7-792828838ed4'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_navigation/local/lib/python3.10/dist-packages:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_msgs/local/lib/python3.10/dist-packages:/home/avmi-lab-user/turtlebot4_ws/install/py_sub/lib/python3.10/site-packages:/home/avmi-lab-user/turtlebot4_ws/install/path_pubsub/lib/python3.10/site-packages:/home/avmi-lab-user/turtlebot4_ws/install/opencv_tests/lib/python3.10/site-packages:/home/avmi-lab-user/turtlebot4_ws/install/image_geometry/local/lib/python3.10/dist-packages:/home/avmi-lab-user/turtlebot4_ws/install/cv_bridge/local/lib/python3.10/dist-packages:/home/avmi-lab-user/turtlebot4_ws/install/avmi_lab_threat_field/lib/python3.10/site-packages:/home/avmi-lab-user/turtlebot4_ws/install/avmi_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/avmi-lab-user/turtlebot4_ws/install/vision_opencv:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_simulator:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_ignition_bringup:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_node:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_navigation:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_ignition_toolbox:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_msgs:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_ignition_gui_plugins:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_description:/home/avmi-lab-user/turtlebot4_ws/install/rviz_visual_tools:/home/avmi-lab-user/turtlebot4_ws/install/image_geometry:/home/avmi-lab-user/turtlebot4_ws/install/cv_bridge:/home/avmi-lab-user/turtlebot4_ws/install/avmi_interfaces')]), 'shell': False}
+[0.480193] (microxrcedds_agent) StdoutLine: {'line': b"[  6%] \x1b[34m\x1b[1mCreating directories for 'microxrcedds_client'\x1b[0m\n"}
+[0.500205] (-) TimerEvent: {}
+[0.545845] (microxrcedds_agent) StdoutLine: {'line': b"[ 12%] \x1b[34m\x1b[1mPerforming download step (git clone) for 'microxrcedds_client'\x1b[0m\n"}
+[0.562971] (microxrcedds_agent) StderrLine: {'line': b"Cloning into 'microxrcedds_client'...\n"}
+[0.600329] (-) TimerEvent: {}
+[0.700637] (-) TimerEvent: {}
+[0.800868] (-) TimerEvent: {}
+[0.901090] (-) TimerEvent: {}
+[0.953038] (py_sensor) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/py_sensor', 'build', '--build-base', '/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/py_sensor/build', 'install', '--record', '/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/py_sensor/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/src/py_sensor', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'avmi-lab-user', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/lib:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_msgs/lib:/home/avmi-lab-user/turtlebot4_ws/install/rviz_visual_tools/lib:/home/avmi-lab-user/turtlebot4_ws/install/image_geometry/lib:/home/avmi-lab-user/turtlebot4_ws/install/cv_bridge/lib:/home/avmi-lab-user/turtlebot4_ws/install/avmi_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/avmi-lab-user', 'OLDPWD': '/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2078', 'SYSTEMD_EXEC_PID': '2265', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '762744', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/avmi-lab-user/turtlebot4_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'avmi-lab-user', 'JOURNAL_STREAM': '8:13064', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'avmi-lab-user', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/home/avmi-lab-user/.pixi/bin:/opt/ros/humble/bin:/home/avmi-lab-user/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/avmi-lab-user/ardu_ws/Micro-XRCE-DDS-Gen/scripts', 'SESSION_MANAGER': 'local/AVMI-LAB-RUGGED:@/tmp/.ICE-unix/2234,unix/AVMI-LAB-RUGGED:/tmp/.ICE-unix/2234', 'INVOCATION_ID': 'c1e0751870c940d3af0d0c59a8166ef4', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.BGDM72', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface:/home/avmi-lab-user/turtlebot4_ws/install/vision_opencv:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_simulator:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_ignition_bringup:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_node:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_navigation:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_ignition_toolbox:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_msgs:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_ignition_gui_plugins:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_description:/home/avmi-lab-user/turtlebot4_ws/install/rviz_visual_tools:/home/avmi-lab-user/turtlebot4_ws/install/py_sub:/home/avmi-lab-user/turtlebot4_ws/install/path_pubsub:/home/avmi-lab-user/turtlebot4_ws/install/opencv_tests:/home/avmi-lab-user/turtlebot4_ws/install/image_geometry:/home/avmi-lab-user/turtlebot4_ws/install/cv_bridge:/home/avmi-lab-user/turtlebot4_ws/install/avmi_lab_threat_field:/home/avmi-lab-user/turtlebot4_ws/install/avmi_interfaces:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:02eb8f05-99bf-4f96-a9a7-792828838ed4', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/py_sensor', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/py_sensor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_sensor/lib/python3.10/site-packages:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_navigation/local/lib/python3.10/dist-packages:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_msgs/local/lib/python3.10/dist-packages:/home/avmi-lab-user/turtlebot4_ws/install/py_sub/lib/python3.10/site-packages:/home/avmi-lab-user/turtlebot4_ws/install/path_pubsub/lib/python3.10/site-packages:/home/avmi-lab-user/turtlebot4_ws/install/opencv_tests/lib/python3.10/site-packages:/home/avmi-lab-user/turtlebot4_ws/install/image_geometry/local/lib/python3.10/dist-packages:/home/avmi-lab-user/turtlebot4_ws/install/cv_bridge/local/lib/python3.10/dist-packages:/home/avmi-lab-user/turtlebot4_ws/install/avmi_lab_threat_field/lib/python3.10/site-packages:/home/avmi-lab-user/turtlebot4_ws/install/avmi_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface:/home/avmi-lab-user/turtlebot4_ws/install/vision_opencv:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_simulator:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_ignition_bringup:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_node:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_navigation:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_ignition_toolbox:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_msgs:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_ignition_gui_plugins:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_description:/home/avmi-lab-user/turtlebot4_ws/install/rviz_visual_tools:/home/avmi-lab-user/turtlebot4_ws/install/image_geometry:/home/avmi-lab-user/turtlebot4_ws/install/cv_bridge:/home/avmi-lab-user/turtlebot4_ws/install/avmi_interfaces'}, 'shell': False}
+[1.001181] (-) TimerEvent: {}
+[1.081581] (py_sensor) StderrLine: {'line': b"/home/avmi-lab-user/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[1.081793] (py_sensor) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[1.101301] (-) TimerEvent: {}
+[1.157998] (py_sensor) StdoutLine: {'line': b'running egg_info\n'}
+[1.170364] (py_sensor) StdoutLine: {'line': b'writing ../../build/py_sensor/py_sensor.egg-info/PKG-INFO\n'}
+[1.170701] (py_sensor) StdoutLine: {'line': b'writing dependency_links to ../../build/py_sensor/py_sensor.egg-info/dependency_links.txt\n'}
+[1.170855] (py_sensor) StdoutLine: {'line': b'writing entry points to ../../build/py_sensor/py_sensor.egg-info/entry_points.txt\n'}
+[1.170979] (py_sensor) StdoutLine: {'line': b'writing requirements to ../../build/py_sensor/py_sensor.egg-info/requires.txt\n'}
+[1.171086] (py_sensor) StdoutLine: {'line': b'writing top-level names to ../../build/py_sensor/py_sensor.egg-info/top_level.txt\n'}
+[1.197342] (py_sensor) StdoutLine: {'line': b"reading manifest file '../../build/py_sensor/py_sensor.egg-info/SOURCES.txt'\n"}
+[1.197635] (py_sensor) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[1.198482] (py_sensor) StdoutLine: {'line': b"writing manifest file '../../build/py_sensor/py_sensor.egg-info/SOURCES.txt'\n"}
+[1.198591] (py_sensor) StdoutLine: {'line': b'running build\n'}
+[1.198653] (py_sensor) StdoutLine: {'line': b'running build_py\n'}
+[1.198818] (py_sensor) StdoutLine: {'line': b'copying py_sensor/zx.py -> /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/py_sensor/build/lib/py_sensor\n'}
+[1.198963] (py_sensor) StdoutLine: {'line': b'copying py_sensor/__init__.py -> /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/py_sensor/build/lib/py_sensor\n'}
+[1.199045] (py_sensor) StdoutLine: {'line': b'copying py_sensor/sensor_service.py -> /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/py_sensor/build/lib/py_sensor\n'}
+[1.199141] (py_sensor) StdoutLine: {'line': b'copying py_sensor/sensor_client.py -> /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/py_sensor/build/lib/py_sensor\n'}
+[1.199230] (py_sensor) StdoutLine: {'line': b'copying py_sensor/service_member_function.py -> /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/py_sensor/build/lib/py_sensor\n'}
+[1.199316] (py_sensor) StdoutLine: {'line': b'copying py_sensor/numsub.py -> /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/py_sensor/build/lib/py_sensor\n'}
+[1.199401] (py_sensor) StdoutLine: {'line': b'copying py_sensor/FakeTele.py -> /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/py_sensor/build/lib/py_sensor\n'}
+[1.199485] (py_sensor) StdoutLine: {'line': b'copying py_sensor/client_member_function.py -> /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/py_sensor/build/lib/py_sensor\n'}
+[1.199568] (py_sensor) StdoutLine: {'line': b'copying py_sensor/sensor_node.py -> /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/py_sensor/build/lib/py_sensor\n'}
+[1.199840] (py_sensor) StdoutLine: {'line': b'running install\n'}
+[1.201379] (-) TimerEvent: {}
+[1.202996] (py_sensor) StdoutLine: {'line': b'running install_lib\n'}
+[1.215499] (py_sensor) StdoutLine: {'line': b'copying /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/py_sensor/build/lib/py_sensor/zx.py -> /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_sensor/lib/python3.10/site-packages/py_sensor\n'}
+[1.215700] (py_sensor) StdoutLine: {'line': b'copying /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/py_sensor/build/lib/py_sensor/FakeTele.py -> /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_sensor/lib/python3.10/site-packages/py_sensor\n'}
+[1.215860] (py_sensor) StdoutLine: {'line': b'copying /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/py_sensor/build/lib/py_sensor/sensor_node.py -> /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_sensor/lib/python3.10/site-packages/py_sensor\n'}
+[1.216244] (py_sensor) StdoutLine: {'line': b'byte-compiling /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_sensor/lib/python3.10/site-packages/py_sensor/zx.py to zx.cpython-310.pyc\n'}
+[1.216938] (py_sensor) StdoutLine: {'line': b'byte-compiling /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_sensor/lib/python3.10/site-packages/py_sensor/FakeTele.py to FakeTele.cpython-310.pyc\n'}
+[1.217281] (py_sensor) StdoutLine: {'line': b'byte-compiling /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_sensor/lib/python3.10/site-packages/py_sensor/sensor_node.py to sensor_node.cpython-310.pyc\n'}
+[1.217959] (py_sensor) StdoutLine: {'line': b'running install_data\n'}
+[1.218148] (py_sensor) StdoutLine: {'line': b'copying resource/py_sensor -> /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_sensor/share/ament_index/resource_index/packages\n'}
+[1.218274] (py_sensor) StdoutLine: {'line': b'copying package.xml -> /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_sensor/share/py_sensor\n'}
+[1.218356] (py_sensor) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.231959] (py_sensor) StdoutLine: {'line': b"removing '/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_sensor/lib/python3.10/site-packages/py_sensor-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.232200] (py_sensor) StdoutLine: {'line': b'Copying ../../build/py_sensor/py_sensor.egg-info to /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_sensor/lib/python3.10/site-packages/py_sensor-0.0.0-py3.10.egg-info\n'}
+[1.232774] (py_sensor) StdoutLine: {'line': b'running install_scripts\n'}
+[1.258019] (py_sensor) StdoutLine: {'line': b'Installing client script to /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_sensor/lib/py_sensor\n'}
+[1.258223] (py_sensor) StdoutLine: {'line': b'Installing listener script to /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_sensor/lib/py_sensor\n'}
+[1.258347] (py_sensor) StdoutLine: {'line': b'Installing sen_client script to /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_sensor/lib/py_sensor\n'}
+[1.258454] (py_sensor) StdoutLine: {'line': b'Installing sen_service script to /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_sensor/lib/py_sensor\n'}
+[1.258566] (py_sensor) StdoutLine: {'line': b'Installing sense script to /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_sensor/lib/py_sensor\n'}
+[1.258700] (py_sensor) StdoutLine: {'line': b'Installing service script to /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_sensor/lib/py_sensor\n'}
+[1.258806] (py_sensor) StdoutLine: {'line': b'Installing talker script to /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_sensor/lib/py_sensor\n'}
+[1.259280] (py_sensor) StdoutLine: {'line': b"writing list of installed files to '/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/py_sensor/install.log'\n"}
+[1.280970] (py_sensor) CommandEnded: {'returncode': 0}
+[1.285481] (py_sensor) JobEnded: {'identifier': 'py_sensor', 'rc': 0}
+[1.301509] (-) TimerEvent: {}
+[1.401768] (-) TimerEvent: {}
+[1.502092] (-) TimerEvent: {}
+[1.602379] (-) TimerEvent: {}
+[1.702629] (-) TimerEvent: {}
+[1.802875] (-) TimerEvent: {}
+[1.903154] (-) TimerEvent: {}
+[2.003434] (-) TimerEvent: {}
+[2.103712] (-) TimerEvent: {}
+[2.203955] (-) TimerEvent: {}
+[2.304219] (-) TimerEvent: {}
+[2.404458] (-) TimerEvent: {}
+[2.504729] (-) TimerEvent: {}
+[2.604981] (-) TimerEvent: {}
+[2.705249] (-) TimerEvent: {}
+[2.805516] (-) TimerEvent: {}
+[2.905828] (-) TimerEvent: {}
+[3.006174] (-) TimerEvent: {}
+[3.106505] (-) TimerEvent: {}
+[3.206798] (-) TimerEvent: {}
+[3.307108] (-) TimerEvent: {}
+[3.386395] (microxrcedds_agent) StderrLine: {'line': b'HEAD is now at 0c6743f Release v2.4.2\n'}
+[3.407214] (-) TimerEvent: {}
+[3.431533] (microxrcedds_agent) StdoutLine: {'line': b"[ 18%] \x1b[34m\x1b[1mPerforming update step for 'microxrcedds_client'\x1b[0m\n"}
+[3.453435] (microxrcedds_agent) StdoutLine: {'line': b"[ 25%] \x1b[34m\x1b[1mNo patch step for 'microxrcedds_client'\x1b[0m\n"}
+[3.473167] (microxrcedds_agent) StdoutLine: {'line': b"[ 31%] \x1b[34m\x1b[1mPerforming configure step for 'microxrcedds_client'\x1b[0m\n"}
+[3.480938] (microxrcedds_agent) StdoutLine: {'line': b'loading initial cache file /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/microxrcedds_client/tmp/microxrcedds_client-cache-.cmake\n'}
+[3.507330] (-) TimerEvent: {}
+[3.520615] (microxrcedds_agent) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[3.527105] (microxrcedds_agent) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.580963] (microxrcedds_agent) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.586263] (microxrcedds_agent) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.586411] (microxrcedds_agent) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.586625] (microxrcedds_agent) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.607425] (-) TimerEvent: {}
+[3.626159] (microxrcedds_agent) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[3.631668] (microxrcedds_agent) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.694488] (microxrcedds_agent) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.699927] (microxrcedds_agent) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.700164] (microxrcedds_agent) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.700687] (microxrcedds_agent) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.707525] (-) TimerEvent: {}
+[3.708153] (microxrcedds_agent) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.709888] (microxrcedds_agent) StdoutLine: {'line': b'-- Generating done\n'}
+[3.710658] (microxrcedds_agent) StdoutLine: {'line': b'-- Build files have been written to: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build\n'}
+[3.726954] (microxrcedds_agent) StdoutLine: {'line': b"[ 37%] \x1b[34m\x1b[1mPerforming build step for 'microxrcedds_client'\x1b[0m\n"}
+[3.762104] (microxrcedds_agent) StdoutLine: {'line': b"[ 12%] \x1b[34m\x1b[1mCreating directories for 'uclient'\x1b[0m\n"}
+[3.807625] (-) TimerEvent: {}
+[3.819151] (microxrcedds_agent) StdoutLine: {'line': b"[ 25%] \x1b[34m\x1b[1mNo download step for 'uclient'\x1b[0m\n"}
+[3.838982] (microxrcedds_agent) StdoutLine: {'line': b"[ 37%] \x1b[34m\x1b[1mNo update step for 'uclient'\x1b[0m\n"}
+[3.858992] (microxrcedds_agent) StdoutLine: {'line': b"[ 50%] \x1b[34m\x1b[1mNo patch step for 'uclient'\x1b[0m\n"}
+[3.879552] (microxrcedds_agent) StdoutLine: {'line': b"[ 62%] \x1b[34m\x1b[1mPerforming configure step for 'uclient'\x1b[0m\n"}
+[3.886918] (microxrcedds_agent) StdoutLine: {'line': b'loading initial cache file /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build/uclient-prefix/tmp/uclient-cache-.cmake\n'}
+[3.889383] (microxrcedds_agent) StdoutLine: {'line': b"-- Setting build type to 'Release' as none was specified.\n"}
+[3.892042] (microxrcedds_agent) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.907738] (-) TimerEvent: {}
+[3.950288] (microxrcedds_agent) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.950443] (microxrcedds_agent) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.006413] (microxrcedds_agent) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[4.006991] (microxrcedds_agent) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.007836] (-) TimerEvent: {}
+[4.008347] (microxrcedds_agent) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.014790] (microxrcedds_agent) StdoutLine: {'line': b'-- Generating done\n'}
+[4.015149] (microxrcedds_agent) StdoutLine: {'line': b'-- Build files have been written to: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/microxrcedds_client/src/microxrcedds_client-build\n'}
+[4.029949] (microxrcedds_agent) StdoutLine: {'line': b"[ 75%] \x1b[34m\x1b[1mPerforming build step for 'uclient'\x1b[0m\n"}
+[4.067292] (microxrcedds_agent) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/output_best_effort_stream.c.o\x1b[0m\n'}
+[4.068426] (microxrcedds_agent) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/input_best_effort_stream.c.o\x1b[0m\n'}
+[4.070070] (microxrcedds_agent) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/output_reliable_stream.c.o\x1b[0m\n'}
+[4.070693] (microxrcedds_agent) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/stream_storage.c.o\x1b[0m\n'}
+[4.070779] (microxrcedds_agent) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/stream_id.c.o\x1b[0m\n'}
+[4.070836] (microxrcedds_agent) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/seq_num.c.o\x1b[0m\n'}
+[4.070886] (microxrcedds_agent) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/session.c.o\x1b[0m\n'}
+[4.070942] (microxrcedds_agent) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/input_reliable_stream.c.o\x1b[0m\n'}
+[4.109026] (-) TimerEvent: {}
+[4.114810] (microxrcedds_agent) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/session_info.c.o\x1b[0m\n'}
+[4.119526] (microxrcedds_agent) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/submessage.c.o\x1b[0m\n'}
+[4.129917] (microxrcedds_agent) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/serialization/xrce_types.c.o\x1b[0m\n'}
+[4.130159] (microxrcedds_agent) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/object_id.c.o\x1b[0m\n'}
+[4.153876] (microxrcedds_agent) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/serialization/xrce_header.c.o\x1b[0m\n'}
+[4.171146] (microxrcedds_agent) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/util/time.c.o\x1b[0m\n'}
+[4.172061] (microxrcedds_agent) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/serialization/xrce_subheader.c.o\x1b[0m\n'}
+[4.175887] (microxrcedds_agent) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/util/ping.c.o\x1b[0m\n'}
+[4.183868] (microxrcedds_agent) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/common_create_entities.c.o\x1b[0m\n'}
+[4.194863] (microxrcedds_agent) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/create_entities_ref.c.o\x1b[0m\n'}
+[4.203580] (microxrcedds_agent) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/create_entities_xml.c.o\x1b[0m\n'}
+[4.205653] (microxrcedds_agent) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/create_entities_bin.c.o\x1b[0m\n'}
+[4.209133] (-) TimerEvent: {}
+[4.213802] (microxrcedds_agent) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/read_access.c.o\x1b[0m\n'}
+[4.242335] (microxrcedds_agent) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/write_access.c.o\x1b[0m\n'}
+[4.259085] (microxrcedds_agent) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/stream_framing/stream_framing_protocol.c.o\x1b[0m\n'}
+[4.265427] (microxrcedds_agent) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/ip/udp/udp_transport.c.o\x1b[0m\n'}
+[4.279701] (microxrcedds_agent) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/ip/udp/udp_transport_posix.c.o\x1b[0m\n'}
+[4.290030] (microxrcedds_agent) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/ip/tcp/tcp_transport.c.o\x1b[0m\n'}
+[4.308477] (microxrcedds_agent) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/ip/tcp/tcp_transport_posix.c.o\x1b[0m\n'}
+[4.310365] (-) TimerEvent: {}
+[4.330106] (microxrcedds_agent) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/serial/serial_transport.c.o\x1b[0m\n'}
+[4.336586] (microxrcedds_agent) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/serial/serial_transport_posix.c.o\x1b[0m\n'}
+[4.364328] (microxrcedds_agent) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/ip/ip_posix.c.o\x1b[0m\n'}
+[4.367570] (microxrcedds_agent) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/discovery/discovery.c.o\x1b[0m\n'}
+[4.369765] (microxrcedds_agent) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/discovery/transport/udp_transport_datagram_posix.c.o\x1b[0m\n'}
+[4.384663] (microxrcedds_agent) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/custom/custom_transport.c.o\x1b[0m\n'}
+[4.410481] (-) TimerEvent: {}
+[4.510752] (-) TimerEvent: {}
+[4.603434] (microxrcedds_agent) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library libmicroxrcedds_client.so\x1b[0m\n'}
+[4.610802] (-) TimerEvent: {}
+[4.652021] (microxrcedds_agent) StdoutLine: {'line': b'[100%] Built target microxrcedds_client\n'}
+[4.672445] (microxrcedds_agent) StdoutLine: {'line': b"\x1b[34m\x1b[1mNo install step for 'uclient'\x1b[0m\n"}
+[4.692687] (microxrcedds_agent) StdoutLine: {'line': b"\x1b[34m\x1b[1mCompleted 'uclient'\x1b[0m\n"}
+[4.710908] (-) TimerEvent: {}
+[4.718629] (microxrcedds_agent) StdoutLine: {'line': b'Built target uclient\n'}
+[4.739310] (microxrcedds_agent) StdoutLine: {'line': b"[ 43%] \x1b[34m\x1b[1mPerforming install step for 'microxrcedds_client'\x1b[0m\n"}
+[4.767638] (microxrcedds_agent) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target microxrcedds_client\x1b[0m\n'}
+[4.782605] (microxrcedds_agent) StdoutLine: {'line': b'[100%] Built target microxrcedds_client\n'}
+[4.798215] (microxrcedds_agent) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[4.804735] (microxrcedds_agent) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[4.804904] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/lib/libmicroxrcedds_client.so.2.4.2\n'}
+[4.805009] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/lib/libmicroxrcedds_client.so.2.4\n'}
+[4.805157] (microxrcedds_agent) StdoutLine: {'line': b'-- Set runtime path of "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/lib/libmicroxrcedds_client.so.2.4.2" to ""\n'}
+[4.805287] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/lib/libmicroxrcedds_client.so\n'}
+[4.805375] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client\n'}
+[4.805463] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/defines.h\n'}
+[4.805522] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/transport.h\n'}
+[4.805568] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/client.h\n'}
+[4.805605] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile\n'}
+[4.805645] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport\n'}
+[4.805705] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/can\n'}
+[4.805775] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/can/can_transport.h\n'}
+[4.805819] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/can/can_transport_posix.h\n'}
+[4.805855] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/ip\n'}
+[4.805924] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/ip/ip.h\n'}
+[4.805981] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/ip/tcp\n'}
+[4.806092] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/ip/tcp/tcp_transport_rtems_bsd_net.h\n'}
+[4.806196] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/ip/tcp/tcp_transport_freertos_plus_tcp.h\n'}
+[4.806253] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/ip/tcp/tcp_transport_posix_nopoll.h\n'}
+[4.806320] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/ip/tcp/tcp_transport.h\n'}
+[4.806379] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/ip/tcp/tcp_transport_windows.h\n'}
+[4.806419] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/ip/tcp/tcp_transport_posix.h\n'}
+[4.806485] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/ip/udp\n'}
+[4.806548] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/ip/udp/udp_transport_freertos_plus_tcp.h\n'}
+[4.806612] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/ip/udp/udp_transport_windows.h\n'}
+[4.806694] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/ip/udp/udp_transport_rtems_bsd_net.h\n'}
+[4.806816] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/ip/udp/udp_transport.h\n'}
+[4.806892] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/ip/udp/udp_transport_posix.h\n'}
+[4.806953] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/ip/udp/udp_transport_posix_nopoll.h\n'}
+[4.807038] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/stream_framing\n'}
+[4.807094] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/stream_framing/stream_framing_protocol.h\n'}
+[4.807244] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/custom\n'}
+[4.807333] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/custom/custom_transport.h\n'}
+[4.807386] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/serial\n'}
+[4.807426] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/serial/serial_transport.h\n'}
+[4.807496] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/serial/serial_transport_platform.h\n'}
+[4.807571] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/serial/serial_transport_rtems_bsd_net.h\n'}
+[4.807650] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/transport/serial/serial_transport_posix.h\n'}
+[4.807691] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/multithread\n'}
+[4.807745] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/multithread/multithread.h\n'}
+[4.807878] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/discovery\n'}
+[4.807947] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/profile/discovery/discovery.h\n'}
+[4.808567] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/visibility.h\n'}
+[4.808640] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/util\n'}
+[4.808699] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/util/ping.h\n'}
+[4.808762] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/util/time.h\n'}
+[4.808822] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core\n'}
+[4.808880] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/type\n'}
+[4.808937] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/type/xrce_types.h\n'}
+[4.808994] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/communication\n'}
+[4.809060] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/communication/communication.h\n'}
+[4.809121] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session\n'}
+[4.809182] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/object_id.h\n'}
+[4.809243] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/create_entities_bin.h\n'}
+[4.809364] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/time_sync.h\n'}
+[4.809430] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/create_entities_ref.h\n'}
+[4.809499] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/read_access.h\n'}
+[4.809573] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/session_info.h\n'}
+[4.809666] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/stream\n'}
+[4.809842] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/stream/output_best_effort_stream.h\n'}
+[4.810009] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/stream/reliable_stream.h\n'}
+[4.810078] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/stream/output_reliable_stream.h\n'}
+[4.810139] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/stream/seq_num.h\n'}
+[4.810199] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/stream/input_reliable_stream.h\n'}
+[4.810260] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/stream/stream_id.h\n'}
+[4.810324] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/stream/input_best_effort_stream.h\n'}
+[4.810392] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/stream/stream_storage.h\n'}
+[4.810459] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/create_entities_xml.h\n'}
+[4.810536] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/session.h\n'}
+[4.810599] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/write_access.h\n'}
+[4.810659] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/core/session/common_create_entities.h\n'}
+[4.810783] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/include/uxr/client/config.h\n'}
+[4.810854] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/share/microxrcedds_client/cmake/microxrcedds_clientTargets.cmake\n'}
+[4.810910] (-) TimerEvent: {}
+[4.811022] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/share/microxrcedds_client/cmake/microxrcedds_clientTargets-release.cmake\n'}
+[4.811089] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/share/microxrcedds_client/cmake/microxrcedds_clientConfig.cmake\n'}
+[4.811148] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/temp_install/microxrcedds_client-2.4.2/share/microxrcedds_client/cmake/microxrcedds_clientConfigVersion.cmake\n'}
+[4.825932] (microxrcedds_agent) StdoutLine: {'line': b"[ 50%] \x1b[34m\x1b[1mCompleted 'microxrcedds_client'\x1b[0m\n"}
+[4.853580] (microxrcedds_agent) StdoutLine: {'line': b'[ 50%] Built target microxrcedds_client\n'}
+[4.869987] (microxrcedds_agent) StdoutLine: {'line': b"[ 56%] \x1b[34m\x1b[1mCreating directories for 'uagent'\x1b[0m\n"}
+[4.911043] (-) TimerEvent: {}
+[4.927924] (microxrcedds_agent) StdoutLine: {'line': b"[ 62%] \x1b[34m\x1b[1mNo download step for 'uagent'\x1b[0m\n"}
+[4.948344] (microxrcedds_agent) StdoutLine: {'line': b"[ 68%] \x1b[34m\x1b[1mNo update step for 'uagent'\x1b[0m\n"}
+[4.968831] (microxrcedds_agent) StdoutLine: {'line': b"[ 75%] \x1b[34m\x1b[1mNo patch step for 'uagent'\x1b[0m\n"}
+[4.988458] (microxrcedds_agent) StdoutLine: {'line': b"[ 81%] \x1b[34m\x1b[1mPerforming configure step for 'uagent'\x1b[0m\n"}
+[4.996986] (microxrcedds_agent) StdoutLine: {'line': b'loading initial cache file /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent/uagent-prefix/tmp/uagent-cache-.cmake\n'}
+[5.000518] (microxrcedds_agent) StdoutLine: {'line': b"-- Setting build type to 'Release' as none was specified.\n"}
+[5.011164] (-) TimerEvent: {}
+[5.023506] (microxrcedds_agent) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[5.023678] (microxrcedds_agent) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (tinyxml2)\n'}
+[5.023751] (microxrcedds_agent) StderrLine: {'line': b'  does not match the name of the calling package (TinyXML2).  This can lead\n'}
+[5.023804] (microxrcedds_agent) StderrLine: {'line': b'  to problems in calling code that expects `find_package` result variables\n'}
+[5.023842] (microxrcedds_agent) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[5.023891] (microxrcedds_agent) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[5.023941] (microxrcedds_agent) StderrLine: {'line': b'  cmake/modules/FindTinyXML2.cmake:40 (find_package_handle_standard_args)\n'}
+[5.023995] (microxrcedds_agent) StderrLine: {'line': b'  /opt/ros/humble/share/fastrtps/cmake/fastrtps-config.cmake:51 (find_package)\n'}
+[5.024047] (microxrcedds_agent) StderrLine: {'line': b'  CMakeLists.txt:153 (find_package)\n'}
+[5.024098] (microxrcedds_agent) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[5.024148] (microxrcedds_agent) StderrLine: {'line': b'\x1b[0m\n'}
+[5.024200] (microxrcedds_agent) StdoutLine: {'line': b'-- Found tinyxml2: /usr/lib/x86_64-linux-gnu/libtinyxml2.so  \n'}
+[5.062661] (microxrcedds_agent) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[5.067567] (microxrcedds_agent) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.076203] (microxrcedds_agent) StdoutLine: {'line': b'-- Generating done\n'}
+[5.078059] (microxrcedds_agent) StdoutLine: {'line': b'-- Build files have been written to: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent\n'}
+[5.093606] (microxrcedds_agent) StdoutLine: {'line': b"[ 87%] \x1b[34m\x1b[1mPerforming build step for 'uagent'\x1b[0m\n"}
+[5.111276] (-) TimerEvent: {}
+[5.133023] (microxrcedds_agent) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/AgentInstance.cpp.o\x1b[0m\n'}
+[5.133245] (microxrcedds_agent) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/Agent.cpp.o\x1b[0m\n'}
+[5.133326] (microxrcedds_agent) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/participant/Participant.cpp.o\x1b[0m\n'}
+[5.133386] (microxrcedds_agent) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/processor/Processor.cpp.o\x1b[0m\n'}
+[5.137658] (microxrcedds_agent) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/client/ProxyClient.cpp.o\x1b[0m\n'}
+[5.137983] (microxrcedds_agent) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/Root.cpp.o\x1b[0m\n'}
+[5.139442] (microxrcedds_agent) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/topic/Topic.cpp.o\x1b[0m\n'}
+[5.142727] (microxrcedds_agent) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/publisher/Publisher.cpp.o\x1b[0m\n'}
+[5.212815] (-) TimerEvent: {}
+[5.313358] (-) TimerEvent: {}
+[5.413942] (-) TimerEvent: {}
+[5.514499] (-) TimerEvent: {}
+[5.615083] (-) TimerEvent: {}
+[5.717135] (-) TimerEvent: {}
+[5.817673] (-) TimerEvent: {}
+[5.918281] (-) TimerEvent: {}
+[6.018779] (-) TimerEvent: {}
+[6.121070] (-) TimerEvent: {}
+[6.221678] (-) TimerEvent: {}
+[6.322241] (-) TimerEvent: {}
+[6.422817] (-) TimerEvent: {}
+[6.523454] (-) TimerEvent: {}
+[6.625815] (-) TimerEvent: {}
+[6.681725] (microxrcedds_agent) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/subscriber/Subscriber.cpp.o\x1b[0m\n'}
+[6.693518] (microxrcedds_agent) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/datawriter/DataWriter.cpp.o\x1b[0m\n'}
+[6.725939] (-) TimerEvent: {}
+[6.826556] (-) TimerEvent: {}
+[6.853572] (microxrcedds_agent) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/datareader/DataReader.cpp.o\x1b[0m\n'}
+[6.926671] (-) TimerEvent: {}
+[7.027037] (-) TimerEvent: {}
+[7.127392] (-) TimerEvent: {}
+[7.227764] (-) TimerEvent: {}
+[7.330758] (-) TimerEvent: {}
+[7.432560] (-) TimerEvent: {}
+[7.534580] (-) TimerEvent: {}
+[7.639173] (-) TimerEvent: {}
+[7.739611] (-) TimerEvent: {}
+[7.839976] (-) TimerEvent: {}
+[7.940326] (-) TimerEvent: {}
+[8.040716] (-) TimerEvent: {}
+[8.144247] (-) TimerEvent: {}
+[8.244613] (-) TimerEvent: {}
+[8.345561] (-) TimerEvent: {}
+[8.350069] (microxrcedds_agent) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/requester/Requester.cpp.o\x1b[0m\n'}
+[8.447632] (-) TimerEvent: {}
+[8.549828] (-) TimerEvent: {}
+[8.650803] (-) TimerEvent: {}
+[8.751284] (-) TimerEvent: {}
+[8.852030] (-) TimerEvent: {}
+[8.952880] (-) TimerEvent: {}
+[9.054596] (-) TimerEvent: {}
+[9.155889] (-) TimerEvent: {}
+[9.256382] (-) TimerEvent: {}
+[9.359838] (-) TimerEvent: {}
+[9.460328] (-) TimerEvent: {}
+[9.503537] (microxrcedds_agent) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/replier/Replier.cpp.o\x1b[0m\n'}
+[9.560881] (-) TimerEvent: {}
+[9.661861] (-) TimerEvent: {}
+[9.762366] (-) TimerEvent: {}
+[9.863352] (-) TimerEvent: {}
+[9.965161] (-) TimerEvent: {}
+[10.067412] (-) TimerEvent: {}
+[10.168184] (-) TimerEvent: {}
+[10.269971] (-) TimerEvent: {}
+[10.370481] (-) TimerEvent: {}
+[10.471004] (-) TimerEvent: {}
+[10.571550] (-) TimerEvent: {}
+[10.673782] (-) TimerEvent: {}
+[10.774304] (-) TimerEvent: {}
+[10.876576] (-) TimerEvent: {}
+[10.978477] (-) TimerEvent: {}
+[11.078943] (-) TimerEvent: {}
+[11.182480] (-) TimerEvent: {}
+[11.282797] (-) TimerEvent: {}
+[11.383277] (-) TimerEvent: {}
+[11.483785] (-) TimerEvent: {}
+[11.504200] (microxrcedds_agent) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/object/XRCEObject.cpp.o\x1b[0m\n'}
+[11.586794] (-) TimerEvent: {}
+[11.645898] (microxrcedds_agent) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/XRCETypes.cpp.o\x1b[0m\n'}
+[11.687861] (-) TimerEvent: {}
+[11.790578] (-) TimerEvent: {}
+[11.891304] (-) TimerEvent: {}
+[11.994611] (-) TimerEvent: {}
+[12.098683] (-) TimerEvent: {}
+[12.200294] (-) TimerEvent: {}
+[12.253594] (microxrcedds_agent) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/MessageHeader.cpp.o\x1b[0m\n'}
+[12.300389] (-) TimerEvent: {}
+[12.400918] (-) TimerEvent: {}
+[12.507354] (-) TimerEvent: {}
+[12.592383] (microxrcedds_agent) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/SubMessageHeader.cpp.o\x1b[0m\n'}
+[12.607468] (-) TimerEvent: {}
+[12.708388] (-) TimerEvent: {}
+[12.809754] (-) TimerEvent: {}
+[12.910502] (-) TimerEvent: {}
+[13.013250] (microxrcedds_agent) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/message/InputMessage.cpp.o\x1b[0m\n'}
+[13.014093] (-) TimerEvent: {}
+[13.114483] (-) TimerEvent: {}
+[13.215563] (-) TimerEvent: {}
+[13.261852] (microxrcedds_agent) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/message/OutputMessage.cpp.o\x1b[0m\n'}
+[13.271586] (microxrcedds_agent) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/utils/ArgumentParser.cpp.o\x1b[0m\n'}
+[13.315715] (-) TimerEvent: {}
+[13.417658] (-) TimerEvent: {}
+[13.518471] (-) TimerEvent: {}
+[13.619023] (-) TimerEvent: {}
+[13.720969] (-) TimerEvent: {}
+[13.822295] (-) TimerEvent: {}
+[13.924671] (-) TimerEvent: {}
+[14.025309] (-) TimerEvent: {}
+[14.125912] (-) TimerEvent: {}
+[14.226500] (-) TimerEvent: {}
+[14.327102] (-) TimerEvent: {}
+[14.405951] (microxrcedds_agent) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/Server.cpp.o\x1b[0m\n'}
+[14.427219] (-) TimerEvent: {}
+[14.478061] (microxrcedds_agent) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/stream_framing/StreamFramingProtocol.cpp.o\x1b[0m\n'}
+[14.527334] (-) TimerEvent: {}
+[14.627834] (-) TimerEvent: {}
+[14.731053] (-) TimerEvent: {}
+[14.823042] (microxrcedds_agent) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/custom/CustomAgent.cpp.o\x1b[0m\n'}
+[14.831132] (-) TimerEvent: {}
+[14.931469] (-) TimerEvent: {}
+[15.032065] (-) TimerEvent: {}
+[15.132666] (-) TimerEvent: {}
+[15.233342] (-) TimerEvent: {}
+[15.334003] (-) TimerEvent: {}
+[15.435474] (-) TimerEvent: {}
+[15.536062] (-) TimerEvent: {}
+[15.540100] (microxrcedds_agent) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/udp/UDPv4AgentLinux.cpp.o\x1b[0m\n'}
+[15.636178] (-) TimerEvent: {}
+[15.737528] (-) TimerEvent: {}
+[15.839452] (-) TimerEvent: {}
+[15.939967] (-) TimerEvent: {}
+[16.040928] (-) TimerEvent: {}
+[16.094162] (microxrcedds_agent) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/udp/UDPv6AgentLinux.cpp.o\x1b[0m\n'}
+[16.141042] (-) TimerEvent: {}
+[16.241762] (-) TimerEvent: {}
+[16.342355] (-) TimerEvent: {}
+[16.442881] (-) TimerEvent: {}
+[16.543839] (-) TimerEvent: {}
+[16.627338] (microxrcedds_agent) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/tcp/TCPv4AgentLinux.cpp.o\x1b[0m\n'}
+[16.643956] (-) TimerEvent: {}
+[16.745087] (-) TimerEvent: {}
+[16.847507] (-) TimerEvent: {}
+[16.948082] (-) TimerEvent: {}
+[17.048669] (-) TimerEvent: {}
+[17.149270] (-) TimerEvent: {}
+[17.249899] (-) TimerEvent: {}
+[17.351799] (-) TimerEvent: {}
+[17.452602] (-) TimerEvent: {}
+[17.553242] (-) TimerEvent: {}
+[17.655897] (-) TimerEvent: {}
+[17.738199] (microxrcedds_agent) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/tcp/TCPv6AgentLinux.cpp.o\x1b[0m\n'}
+[17.756025] (-) TimerEvent: {}
+[17.856563] (-) TimerEvent: {}
+[17.957096] (-) TimerEvent: {}
+[18.057638] (-) TimerEvent: {}
+[18.158154] (-) TimerEvent: {}
+[18.262001] (-) TimerEvent: {}
+[18.362608] (-) TimerEvent: {}
+[18.463217] (-) TimerEvent: {}
+[18.563820] (-) TimerEvent: {}
+[18.617796] (microxrcedds_agent) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/SerialAgentLinux.cpp.o\x1b[0m\n'}
+[18.663945] (-) TimerEvent: {}
+[18.765375] (-) TimerEvent: {}
+[18.865974] (-) TimerEvent: {}
+[18.966560] (-) TimerEvent: {}
+[19.067981] (-) TimerEvent: {}
+[19.168605] (-) TimerEvent: {}
+[19.270004] (-) TimerEvent: {}
+[19.370637] (-) TimerEvent: {}
+[19.471890] (-) TimerEvent: {}
+[19.572410] (-) TimerEvent: {}
+[19.672922] (-) TimerEvent: {}
+[19.774094] (-) TimerEvent: {}
+[19.874645] (-) TimerEvent: {}
+[19.976931] (-) TimerEvent: {}
+[20.077444] (-) TimerEvent: {}
+[20.187756] (-) TimerEvent: {}
+[20.289992] (-) TimerEvent: {}
+[20.314941] (microxrcedds_agent) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/TermiosAgentLinux.cpp.o\x1b[0m\n'}
+[20.390118] (-) TimerEvent: {}
+[20.479102] (microxrcedds_agent) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/MultiSerialAgentLinux.cpp.o\x1b[0m\n'}
+[20.490247] (-) TimerEvent: {}
+[20.590783] (-) TimerEvent: {}
+[20.691300] (-) TimerEvent: {}
+[20.715448] (microxrcedds_agent) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/MultiTermiosAgentLinux.cpp.o\x1b[0m\n'}
+[20.791410] (-) TimerEvent: {}
+[20.891772] (-) TimerEvent: {}
+[20.994653] (-) TimerEvent: {}
+[21.097626] (-) TimerEvent: {}
+[21.198473] (-) TimerEvent: {}
+[21.299061] (-) TimerEvent: {}
+[21.303261] (microxrcedds_agent) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/PseudoTerminalAgentLinux.cpp.o\x1b[0m\n'}
+[21.399174] (-) TimerEvent: {}
+[21.499681] (-) TimerEvent: {}
+[21.600196] (-) TimerEvent: {}
+[21.624885] (microxrcedds_agent) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/can/CanAgentLinux.cpp.o\x1b[0m\n'}
+[21.702623] (-) TimerEvent: {}
+[21.803171] (-) TimerEvent: {}
+[21.906410] (-) TimerEvent: {}
+[22.006942] (-) TimerEvent: {}
+[22.109068] (-) TimerEvent: {}
+[22.211813] (-) TimerEvent: {}
+[22.312694] (-) TimerEvent: {}
+[22.413230] (-) TimerEvent: {}
+[22.515681] (-) TimerEvent: {}
+[22.616183] (-) TimerEvent: {}
+[22.718489] (-) TimerEvent: {}
+[22.820688] (-) TimerEvent: {}
+[22.922982] (-) TimerEvent: {}
+[23.025152] (-) TimerEvent: {}
+[23.128376] (-) TimerEvent: {}
+[23.184831] (microxrcedds_agent) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/discovery/DiscoveryServerLinux.cpp.o\x1b[0m\n'}
+[23.228501] (-) TimerEvent: {}
+[23.331550] (-) TimerEvent: {}
+[23.403495] (microxrcedds_agent) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/p2p/AgentDiscovererLinux.cpp.o\x1b[0m\n'}
+[23.431667] (-) TimerEvent: {}
+[23.534398] (-) TimerEvent: {}
+[23.634912] (-) TimerEvent: {}
+[23.737721] (-) TimerEvent: {}
+[23.830173] (microxrcedds_agent) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/discovery/DiscoveryServer.cpp.o\x1b[0m\n'}
+[23.837819] (-) TimerEvent: {}
+[23.926848] (microxrcedds_agent) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/TopicPubSubType.cpp.o\x1b[0m\n'}
+[23.937936] (-) TimerEvent: {}
+[24.038587] (-) TimerEvent: {}
+[24.139230] (-) TimerEvent: {}
+[24.239810] (-) TimerEvent: {}
+[24.340393] (-) TimerEvent: {}
+[24.441022] (-) TimerEvent: {}
+[24.541970] (-) TimerEvent: {}
+[24.593480] (microxrcedds_agent) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/xmlobjects/xmlobjects.cpp.o\x1b[0m\n'}
+[24.642084] (-) TimerEvent: {}
+[24.742590] (-) TimerEvent: {}
+[24.843926] (-) TimerEvent: {}
+[24.944857] (-) TimerEvent: {}
+[25.045418] (-) TimerEvent: {}
+[25.145915] (-) TimerEvent: {}
+[25.246881] (-) TimerEvent: {}
+[25.349030] (-) TimerEvent: {}
+[25.431041] (microxrcedds_agent) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fast/FastEntities.cpp.o\x1b[0m\n'}
+[25.449441] (-) TimerEvent: {}
+[25.552996] (-) TimerEvent: {}
+[25.653498] (-) TimerEvent: {}
+[25.698748] (microxrcedds_agent) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fast/FastMiddleware.cpp.o\x1b[0m\n'}
+[25.753598] (-) TimerEvent: {}
+[25.797318] (microxrcedds_agent) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fastdds/FastDDSEntities.cpp.o\x1b[0m\n'}
+[25.853710] (-) TimerEvent: {}
+[25.954222] (-) TimerEvent: {}
+[26.056891] (-) TimerEvent: {}
+[26.057507] (microxrcedds_agent) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fastdds/FastDDSMiddleware.cpp.o\x1b[0m\n'}
+[26.106333] (microxrcedds_agent) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/ced/CedEntities.cpp.o\x1b[0m\n'}
+[26.157005] (-) TimerEvent: {}
+[26.257608] (-) TimerEvent: {}
+[26.360206] (-) TimerEvent: {}
+[26.460833] (-) TimerEvent: {}
+[26.563102] (-) TimerEvent: {}
+[26.663696] (-) TimerEvent: {}
+[26.764306] (-) TimerEvent: {}
+[26.865245] (-) TimerEvent: {}
+[26.971815] (-) TimerEvent: {}
+[27.072415] (-) TimerEvent: {}
+[27.152852] (microxrcedds_agent) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/ced/CedMiddleware.cpp.o\x1b[0m\n'}
+[27.172534] (-) TimerEvent: {}
+[27.273167] (-) TimerEvent: {}
+[27.373868] (-) TimerEvent: {}
+[27.474551] (-) TimerEvent: {}
+[27.575169] (-) TimerEvent: {}
+[27.639762] (microxrcedds_agent) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/p2p/AgentDiscoverer.cpp.o\x1b[0m\n'}
+[27.675285] (-) TimerEvent: {}
+[27.735223] (microxrcedds_agent) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/p2p/InternalClientManager.cpp.o\x1b[0m\n'}
+[27.775420] (-) TimerEvent: {}
+[27.805688] (microxrcedds_agent) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/p2p/InternalClient.cpp.o\x1b[0m\n'}
+[27.875531] (-) TimerEvent: {}
+[27.976029] (-) TimerEvent: {}
+[28.076551] (-) TimerEvent: {}
+[28.180821] (-) TimerEvent: {}
+[28.281331] (-) TimerEvent: {}
+[28.381814] (-) TimerEvent: {}
+[28.482310] (-) TimerEvent: {}
+[28.582814] (-) TimerEvent: {}
+[28.683408] (-) TimerEvent: {}
+[28.784022] (-) TimerEvent: {}
+[28.886060] (-) TimerEvent: {}
+[28.986661] (-) TimerEvent: {}
+[29.087500] (-) TimerEvent: {}
+[29.188234] (-) TimerEvent: {}
+[29.288818] (-) TimerEvent: {}
+[29.389172] (-) TimerEvent: {}
+[29.489527] (-) TimerEvent: {}
+[29.589890] (-) TimerEvent: {}
+[29.690536] (-) TimerEvent: {}
+[29.792080] (-) TimerEvent: {}
+[29.892421] (-) TimerEvent: {}
+[29.992783] (-) TimerEvent: {}
+[30.093119] (-) TimerEvent: {}
+[30.196079] (-) TimerEvent: {}
+[30.296581] (-) TimerEvent: {}
+[30.397107] (-) TimerEvent: {}
+[30.497453] (-) TimerEvent: {}
+[30.597760] (-) TimerEvent: {}
+[30.698310] (-) TimerEvent: {}
+[30.799056] (-) TimerEvent: {}
+[30.899500] (-) TimerEvent: {}
+[30.999875] (-) TimerEvent: {}
+[31.100418] (-) TimerEvent: {}
+[31.200820] (-) TimerEvent: {}
+[31.301335] (-) TimerEvent: {}
+[31.401631] (-) TimerEvent: {}
+[31.501887] (-) TimerEvent: {}
+[31.602165] (-) TimerEvent: {}
+[31.702610] (-) TimerEvent: {}
+[31.803091] (-) TimerEvent: {}
+[31.903432] (-) TimerEvent: {}
+[32.003725] (-) TimerEvent: {}
+[32.104021] (-) TimerEvent: {}
+[32.204326] (-) TimerEvent: {}
+[32.304662] (-) TimerEvent: {}
+[32.404962] (-) TimerEvent: {}
+[32.505276] (-) TimerEvent: {}
+[32.605572] (-) TimerEvent: {}
+[32.705826] (-) TimerEvent: {}
+[32.806169] (-) TimerEvent: {}
+[32.906485] (-) TimerEvent: {}
+[33.006792] (-) TimerEvent: {}
+[33.107080] (-) TimerEvent: {}
+[33.207409] (-) TimerEvent: {}
+[33.307713] (-) TimerEvent: {}
+[33.407972] (-) TimerEvent: {}
+[33.508235] (-) TimerEvent: {}
+[33.608479] (-) TimerEvent: {}
+[33.708777] (-) TimerEvent: {}
+[33.809066] (-) TimerEvent: {}
+[33.887752] (microxrcedds_agent) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX shared library libmicroxrcedds_agent.so\x1b[0m\n'}
+[33.909164] (-) TimerEvent: {}
+[34.009466] (-) TimerEvent: {}
+[34.109809] (-) TimerEvent: {}
+[34.173165] (microxrcedds_agent) StdoutLine: {'line': b'[ 96%] Built target microxrcedds_agent\n'}
+[34.191158] (microxrcedds_agent) StdoutLine: {'line': b'[ 98%] \x1b[32mBuilding CXX object CMakeFiles/MicroXRCEAgent.dir/microxrce_agent.cpp.o\x1b[0m\n'}
+[34.209909] (-) TimerEvent: {}
+[34.310279] (-) TimerEvent: {}
+[34.410583] (-) TimerEvent: {}
+[34.510867] (-) TimerEvent: {}
+[34.611169] (-) TimerEvent: {}
+[34.711433] (-) TimerEvent: {}
+[34.811678] (-) TimerEvent: {}
+[34.911925] (-) TimerEvent: {}
+[35.012180] (-) TimerEvent: {}
+[35.088852] (microxrcedds_agent) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable MicroXRCEAgent\x1b[0m\n'}
+[35.112285] (-) TimerEvent: {}
+[35.212609] (-) TimerEvent: {}
+[35.227365] (microxrcedds_agent) StdoutLine: {'line': b'[100%] Built target MicroXRCEAgent\n'}
+[35.249760] (microxrcedds_agent) StdoutLine: {'line': b"\x1b[34m\x1b[1mNo install step for 'uagent'\x1b[0m\n"}
+[35.269476] (microxrcedds_agent) StdoutLine: {'line': b"\x1b[34m\x1b[1mCompleted 'uagent'\x1b[0m\n"}
+[35.295755] (microxrcedds_agent) StdoutLine: {'line': b'Built target uagent\n'}
+[35.305166] (microxrcedds_agent) CommandEnded: {'returncode': 0}
+[35.305708] (microxrcedds_agent) JobProgress: {'identifier': 'microxrcedds_agent', 'progress': 'install'}
+[35.305961] (microxrcedds_agent) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent'], 'cwd': '/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'avmi-lab-user'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_msgs/lib:/home/avmi-lab-user/turtlebot4_ws/install/rviz_visual_tools/lib:/home/avmi-lab-user/turtlebot4_ws/install/image_geometry/lib:/home/avmi-lab-user/turtlebot4_ws/install/cv_bridge/lib:/home/avmi-lab-user/turtlebot4_ws/install/avmi_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/avmi-lab-user'), ('OLDPWD', '/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2078'), ('SYSTEMD_EXEC_PID', '2265'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '762744'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/avmi-lab-user/turtlebot4_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'avmi-lab-user'), ('JOURNAL_STREAM', '8:13064'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'avmi-lab-user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/avmi-lab-user/.pixi/bin:/opt/ros/humble/bin:/home/avmi-lab-user/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/avmi-lab-user/ardu_ws/Micro-XRCE-DDS-Gen/scripts'), ('SESSION_MANAGER', 'local/AVMI-LAB-RUGGED:@/tmp/.ICE-unix/2234,unix/AVMI-LAB-RUGGED:/tmp/.ICE-unix/2234'), ('INVOCATION_ID', 'c1e0751870c940d3af0d0c59a8166ef4'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.BGDM72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/avmi-lab-user/turtlebot4_ws/install/vision_opencv:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_simulator:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_ignition_bringup:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_node:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_navigation:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_ignition_toolbox:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_msgs:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_ignition_gui_plugins:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_description:/home/avmi-lab-user/turtlebot4_ws/install/rviz_visual_tools:/home/avmi-lab-user/turtlebot4_ws/install/py_sub:/home/avmi-lab-user/turtlebot4_ws/install/path_pubsub:/home/avmi-lab-user/turtlebot4_ws/install/opencv_tests:/home/avmi-lab-user/turtlebot4_ws/install/image_geometry:/home/avmi-lab-user/turtlebot4_ws/install/cv_bridge:/home/avmi-lab-user/turtlebot4_ws/install/avmi_lab_threat_field:/home/avmi-lab-user/turtlebot4_ws/install/avmi_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:02eb8f05-99bf-4f96-a9a7-792828838ed4'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_navigation/local/lib/python3.10/dist-packages:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_msgs/local/lib/python3.10/dist-packages:/home/avmi-lab-user/turtlebot4_ws/install/py_sub/lib/python3.10/site-packages:/home/avmi-lab-user/turtlebot4_ws/install/path_pubsub/lib/python3.10/site-packages:/home/avmi-lab-user/turtlebot4_ws/install/opencv_tests/lib/python3.10/site-packages:/home/avmi-lab-user/turtlebot4_ws/install/image_geometry/local/lib/python3.10/dist-packages:/home/avmi-lab-user/turtlebot4_ws/install/cv_bridge/local/lib/python3.10/dist-packages:/home/avmi-lab-user/turtlebot4_ws/install/avmi_lab_threat_field/lib/python3.10/site-packages:/home/avmi-lab-user/turtlebot4_ws/install/avmi_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/avmi-lab-user/turtlebot4_ws/install/vision_opencv:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_simulator:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_ignition_bringup:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_node:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_navigation:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_ignition_toolbox:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_msgs:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_ignition_gui_plugins:/home/avmi-lab-user/turtlebot4_ws/install/turtlebot4_description:/home/avmi-lab-user/turtlebot4_ws/install/rviz_visual_tools:/home/avmi-lab-user/turtlebot4_ws/install/image_geometry:/home/avmi-lab-user/turtlebot4_ws/install/cv_bridge:/home/avmi-lab-user/turtlebot4_ws/install/avmi_interfaces')]), 'shell': False}
+[35.312422] (microxrcedds_agent) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[35.312604] (-) TimerEvent: {}
+[35.312714] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/lib/libmicroxrcedds_agent.so.2.4.2\n'}
+[35.314400] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/lib/libmicroxrcedds_agent.so.2.4\n'}
+[35.314571] (microxrcedds_agent) StdoutLine: {'line': b'-- Set runtime path of "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/lib/libmicroxrcedds_agent.so.2.4.2" to ""\n'}
+[35.314630] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/lib/libmicroxrcedds_agent.so\n'}
+[35.314689] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent\n'}
+[35.314810] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/reader\n'}
+[35.314871] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/reader/Reader.hpp\n'}
+[35.314934] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/datawriter\n'}
+[35.314983] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/datawriter/DataWriter.hpp\n'}
+[35.315037] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/datareader\n'}
+[35.315087] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/datareader/DataReader.hpp\n'}
+[35.315139] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/replier\n'}
+[35.315208] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/replier/Replier.hpp\n'}
+[35.315264] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/publisher\n'}
+[35.315343] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/publisher/Publisher.hpp\n'}
+[35.315401] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/processor\n'}
+[35.315454] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/processor/Processor.hpp\n'}
+[35.315532] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/subscriber\n'}
+[35.315590] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/subscriber/Subscriber.hpp\n'}
+[35.315647] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/requester\n'}
+[35.315707] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/requester/Requester.hpp\n'}
+[35.315800] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/p2p\n'}
+[35.315860] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/p2p/InternalClient.hpp\n'}
+[35.315913] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/p2p/InternalClientManager.hpp\n'}
+[35.315966] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/client\n'}
+[35.316007] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/client/session\n'}
+[35.316062] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/client/session/SessionInfo.hpp\n'}
+[35.316133] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/client/session/stream\n'}
+[35.316173] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/client/session/stream/InputStream.hpp\n'}
+[35.316234] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/client/session/stream/OutputStream.hpp\n'}
+[35.316303] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/client/session/Session.hpp\n'}
+[35.316383] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/client/ProxyClient.hpp\n'}
+[35.316471] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/scheduler\n'}
+[35.316542] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/scheduler/PacketScheduler.hpp\n'}
+[35.316604] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/scheduler/Scheduler.hpp\n'}
+[35.316655] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/middleware\n'}
+[35.316766] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/middleware/Middleware.hpp\n'}
+[35.316826] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/middleware/ced\n'}
+[35.316882] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/middleware/ced/CedMiddleware.hpp\n'}
+[35.316937] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/middleware/ced/CedEntities.hpp\n'}
+[35.316986] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/middleware/utils\n'}
+[35.317076] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/middleware/utils/Callbacks.hpp\n'}
+[35.317165] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/middleware/fast\n'}
+[35.317217] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/middleware/fast/FastMiddleware.hpp\n'}
+[35.317273] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/middleware/fast/FastEntities.hpp\n'}
+[35.317371] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/middleware/fastdds\n'}
+[35.317488] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/middleware/fastdds/FastDDSEntities.hpp\n'}
+[35.317533] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/middleware/fastdds/FastDDSMiddleware.hpp\n'}
+[35.317582] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/participant\n'}
+[35.317630] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/participant/Participant.hpp\n'}
+[35.317692] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/message\n'}
+[35.318000] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/message/InputMessage.hpp\n'}
+[35.318087] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/message/Packet.hpp\n'}
+[35.318140] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/message/OutputMessage.hpp\n'}
+[35.318191] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/topic\n'}
+[35.318327] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/topic/Topic.hpp\n'}
+[35.318395] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/object\n'}
+[35.318455] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/object/XRCEObject.hpp\n'}
+[35.318514] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport\n'}
+[35.318566] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/endpoint\n'}
+[35.318670] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/endpoint/IPv4EndPoint.hpp\n'}
+[35.318736] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/endpoint/CanEndPoint.hpp\n'}
+[35.318806] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/endpoint/IPv6EndPoint.hpp\n'}
+[35.318853] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/endpoint/SerialEndPoint.hpp\n'}
+[35.318898] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/endpoint/CustomEndPoint.hpp\n'}
+[35.318999] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/endpoint/MultiSerialEndPoint.hpp\n'}
+[35.319041] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/p2p\n'}
+[35.319088] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/p2p/AgentDiscoverer.hpp\n'}
+[35.319171] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/p2p/AgentDiscovererLinux.hpp\n'}
+[35.319210] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/can\n'}
+[35.319245] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/can/CanAgentLinux.hpp\n'}
+[35.319323] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/stream_framing\n'}
+[35.319375] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/stream_framing/StreamFramingProtocol.hpp\n'}
+[35.319426] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/Server.hpp\n'}
+[35.319475] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/SessionManager.hpp\n'}
+[35.319525] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/util\n'}
+[35.319571] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/util/InterfaceWindows.hpp\n'}
+[35.319606] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/util/InterfaceLinux.hpp\n'}
+[35.319640] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/custom\n'}
+[35.319675] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/custom/CustomAgent.hpp\n'}
+[35.319773] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/tcp\n'}
+[35.319815] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/tcp/TCPv4AgentWindows.hpp\n'}
+[35.319852] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/tcp/TCPv4AgentLinux.hpp\n'}
+[35.319901] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/tcp/TCPConnection.hpp\n'}
+[35.319940] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/tcp/TCPv6AgentWindows.hpp\n'}
+[35.319975] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/tcp/TCPv6AgentLinux.hpp\n'}
+[35.320035] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/tcp/TCPServerBase.hpp\n'}
+[35.320071] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/TransportRc.hpp\n'}
+[35.320109] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/serial\n'}
+[35.320146] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/serial/PseudoTerminalAgentLinux.hpp\n'}
+[35.320182] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/serial/baud_rate_table_linux.h\n'}
+[35.320244] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/serial/TermiosAgentLinux.hpp\n'}
+[35.320280] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/serial/SerialAgentLinux.hpp\n'}
+[35.320316] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/serial/MultiSerialAgentLinux.hpp\n'}
+[35.320362] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/serial/MultiTermiosAgentLinux.hpp\n'}
+[35.320405] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/discovery\n'}
+[35.320465] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/discovery/DiscoveryServerWindows.hpp\n'}
+[35.320545] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/discovery/DiscoveryServer.hpp\n'}
+[35.320586] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/discovery/DiscoveryServerLinux.hpp\n'}
+[35.320634] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/udp\n'}
+[35.320683] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/udp/UDPv4AgentWindows.hpp\n'}
+[35.320734] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/udp/UDPv6AgentLinux.hpp\n'}
+[35.320834] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/udp/UDPv4AgentLinux.hpp\n'}
+[35.320907] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/transport/udp/UDPv6AgentWindows.hpp\n'}
+[35.320982] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/types\n'}
+[35.321057] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/types/TopicPubSubType.hpp\n'}
+[35.321150] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/types/Optional.hpp\n'}
+[35.321211] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/types/XRCETypes.hpp\n'}
+[35.321273] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/types/MessageHeader.hpp\n'}
+[35.321333] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/types/SubMessageHeader.hpp\n'}
+[35.321379] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/utils\n'}
+[35.321436] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/utils/Functions.hpp\n'}
+[35.321495] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/utils/TokenBucket.hpp\n'}
+[35.321558] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/utils/Conversion.hpp\n'}
+[35.321614] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/utils/SharedMutex.hpp\n'}
+[35.321655] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/utils/SeqNum.hpp\n'}
+[35.321722] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/utils/Color.hpp\n'}
+[35.321794] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/utils/ArgumentParser.hpp\n'}
+[35.321841] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/utils/Time.hpp\n'}
+[35.321887] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/utils/SharedMutexPriority.hpp\n'}
+[35.321946] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/logger\n'}
+[35.321981] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/logger/Logger.hpp\n'}
+[35.322138] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/AgentInstance.hpp\n'}
+[35.322395] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/Agent.hpp\n'}
+[35.322472] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/visibility.hpp\n'}
+[35.322540] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/Root.hpp\n'}
+[35.322634] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/share/microxrcedds_agent/cmake/microxrcedds_agentTargets.cmake\n'}
+[35.322728] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/share/microxrcedds_agent/cmake/microxrcedds_agentTargets-release.cmake\n'}
+[35.322912] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/bin/MicroXRCEAgent\n'}
+[35.323079] (microxrcedds_agent) StdoutLine: {'line': b'-- Set runtime path of "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/bin/MicroXRCEAgent" to ""\n'}
+[35.323166] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/agent/config.hpp\n'}
+[35.323245] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/share/microxrcedds_agent/LICENSE\n'}
+[35.323359] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/share/microxrcedds_agent/cmake/microxrcedds_agentConfig.cmake\n'}
+[35.323455] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/share/microxrcedds_agent/cmake/microxrcedds_agentConfigVersion.cmake\n'}
+[35.323569] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent\n'}
+[35.323673] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/share\n'}
+[35.323752] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/share/microxrcedds_client\n'}
+[35.323830] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/share/microxrcedds_client/cmake\n'}
+[35.323895] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/share/microxrcedds_client/cmake/microxrcedds_clientConfigVersion.cmake\n'}
+[35.323979] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/share/microxrcedds_client/cmake/microxrcedds_clientTargets.cmake\n'}
+[35.324043] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/share/microxrcedds_client/cmake/microxrcedds_clientConfig.cmake\n'}
+[35.324112] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/share/microxrcedds_client/cmake/microxrcedds_clientTargets-release.cmake\n'}
+[35.324199] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/lib\n'}
+[35.324265] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/lib/libmicroxrcedds_client.so.2.4\n'}
+[35.324324] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/lib/libmicroxrcedds_client.so\n'}
+[35.324381] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/lib/libmicroxrcedds_client.so.2.4.2\n'}
+[35.324463] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include\n'}
+[35.324525] (microxrcedds_agent) StdoutLine: {'line': b'-- Up-to-date: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr\n'}
+[35.324588] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/client\n'}
+[35.324661] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/client/defines.h\n'}
+[35.324723] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/client/transport.h\n'}
+[35.324807] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/client/client.h\n'}
+[35.324870] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/client/profile\n'}
+[35.324959] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/client/profile/transport\n'}
+[35.325027] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/can\n'}
+[35.325090] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/can/can_transport.h\n'}
+[35.325165] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/can/can_transport_posix.h\n'}
+[35.325237] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/ip\n'}
+[35.325296] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/ip.h\n'}
+[35.325379] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/tcp\n'}
+[35.325441] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/tcp/tcp_transport_rtems_bsd_net.h\n'}
+[35.325522] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/tcp/tcp_transport_freertos_plus_tcp.h\n'}
+[35.325585] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/tcp/tcp_transport_posix_nopoll.h\n'}
+[35.325663] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/tcp/tcp_transport.h\n'}
+[35.325753] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/tcp/tcp_transport_windows.h\n'}
+[35.325832] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/tcp/tcp_transport_posix.h\n'}
+[35.325946] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/udp\n'}
+[35.326395] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/udp/udp_transport_freertos_plus_tcp.h\n'}
+[35.326524] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/udp/udp_transport_windows.h\n'}
+[35.326591] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/udp/udp_transport_rtems_bsd_net.h\n'}
+[35.326652] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/udp/udp_transport.h\n'}
+[35.326711] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/udp/udp_transport_posix.h\n'}
+[35.326838] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/ip/udp/udp_transport_posix_nopoll.h\n'}
+[35.326917] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/stream_framing\n'}
+[35.326981] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/stream_framing/stream_framing_protocol.h\n'}
+[35.327045] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/custom\n'}
+[35.327106] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/custom/custom_transport.h\n'}
+[35.327190] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/serial\n'}
+[35.327250] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/serial/serial_transport.h\n'}
+[35.327311] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/serial/serial_transport_platform.h\n'}
+[35.327388] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/serial/serial_transport_rtems_bsd_net.h\n'}
+[35.327463] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/client/profile/transport/serial/serial_transport_posix.h\n'}
+[35.327541] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/client/profile/multithread\n'}
+[35.327602] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/client/profile/multithread/multithread.h\n'}
+[35.327662] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/client/profile/discovery\n'}
+[35.327721] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/client/profile/discovery/discovery.h\n'}
+[35.327803] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/client/visibility.h\n'}
+[35.327873] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/client/config.h\n'}
+[35.327932] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/client/util\n'}
+[35.327991] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/client/util/ping.h\n'}
+[35.328052] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/client/util/time.h\n'}
+[35.328127] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/client/core\n'}
+[35.328183] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/client/core/type\n'}
+[35.328250] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/client/core/type/xrce_types.h\n'}
+[35.328322] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/client/core/communication\n'}
+[35.328382] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/client/core/communication/communication.h\n'}
+[35.328442] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/client/core/session\n'}
+[35.328510] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/client/core/session/object_id.h\n'}
+[35.328570] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/client/core/session/create_entities_bin.h\n'}
+[35.328629] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/client/core/session/time_sync.h\n'}
+[35.328688] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/client/core/session/create_entities_ref.h\n'}
+[35.328752] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/client/core/session/read_access.h\n'}
+[35.328833] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/client/core/session/session_info.h\n'}
+[35.328892] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/client/core/session/stream\n'}
+[35.328951] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/client/core/session/stream/output_best_effort_stream.h\n'}
+[35.329011] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/client/core/session/stream/reliable_stream.h\n'}
+[35.329089] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/client/core/session/stream/output_reliable_stream.h\n'}
+[35.329149] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/client/core/session/stream/seq_num.h\n'}
+[35.329208] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/client/core/session/stream/input_reliable_stream.h\n'}
+[35.329279] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/client/core/session/stream/stream_id.h\n'}
+[35.329340] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/client/core/session/stream/input_best_effort_stream.h\n'}
+[35.329412] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/client/core/session/stream/stream_storage.h\n'}
+[35.329473] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/client/core/session/create_entities_xml.h\n'}
+[35.329543] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/client/core/session/session.h\n'}
+[35.329594] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/client/core/session/write_access.h\n'}
+[35.329648] (microxrcedds_agent) StdoutLine: {'line': b'-- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/microxrcedds_agent/include/uxr/client/core/session/common_create_entities.h\n'}
+[35.331536] (microxrcedds_agent) CommandEnded: {'returncode': 0}
+[35.341627] (microxrcedds_agent) JobEnded: {'identifier': 'microxrcedds_agent', 'rc': 0}
+[35.342249] (-) EventReactorShutdown: {}

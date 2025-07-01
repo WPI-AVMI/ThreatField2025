@@ -48,25 +48,34 @@ class MinimalPublisher(Node):
         return C
 
 
-    def translation(self,X,Y,Z,T):
+    def normalizer(self,X,Y,Z,T):
         return [X,Y,Z,T]
     
     def Grad_calc(self,XX,YY,ZZ,TT,CC):
-            Dx = XX[4]
-            Dy = YY[4]
-            Dz = ZZ[4]
-            Dt = TT[4]
-            return [Dx,Dy,Dz,Dt]
+        try:
+            DRi = np.transpose([np.subtract(XX[:-1],XX[-1]),np.subtract(YY[:-1],YY[-1]),
+                    np.subtract(ZZ[:-1],ZZ[-1]),np.subtract(TT[:-1],TT[-1])])
+            
+            W = np.diag(1/(np.linalg.norm(DRi,axis=1)**2))**2
+            c_matrix = (np.subtract(CC[:-1],CC[-1]))
+            l_mat = np.matmul(np.matmul(np.transpose(DRi),W),DRi)
+            r_mat = np.matmul(np.matmul(np.transpose(DRi),W),c_matrix)
+            Grad  = np.linalg.solve(l_mat, r_mat)
+        
+            return Grad
+        
+        except np.linalg.LinAlgError:
+            return []
 
     def callback_fun(self, msg):
 
 
-        Norm = self.translation(msg.x,msg.y,msg.z,msg.t)
+        Norm = self.normalizer(msg.x,msg.y,msg.z,msg.t)
         X = Norm[0]
         Y = Norm[1]
         Z = Norm[2]
         T = Norm[3]
-
+      
 
         Xq.append(X)
         Yq.append(Y)
@@ -82,12 +91,16 @@ class MinimalPublisher(Node):
            TT = list(Tq)
            CC = list(Cq)
            Grad = self.Grad_calc(XX,YY,ZZ,TT,CC)
-           self.sensor.dx = Grad[0]
-           self.sensor.dy = Grad[1]
-           self.sensor.dz = Grad[2]
-           self.sensor.dt = Grad[3]
-           self.publisher_.publish(self.sensor)
-           self.get_logger().info('Publishing: dc/x: %f dc/dy: %f dc/dz: %f dc/dt: %f'  % (Grad[0], Grad[1],Grad[2], Grad[3]))
+
+           if Grad == []:
+               self.get_logger().info('Error publishing Linear Solve Matrix Singularity'  )
+           else: 
+                self.sensor.dx = Grad[0]
+                self.sensor.dy = Grad[1]
+                self.sensor.dz = Grad[2]
+                self.sensor.dt = Grad[3]
+                self.publisher_.publish(self.sensor)
+                self.get_logger().info('Publishing: dc/dx: %f dc/dy: %f dc/dz: %f dc/dt: %f'  % (Grad[0], Grad[1],Grad[2], Grad[3]))
 
 
         
