@@ -1,0 +1,4 @@
+Invoking command in '/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent': /usr/bin/cmake --build /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent -- -j8 -l8
+Invoked command in '/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent' returned '0': /usr/bin/cmake --build /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent -- -j8 -l8
+Invoking command in '/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent': /usr/bin/cmake --install /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent
+Invoked command in '/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent' returned '0': /usr/bin/cmake --install /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/microxrcedds_agent
