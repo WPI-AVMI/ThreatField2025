@@ -1,0 +1,16 @@
+/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/draw_flight_mode/lib/draw_flight_mode/draw_r
+/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/draw_flight_mode/share/ament_index/resource_index/package_run_dependencies/draw_flight_mode
+/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/draw_flight_mode/share/ament_index/resource_index/parent_prefix_path/draw_flight_mode
+/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/draw_flight_mode/share/draw_flight_mode/environment/ament_prefix_path.sh
+/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/draw_flight_mode/share/draw_flight_mode/environment/ament_prefix_path.dsv
+/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/draw_flight_mode/share/draw_flight_mode/environment/path.sh
+/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/draw_flight_mode/share/draw_flight_mode/environment/path.dsv
+/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/draw_flight_mode/share/draw_flight_mode/local_setup.bash
+/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/draw_flight_mode/share/draw_flight_mode/local_setup.sh
+/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/draw_flight_mode/share/draw_flight_mode/local_setup.zsh
+/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/draw_flight_mode/share/draw_flight_mode/local_setup.dsv
+/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/draw_flight_mode/share/draw_flight_mode/package.dsv
+/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/draw_flight_mode/share/ament_index/resource_index/packages/draw_flight_mode
+/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/draw_flight_mode/share/draw_flight_mode/cmake/draw_flight_modeConfig.cmake
+/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/draw_flight_mode/share/draw_flight_mode/cmake/draw_flight_modeConfig-version.cmake
+/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/draw_flight_mode/share/draw_flight_mode/package.xml

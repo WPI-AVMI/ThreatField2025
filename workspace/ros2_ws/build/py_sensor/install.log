@@ -4,7 +4,6 @@
 /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_sensor/lib/python3.10/site-packages/py_sensor/sensor_client.py
 /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_sensor/lib/python3.10/site-packages/py_sensor/service_member_function.py
 /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_sensor/lib/python3.10/site-packages/py_sensor/numsub.py
-/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_sensor/lib/python3.10/site-packages/py_sensor/FakeTele.py
 /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_sensor/lib/python3.10/site-packages/py_sensor/client_member_function.py
 /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_sensor/lib/python3.10/site-packages/py_sensor/sensor_node.py
 /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_sensor/lib/python3.10/site-packages/py_sensor/__pycache__/zx.cpython-310.pyc
@@ -13,7 +12,6 @@
 /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_sensor/lib/python3.10/site-packages/py_sensor/__pycache__/sensor_client.cpython-310.pyc
 /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_sensor/lib/python3.10/site-packages/py_sensor/__pycache__/service_member_function.cpython-310.pyc
 /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_sensor/lib/python3.10/site-packages/py_sensor/__pycache__/numsub.cpython-310.pyc
-/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_sensor/lib/python3.10/site-packages/py_sensor/__pycache__/FakeTele.cpython-310.pyc
 /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_sensor/lib/python3.10/site-packages/py_sensor/__pycache__/client_member_function.cpython-310.pyc
 /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_sensor/lib/python3.10/site-packages/py_sensor/__pycache__/sensor_node.cpython-310.pyc
 /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_sensor/share/ament_index/resource_index/packages/py_sensor

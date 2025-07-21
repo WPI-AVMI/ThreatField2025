@@ -1,0 +1,8 @@
+source;share/draw_flight_mode/hook/cmake_prefix_path.ps1
+source;share/draw_flight_mode/hook/cmake_prefix_path.dsv
+source;share/draw_flight_mode/hook/cmake_prefix_path.sh
+source;share/draw_flight_mode/local_setup.bash
+source;share/draw_flight_mode/local_setup.dsv
+source;share/draw_flight_mode/local_setup.ps1
+source;share/draw_flight_mode/local_setup.sh
+source;share/draw_flight_mode/local_setup.zsh

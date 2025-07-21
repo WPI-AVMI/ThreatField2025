@@ -1,7 +1,6 @@
 {
   "package_name": "interface",
   "non_idl_tuples": [
-    "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/src/interface:msg/Sensor.msg",
-    "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/src/interface:msg/FakeData.msg"
+    "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/src/interface:msg/Sensor.msg"
   ]
 }

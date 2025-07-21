@@ -1,6 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/msg/_fake_data_s.c.o"
-  "CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/msg/_fake_data_s.c.o.d"
   "CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/msg/_sensor_s.c.o"
   "CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/msg/_sensor_s.c.o.d"
   "rosidl_generator_py/interface/libinterface__rosidl_generator_py.pdb"

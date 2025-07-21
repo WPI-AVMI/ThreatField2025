@@ -1,9 +1,13 @@
 import rclpy
 from rclpy.node import Node
 from interface.msg import Sensor
-from interface.msg import FakeData
 import numpy as np
 from collections import deque
+
+from rclpy.qos import QoSProfile, ReliabilityPolicy, HistoryPolicy, DurabilityPolicy
+from px4_msgs.msg import OffboardControlMode, TrajectorySetpoint, VehicleCommand, VehicleLocalPosition, VehicleStatus
+
+
 
 Xq = deque(maxlen=8)
 Yq = deque(maxlen=8)
@@ -15,8 +19,14 @@ class MinimalPublisher(Node):
 
     def __init__(self):
         super().__init__('minimal_publisher')
+        qos_profile = QoSProfile(
+            reliability=ReliabilityPolicy.BEST_EFFORT,
+            durability=DurabilityPolicy.TRANSIENT_LOCAL,
+            history=HistoryPolicy.KEEP_LAST,
+            depth=5
+        )
         self.publisher_ = self.create_publisher(Sensor, 'Sensor', 10)
-        self.subscription = self.create_subscription(FakeData,'topic' ,self.callback_fun,10)
+        self.subscription = self.create_subscription(VehicleLocalPosition,'/fmu/out/vehicle_local_position' ,self.callback_fun,qos_profile)
         self.sensor = Sensor()
             
     
@@ -49,7 +59,15 @@ class MinimalPublisher(Node):
 
 
     def normalizer(self,X,Y,Z,T):
-        return [X,Y,Z,T]
+
+
+        NX = X
+        NY = Y
+        NZ = Z*(-1)
+        NT = T/(10**6)
+        print(T)
+        print(NT)
+        return [NX,NY,NZ,NT]
     
     def Grad_calc(self,XX,YY,ZZ,TT,CC):
         try:
@@ -69,38 +87,39 @@ class MinimalPublisher(Node):
 
     def callback_fun(self, msg):
 
+    
 
-        Norm = self.normalizer(msg.x,msg.y,msg.z,msg.t)
+        Norm = self.normalizer(msg.x,msg.y,msg.z,msg.timestamp)
         X = Norm[0]
         Y = Norm[1]
         Z = Norm[2]
         T = Norm[3]
-      
-
-        Xq.append(X)
-        Yq.append(Y)
-        Zq.append(Z)
-        Tq.append(T)
-        Cq.append(self.Concentration_calc(X,Y,Z,T))
 
 
-        if len(Cq) == 8:
-           XX = list(Xq)
-           YY = list(Yq)
-           ZZ = list(Zq)
-           TT = list(Tq)
-           CC = list(Cq)
-           Grad = self.Grad_calc(XX,YY,ZZ,TT,CC)
+        # Xq.append(X)
+        # Yq.append(Y)
+        # Zq.append(Z)
+        # Tq.append(T)
+        # Cq.append(self.Concentration_calc(X,Y,Z,T))
 
-           if Grad == []:
-               self.get_logger().info('Error publishing Linear Solve Matrix Singularity'  )
-           else: 
-                self.sensor.dx = Grad[0]
-                self.sensor.dy = Grad[1]
-                self.sensor.dz = Grad[2]
-                self.sensor.dt = Grad[3]
-                self.publisher_.publish(self.sensor)
-                self.get_logger().info('Publishing: dc/dx: %f dc/dy: %f dc/dz: %f dc/dt: %f'  % (Grad[0], Grad[1],Grad[2], Grad[3]))
+
+        # if len(Cq) == 8:
+        #    XX = list(Xq)
+        #    YY = list(Yq)
+        #    ZZ = list(Zq)
+        #    TT = list(Tq)
+        #    CC = list(Cq)
+        #    Grad = self.Grad_calc(XX,YY,ZZ,TT,CC)
+
+        #    if Grad == []:
+        #        self.get_logger().info('Error publishing Linear Solve Matrix Singularity'  )
+        #    else: 
+        #         self.sensor.dx = Grad[0]
+        #         self.sensor.dy = Grad[1]
+        #         self.sensor.dz = Grad[2]
+        #         self.sensor.dt = Grad[3]
+        #         self.publisher_.publish(self.sensor)
+        #         self.get_logger().info('Publishing: dc/dx: %f dc/dy: %f dc/dz: %f dc/dt: %f'  % (Grad[0], Grad[1],Grad[2], Grad[3]))
 
 
         

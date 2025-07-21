@@ -1,12 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interface/msg/detail/fake_data__type_support.cpp.o"
-  "CMakeFiles/interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interface/msg/detail/fake_data__type_support.cpp.o.d"
   "CMakeFiles/interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interface/msg/detail/sensor__type_support.cpp.o"
   "CMakeFiles/interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interface/msg/detail/sensor__type_support.cpp.o.d"
   "libinterface__rosidl_typesupport_introspection_cpp.pdb"
   "libinterface__rosidl_typesupport_introspection_cpp.so"
-  "rosidl_typesupport_introspection_cpp/interface/msg/detail/fake_data__rosidl_typesupport_introspection_cpp.hpp"
-  "rosidl_typesupport_introspection_cpp/interface/msg/detail/fake_data__type_support.cpp"
   "rosidl_typesupport_introspection_cpp/interface/msg/detail/sensor__rosidl_typesupport_introspection_cpp.hpp"
   "rosidl_typesupport_introspection_cpp/interface/msg/detail/sensor__type_support.cpp"
 )

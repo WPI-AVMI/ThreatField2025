@@ -54,7 +54,7 @@ endif()
 add_library(interface::interface__rosidl_typesupport_c SHARED IMPORTED)
 
 set_target_properties(interface::interface__rosidl_typesupport_c PROPERTIES
-  INTERFACE_LINK_LIBRARIES "interface::interface__rosidl_generator_c;geometry_msgs::geometry_msgs__rosidl_typesupport_c;std_msgs::std_msgs__rosidl_typesupport_c"
+  INTERFACE_LINK_LIBRARIES "interface::interface__rosidl_generator_c"
 )
 
 if(CMAKE_VERSION VERSION_LESS 2.8.12)

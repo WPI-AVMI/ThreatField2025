@@ -30,11 +30,11 @@ def generate_Data_3D(Xr, Yr, Zr, Tr, U, V, W, Ks, As,res):
     )
 
     # Initialize Mayavi figure once
-    # figure = mlab.figure('Advection-Diffusion 3D', bgcolor=(0, 0, 0))
+    figure = mlab.figure('Advection-Diffusion 3D', bgcolor=(0, 0, 0))
     Ts = ts
     pixelArray = algo_helper_3D(Xs, Ys, Zs, Ts, Xr, Yr, Zr, Tr, U, V, W, Ks, As)
-    # pts = mlab.points3d(Xs, Ys, Zs, pixelArray, scale_mode='none', scale_factor=0.07)
-    # mlab.axes()
+    pts = mlab.points3d(Xs, Ys, Zs, pixelArray, scale_mode='none', scale_factor=0.07)
+    mlab.axes()
 
     # Animation loop
     for t in range(reps):
@@ -42,14 +42,14 @@ def generate_Data_3D(Xr, Yr, Zr, Tr, U, V, W, Ks, As,res):
         pixelArray = algo_helper_3D(Xs, Ys, Zs, Ts, Xr, Yr, Zr, Tr, U, V, W, Ks, As)
 
         
-    #     # Update scalar data instead of recreating plot
-    #     pts.mlab_source.scalars = pixelArray
+        # Update scalar data instead of recreating plot
+        pts.mlab_source.scalars = pixelArray
 
-    #     mlab.process_ui_events()
-    #     mlab.draw()
+        mlab.process_ui_events()
+        mlab.draw()
         print(f"Updated time: {Ts:.2f} s")
-    #     time.sleep(0.1)  # Pause 1 second per frame
+        time.sleep(0.1)  # Pause 1 second per frame
 
-    # mlab.show()  # Show final result (optional)
+    mlab.show()  # Show final result (optional)
 
 # Example usage

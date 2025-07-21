@@ -1,19 +1,12 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/interface__rosidl_generator_c.dir/rosidl_generator_c/interface/msg/detail/fake_data__functions.c.o"
-  "CMakeFiles/interface__rosidl_generator_c.dir/rosidl_generator_c/interface/msg/detail/fake_data__functions.c.o.d"
   "CMakeFiles/interface__rosidl_generator_c.dir/rosidl_generator_c/interface/msg/detail/sensor__functions.c.o"
   "CMakeFiles/interface__rosidl_generator_c.dir/rosidl_generator_c/interface/msg/detail/sensor__functions.c.o.d"
   "libinterface__rosidl_generator_c.pdb"
   "libinterface__rosidl_generator_c.so"
-  "rosidl_generator_c/interface/msg/detail/fake_data__functions.c"
-  "rosidl_generator_c/interface/msg/detail/fake_data__functions.h"
-  "rosidl_generator_c/interface/msg/detail/fake_data__struct.h"
-  "rosidl_generator_c/interface/msg/detail/fake_data__type_support.h"
   "rosidl_generator_c/interface/msg/detail/sensor__functions.c"
   "rosidl_generator_c/interface/msg/detail/sensor__functions.h"
   "rosidl_generator_c/interface/msg/detail/sensor__struct.h"
   "rosidl_generator_c/interface/msg/detail/sensor__type_support.h"
-  "rosidl_generator_c/interface/msg/fake_data.h"
   "rosidl_generator_c/interface/msg/sensor.h"
 )
 
