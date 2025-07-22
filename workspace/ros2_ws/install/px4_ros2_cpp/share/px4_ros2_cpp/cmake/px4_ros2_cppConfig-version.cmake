@@ -1,14 +1,1 @@
-# generated from ament/cmake/core/templates/nameConfig-version.cmake.in
-set(PACKAGE_VERSION "0.0.1")
-
-set(PACKAGE_VERSION_EXACT False)
-set(PACKAGE_VERSION_COMPATIBLE False)
-
-if("${PACKAGE_FIND_VERSION}" VERSION_EQUAL "${PACKAGE_VERSION}")
-  set(PACKAGE_VERSION_EXACT True)
-  set(PACKAGE_VERSION_COMPATIBLE True)
-endif()
-
-if("${PACKAGE_FIND_VERSION}" VERSION_LESS "${PACKAGE_VERSION}")
-  set(PACKAGE_VERSION_COMPATIBLE True)
-endif()
+/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/px4_ros2_cpp/ament_cmake_core/px4_ros2_cppConfig-version.cmake

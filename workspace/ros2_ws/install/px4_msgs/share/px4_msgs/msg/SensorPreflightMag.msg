@@ -1,7 +1,1 @@
-#
-# Pre-flight sensor check metrics.
-# The topic will not be updated when the vehicle is armed
-#
-uint64 timestamp # time since system start (microseconds)
-
-float32 mag_inconsistency_angle # maximum angle between magnetometer instance field vectors in radians.
+/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/src/px4_msgs/msg/SensorPreflightMag.msg

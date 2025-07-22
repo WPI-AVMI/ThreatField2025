@@ -315,17 +315,17 @@ interface__rosidl_typesupport_cpp/fast:
 .PHONY : interface__rosidl_typesupport_cpp/fast
 
 #=============================================================================
-# Target rules for targets named ament_cmake_python_copy_interface
+# Target rules for targets named ament_cmake_python_symlink_interface
 
 # Build rule for target.
-ament_cmake_python_copy_interface: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_copy_interface
-.PHONY : ament_cmake_python_copy_interface
+ament_cmake_python_symlink_interface: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_symlink_interface
+.PHONY : ament_cmake_python_symlink_interface
 
 # fast build rule for target.
-ament_cmake_python_copy_interface/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_interface.dir/build.make CMakeFiles/ament_cmake_python_copy_interface.dir/build
-.PHONY : ament_cmake_python_copy_interface/fast
+ament_cmake_python_symlink_interface/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_interface.dir/build.make CMakeFiles/ament_cmake_python_symlink_interface.dir/build
+.PHONY : ament_cmake_python_symlink_interface/fast
 
 #=============================================================================
 # Target rules for targets named ament_cmake_python_build_interface_egg
@@ -683,7 +683,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... ament_cmake_python_build_interface_egg"
-	@echo "... ament_cmake_python_copy_interface"
+	@echo "... ament_cmake_python_symlink_interface"
 	@echo "... interface"
 	@echo "... interface__cpp"
 	@echo "... interface__py"

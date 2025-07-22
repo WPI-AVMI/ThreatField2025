@@ -1,4 +1,1 @@
-uint64 timestamp		# time since system start (microseconds)
-
-uint8 active_sys_id		# mavlink system id of the currently active camera
-uint8 active_comp_id 	# mavlink component id of currently active camera
+/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/src/px4_msgs/msg/CameraStatus.msg

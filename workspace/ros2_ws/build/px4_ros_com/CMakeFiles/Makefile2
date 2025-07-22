@@ -87,7 +87,7 @@ clean: CMakeFiles/debug_vect_advertiser.dir/clean
 clean: CMakeFiles/offboard_control.dir/clean
 clean: CMakeFiles/offboard_control_srv.dir/clean
 clean: CMakeFiles/vehicle_local_position_listener.dir/clean
-clean: CMakeFiles/ament_cmake_python_copy_px4_ros_com.dir/clean
+clean: CMakeFiles/ament_cmake_python_symlink_px4_ros_com.dir/clean
 clean: CMakeFiles/ament_cmake_python_build_px4_ros_com_egg.dir/clean
 .PHONY : clean
 
@@ -326,36 +326,36 @@ CMakeFiles/vehicle_local_position_listener.dir/clean:
 .PHONY : CMakeFiles/vehicle_local_position_listener.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/ament_cmake_python_copy_px4_ros_com.dir
+# Target rules for target CMakeFiles/ament_cmake_python_symlink_px4_ros_com.dir
 
 # All Build rule for target.
-CMakeFiles/ament_cmake_python_copy_px4_ros_com.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_px4_ros_com.dir/build.make CMakeFiles/ament_cmake_python_copy_px4_ros_com.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_px4_ros_com.dir/build.make CMakeFiles/ament_cmake_python_copy_px4_ros_com.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/px4_ros_com/CMakeFiles --progress-num= "Built target ament_cmake_python_copy_px4_ros_com"
-.PHONY : CMakeFiles/ament_cmake_python_copy_px4_ros_com.dir/all
+CMakeFiles/ament_cmake_python_symlink_px4_ros_com.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_px4_ros_com.dir/build.make CMakeFiles/ament_cmake_python_symlink_px4_ros_com.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_px4_ros_com.dir/build.make CMakeFiles/ament_cmake_python_symlink_px4_ros_com.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/px4_ros_com/CMakeFiles --progress-num= "Built target ament_cmake_python_symlink_px4_ros_com"
+.PHONY : CMakeFiles/ament_cmake_python_symlink_px4_ros_com.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/ament_cmake_python_copy_px4_ros_com.dir/rule: cmake_check_build_system
+CMakeFiles/ament_cmake_python_symlink_px4_ros_com.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/px4_ros_com/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ament_cmake_python_copy_px4_ros_com.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ament_cmake_python_symlink_px4_ros_com.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/px4_ros_com/CMakeFiles 0
-.PHONY : CMakeFiles/ament_cmake_python_copy_px4_ros_com.dir/rule
+.PHONY : CMakeFiles/ament_cmake_python_symlink_px4_ros_com.dir/rule
 
 # Convenience name for target.
-ament_cmake_python_copy_px4_ros_com: CMakeFiles/ament_cmake_python_copy_px4_ros_com.dir/rule
-.PHONY : ament_cmake_python_copy_px4_ros_com
+ament_cmake_python_symlink_px4_ros_com: CMakeFiles/ament_cmake_python_symlink_px4_ros_com.dir/rule
+.PHONY : ament_cmake_python_symlink_px4_ros_com
 
 # clean rule for target.
-CMakeFiles/ament_cmake_python_copy_px4_ros_com.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_px4_ros_com.dir/build.make CMakeFiles/ament_cmake_python_copy_px4_ros_com.dir/clean
-.PHONY : CMakeFiles/ament_cmake_python_copy_px4_ros_com.dir/clean
+CMakeFiles/ament_cmake_python_symlink_px4_ros_com.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_px4_ros_com.dir/build.make CMakeFiles/ament_cmake_python_symlink_px4_ros_com.dir/clean
+.PHONY : CMakeFiles/ament_cmake_python_symlink_px4_ros_com.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/ament_cmake_python_build_px4_ros_com_egg.dir
 
 # All Build rule for target.
-CMakeFiles/ament_cmake_python_build_px4_ros_com_egg.dir/all: CMakeFiles/ament_cmake_python_copy_px4_ros_com.dir/all
+CMakeFiles/ament_cmake_python_build_px4_ros_com_egg.dir/all: CMakeFiles/ament_cmake_python_symlink_px4_ros_com.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_build_px4_ros_com_egg.dir/build.make CMakeFiles/ament_cmake_python_build_px4_ros_com_egg.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_build_px4_ros_com_egg.dir/build.make CMakeFiles/ament_cmake_python_build_px4_ros_com_egg.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/px4_ros_com/CMakeFiles --progress-num= "Built target ament_cmake_python_build_px4_ros_com_egg"

@@ -1,2 +1,1 @@
-source;share/example_mode_goto_cpp/environment/ament_prefix_path.sh
-source;share/example_mode_goto_cpp/environment/path.sh
+/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/example_mode_goto_cpp/ament_cmake_environment_hooks/local_setup.dsv

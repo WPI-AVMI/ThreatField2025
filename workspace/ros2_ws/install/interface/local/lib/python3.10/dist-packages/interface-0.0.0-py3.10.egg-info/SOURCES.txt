@@ -1,8 +1,1 @@
-setup.py
-interface/__init__.py
-interface.egg-info/PKG-INFO
-interface.egg-info/SOURCES.txt
-interface.egg-info/dependency_links.txt
-interface.egg-info/top_level.txt
-interface/msg/__init__.py
-interface/msg/_sensor.py
+/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface/ament_cmake_python/interface/interface.egg-info/SOURCES.txt

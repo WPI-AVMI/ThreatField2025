@@ -1,0 +1,185 @@
+[0.007s] Invoking command in '/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/px4_ros2_cpp': CMAKE_PREFIX_PATH=/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_msgs:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros_com:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/example_mode_with_executor_cpp:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/example_mode_vtol_cpp:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/example_mode_rtl_replacement_cpp:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/example_mode_manual_cpp:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/example_mode_goto_global_cpp:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/example_mode_goto_cpp:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/example_mode_fw_attitude_cpp:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/example_local_navigation_cpp:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/example_global_navigation_cpp:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/example_executor_with_multiple_modes_cpp:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/draw_flight_mode:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_sensor:/opt/ros/humble LD_LIBRARY_PATH=/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_msgs/lib:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros_com/lib:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/lib:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/src/px4-ros2-interface-lib/px4_ros2_cpp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp
+[0.052s] -- The C compiler identification is GNU 11.4.0
+[0.103s] -- The CXX compiler identification is GNU 11.4.0
+[0.110s] -- Detecting C compiler ABI info
+[0.171s] -- Detecting C compiler ABI info - done
+[0.181s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.181s] -- Detecting C compile features
+[0.182s] -- Detecting C compile features - done
+[0.185s] -- Detecting CXX compiler ABI info
+[0.256s] -- Detecting CXX compiler ABI info - done
+[0.264s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.264s] -- Detecting CXX compile features
+[0.265s] -- Detecting CXX compile features - done
+[0.267s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.969s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.030s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.051s] -- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)
+[1.053s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[1.086s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.090s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.098s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.108s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.123s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.161s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.163s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.249s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.288s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.338s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.345s] -- Looking for pthread.h
+[1.406s] -- Looking for pthread.h - found
+[1.406s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.472s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.473s] -- Found Threads: TRUE  
+[1.518s] -- Found px4_msgs: 2.0.1 (/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_msgs/share/px4_msgs/cmake)
+[1.530s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.538s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.541s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.542s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.619s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.629s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.634s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.635s] -- Configured cppcheck include dirs: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/src/px4-ros2-interface-lib/px4_ros2_cpp/include
+[1.635s] -- Configured cppcheck exclude dirs and/or files: 
+[1.641s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.641s] -- Configured cpplint exclude dirs and/or files: 
+[1.644s] -- Added test 'lint_cmake' to check CMake code style
+[1.649s] -- Added test 'uncrustify' to check C / C++ code style
+[1.649s] -- Configured uncrustify additional arguments: 
+[1.650s] -- Added test 'xmllint' to check XML markup files
+[1.652s] -- Configuring done
+[1.676s] -- Generating done
+[1.684s] -- Build files have been written to: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/px4_ros2_cpp
+[1.698s] Invoked command in '/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/px4_ros2_cpp' returned '0': CMAKE_PREFIX_PATH=/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_msgs:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros_com:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/example_mode_with_executor_cpp:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/example_mode_vtol_cpp:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/example_mode_rtl_replacement_cpp:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/example_mode_manual_cpp:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/example_mode_goto_global_cpp:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/example_mode_goto_cpp:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/example_mode_fw_attitude_cpp:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/example_local_navigation_cpp:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/example_global_navigation_cpp:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/example_executor_with_multiple_modes_cpp:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/draw_flight_mode:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_sensor:/opt/ros/humble LD_LIBRARY_PATH=/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_msgs/lib:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros_com/lib:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/lib:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/src/px4-ros2-interface-lib/px4_ros2_cpp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp
+[1.700s] Invoking command in '/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/px4_ros2_cpp': CMAKE_PREFIX_PATH=/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_msgs:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros_com:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/example_mode_with_executor_cpp:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/example_mode_vtol_cpp:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/example_mode_rtl_replacement_cpp:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/example_mode_manual_cpp:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/example_mode_goto_global_cpp:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/example_mode_goto_cpp:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/example_mode_fw_attitude_cpp:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/example_local_navigation_cpp:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/example_global_navigation_cpp:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/example_executor_with_multiple_modes_cpp:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/draw_flight_mode:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_sensor:/opt/ros/humble LD_LIBRARY_PATH=/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_msgs/lib:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros_com/lib:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/lib:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/px4_ros2_cpp -- -j8 -l8
+[1.756s] [  2%] [32mBuilding CXX object CMakeFiles/unit_utils.dir/test/unit/utils/util.cpp.o[0m
+[1.756s] [  4%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/components/health_and_arming_checks.cpp.o[0m
+[1.756s] [  6%] [32mBuilding CXX object CMakeFiles/integration_utils.dir/test/integration/util.cpp.o[0m
+[1.758s] [  8%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[1.760s] [ 10%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[1.760s] [ 12%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/components/mode.cpp.o[0m
+[1.762s] [ 14%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/components/manual_control_input.cpp.o[0m
+[1.764s] [ 16%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/components/message_compatibility_check.cpp.o[0m
+[5.679s] [ 18%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[5.817s] [ 18%] Built target gtest_main
+[5.856s] [ 20%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/components/mode_executor.cpp.o[0m
+[12.780s] [ 22%] [32m[1mLinking CXX shared library libunit_utils.so[0m
+[13.224s] [ 22%] Built target unit_utils
+[14.217s] [ 24%] [32m[1mLinking CXX static library libgtest.a[0m
+[14.507s] [ 24%] Built target gtest
+[27.987s] [ 26%] [32m[1mLinking CXX shared library libintegration_utils.so[0m
+[29.116s] [ 26%] Built target integration_utils
+[34.969s] [ 28%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/control/setpoint_types/goto.cpp.o[0m
+[39.679s] [ 30%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/control/setpoint_types/fixedwing_lateral_longitudinal.cpp.o[0m
+[44.800s] [ 32%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/control/setpoint_types/experimental/attitude.cpp.o[0m
+[49.302s] [ 34%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/control/setpoint_types/experimental/rates.cpp.o[0m
+[53.340s] [ 36%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/control/setpoint_types/experimental/trajectory.cpp.o[0m
+[57.670s] [ 38%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/navigation/experimental/global_position_measurement_interface.cpp.o[0m
+[61.767s] [ 40%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/navigation/experimental/local_position_measurement_interface.cpp.o[0m
+[66.512s] [ 42%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/odometry/attitude.cpp.o[0m
+[69.522s] [ 44%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/odometry/global_position.cpp.o[0m
+[71.532s] [ 46%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/control/setpoint_types/direct_actuators.cpp.o[0m
+[73.541s] [ 48%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/control/vtol.cpp.o[0m
+[74.180s] [ 50%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/control/peripheral_actuators.cpp.o[0m
+[75.194s] [ 52%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/odometry/local_position.cpp.o[0m
+[76.218s] [ 54%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/components/wait_for_fmu.cpp.o[0m
+[77.231s] [ 56%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/components/registration.cpp.o[0m
+[77.695s] [ 58%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/components/overrides.cpp.o[0m
+[78.724s] [ 60%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/odometry/angular_velocity.cpp.o[0m
+[91.471s] [ 62%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/utils/map_projection_impl.cpp.o[0m
+[92.553s] [ 64%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/utils/geodesic.cpp.o[0m
+[99.839s] [ 66%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp.dir/src/odometry/airspeed.cpp.o[0m
+[106.694s] [ 68%] [32m[1mLinking CXX shared library libpx4_ros2_cpp.so[0m
+[111.527s] [ 68%] Built target px4_ros2_cpp
+[111.545s] [ 74%] [32mBuilding CXX object CMakeFiles/integration_tests.dir/test/integration/global_navigation.cpp.o[0m
+[111.545s] [ 74%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp_unit_tests.dir/test/unit/main.cpp.o[0m
+[111.546s] [ 76%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp_unit_tests.dir/test/unit/local_navigation.cpp.o[0m
+[111.546s] [ 78%] [32mBuilding CXX object CMakeFiles/integration_tests.dir/test/integration/mode.cpp.o[0m
+[111.546s] [ 78%] [32mBuilding CXX object CMakeFiles/integration_tests.dir/test/integration/arming_check.cpp.o[0m
+[111.546s] [ 80%] [32mBuilding CXX object CMakeFiles/integration_tests.dir/test/integration/local_navigation.cpp.o[0m
+[111.546s] [ 82%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp_unit_tests.dir/test/unit/global_navigation.cpp.o[0m
+[111.548s] [ 84%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp_unit_tests.dir/test/unit/modes.cpp.o[0m
+[116.677s] [ 86%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp_unit_tests.dir/test/unit/utils/frame_conversion.cpp.o[0m
+[117.672s] [ 88%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp_unit_tests.dir/test/unit/utils/geodesic.cpp.o[0m
+[119.452s] [ 90%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp_unit_tests.dir/test/unit/utils/geometry.cpp.o[0m
+[119.745s] [ 92%] [32mBuilding CXX object CMakeFiles/integration_tests.dir/test/integration/mode_executor.cpp.o[0m
+[120.796s] [ 94%] [32mBuilding CXX object CMakeFiles/integration_tests.dir/test/integration/overrides.cpp.o[0m
+[121.468s] [ 96%] [32mBuilding CXX object CMakeFiles/px4_ros2_cpp_unit_tests.dir/test/unit/utils/map_projection_impl.cpp.o[0m
+[127.876s] [ 98%] [32m[1mLinking CXX executable px4_ros2_cpp_unit_tests[0m
+[128.794s] [100%] [32m[1mLinking CXX executable integration_tests[0m
+[129.423s] [100%] Built target px4_ros2_cpp_unit_tests
+[130.260s] [100%] Built target integration_tests
+[130.270s] Invoked command in '/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/px4_ros2_cpp' returned '0': CMAKE_PREFIX_PATH=/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_msgs:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros_com:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/example_mode_with_executor_cpp:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/example_mode_vtol_cpp:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/example_mode_rtl_replacement_cpp:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/example_mode_manual_cpp:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/example_mode_goto_global_cpp:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/example_mode_goto_cpp:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/example_mode_fw_attitude_cpp:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/example_local_navigation_cpp:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/example_global_navigation_cpp:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/example_executor_with_multiple_modes_cpp:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/draw_flight_mode:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_sensor:/opt/ros/humble LD_LIBRARY_PATH=/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_msgs/lib:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros_com/lib:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/lib:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/px4_ros2_cpp -- -j8 -l8
+[130.270s] Invoking command in '/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/px4_ros2_cpp': CMAKE_PREFIX_PATH=/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_msgs:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros_com:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/example_mode_with_executor_cpp:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/example_mode_vtol_cpp:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/example_mode_rtl_replacement_cpp:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/example_mode_manual_cpp:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/example_mode_goto_global_cpp:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/example_mode_goto_cpp:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/example_mode_fw_attitude_cpp:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/example_local_navigation_cpp:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/example_global_navigation_cpp:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/example_executor_with_multiple_modes_cpp:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/draw_flight_mode:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_sensor:/opt/ros/humble LD_LIBRARY_PATH=/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_msgs/lib:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros_com/lib:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/lib:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/px4_ros2_cpp
+[130.276s] -- Install configuration: ""
+[130.276s] -- Execute custom install script
+[130.277s] -- Symlinking: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/share/px4_ros2_cpp/environment/library_path.sh
+[130.284s] -- Symlinking: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/share/px4_ros2_cpp/environment/library_path.dsv
+[130.292s] -- Symlinking: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/include/px4_ros2/common/context.hpp
+[130.299s] -- Symlinking: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/include/px4_ros2/common/frame.hpp
+[130.306s] -- Symlinking: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/include/px4_ros2/common/requirement_flags.hpp
+[130.312s] -- Symlinking: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/include/px4_ros2/common/setpoint_base.hpp
+[130.319s] -- Symlinking: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/include/px4_ros2/components/events.hpp
+[130.326s] -- Symlinking: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/include/px4_ros2/components/groups.dox
+[130.334s] -- Symlinking: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/include/px4_ros2/components/health_and_arming_checks.hpp
+[130.341s] -- Symlinking: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/include/px4_ros2/components/manual_control_input.hpp
+[130.348s] -- Symlinking: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/include/px4_ros2/components/message_compatibility_check.hpp
+[130.355s] -- Symlinking: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/include/px4_ros2/components/mode.hpp
+[130.362s] -- Symlinking: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/include/px4_ros2/components/mode_executor.hpp
+[130.368s] -- Symlinking: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/include/px4_ros2/components/node_with_mode.hpp
+[130.375s] -- Symlinking: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/include/px4_ros2/components/overrides.hpp
+[130.382s] -- Symlinking: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/include/px4_ros2/components/wait_for_fmu.hpp
+[130.389s] -- Symlinking: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/include/px4_ros2/control/groups.dox
+[130.396s] -- Symlinking: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/include/px4_ros2/control/peripheral_actuators.hpp
+[130.402s] -- Symlinking: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/include/px4_ros2/control/setpoint_types/direct_actuators.hpp
+[130.409s] -- Symlinking: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/include/px4_ros2/control/setpoint_types/experimental/attitude.hpp
+[130.416s] -- Symlinking: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/include/px4_ros2/control/setpoint_types/experimental/rates.hpp
+[130.423s] -- Symlinking: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/include/px4_ros2/control/setpoint_types/experimental/trajectory.hpp
+[130.431s] -- Symlinking: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/include/px4_ros2/control/setpoint_types/fixedwing_lateral_longitudinal.hpp
+[130.439s] -- Symlinking: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/include/px4_ros2/control/setpoint_types/goto.hpp
+[130.445s] -- Symlinking: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/include/px4_ros2/control/setpoint_types/groups.dox
+[130.453s] -- Symlinking: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/include/px4_ros2/control/vtol.hpp
+[130.460s] -- Symlinking: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/include/px4_ros2/navigation/experimental/global_position_measurement_interface.hpp
+[130.468s] -- Symlinking: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/include/px4_ros2/navigation/experimental/local_position_measurement_interface.hpp
+[130.474s] -- Symlinking: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/include/px4_ros2/navigation/experimental/navigation_interface_base.hpp
+[130.481s] -- Symlinking: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/include/px4_ros2/navigation/groups.dox
+[130.488s] -- Symlinking: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/include/px4_ros2/odometry/airspeed.hpp
+[130.495s] -- Symlinking: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/include/px4_ros2/odometry/angular_velocity.hpp
+[130.502s] -- Symlinking: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/include/px4_ros2/odometry/attitude.hpp
+[130.508s] -- Symlinking: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/include/px4_ros2/odometry/global_position.hpp
+[130.515s] -- Symlinking: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/include/px4_ros2/odometry/groups.dox
+[130.522s] -- Symlinking: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/include/px4_ros2/odometry/local_position.hpp
+[130.529s] -- Symlinking: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/include/px4_ros2/utils/frame_conversion.hpp
+[130.536s] -- Symlinking: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/include/px4_ros2/utils/geodesic.hpp
+[130.543s] -- Symlinking: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/include/px4_ros2/utils/geometry.hpp
+[130.550s] -- Symlinking: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/include/px4_ros2/utils/groups.dox
+[130.556s] -- Symlinking: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/include/px4_ros2/utils/message_version.hpp
+[130.563s] -- Symlinking: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/include/px4_ros2/utils/subscription.hpp
+[130.570s] -- Symlinking: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/include/px4_ros2/vehicle_state/battery.hpp
+[130.577s] -- Symlinking: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/include/px4_ros2/vehicle_state/groups.dox
+[130.584s] -- Symlinking: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/include/px4_ros2/vehicle_state/home_position.hpp
+[130.591s] -- Symlinking: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/include/px4_ros2/vehicle_state/land_detected.hpp
+[130.598s] -- Symlinking: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/include/px4_ros2/vehicle_state/vehicle_status.hpp
+[130.605s] -- Symlinking: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/include/px4_ros2/vehicle_state/vtol_status.hpp
+[130.612s] -- Symlinking: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/share/ament_index/resource_index/package_run_dependencies/px4_ros2_cpp
+[130.619s] -- Symlinking: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/share/ament_index/resource_index/parent_prefix_path/px4_ros2_cpp
+[130.626s] -- Symlinking: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/share/px4_ros2_cpp/environment/ament_prefix_path.sh
+[130.633s] -- Symlinking: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/share/px4_ros2_cpp/environment/ament_prefix_path.dsv
+[130.640s] -- Symlinking: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/share/px4_ros2_cpp/environment/path.sh
+[130.647s] -- Symlinking: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/share/px4_ros2_cpp/environment/path.dsv
+[130.654s] -- Symlinking: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/share/px4_ros2_cpp/local_setup.bash
+[130.661s] -- Symlinking: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/share/px4_ros2_cpp/local_setup.sh
+[130.668s] -- Symlinking: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/share/px4_ros2_cpp/local_setup.zsh
+[130.674s] -- Symlinking: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/share/px4_ros2_cpp/local_setup.dsv
+[130.682s] -- Symlinking: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/share/px4_ros2_cpp/package.dsv
+[130.689s] -- Symlinking: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/share/ament_index/resource_index/packages/px4_ros2_cpp
+[130.696s] -- Symlinking: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/share/px4_ros2_cpp/cmake/ament_cmake_export_targets-extras.cmake
+[130.703s] -- Symlinking: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/share/px4_ros2_cpp/cmake/ament_cmake_export_dependencies-extras.cmake
+[130.710s] -- Symlinking: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/share/px4_ros2_cpp/cmake/px4_ros2_cppConfig.cmake
+[130.718s] -- Symlinking: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/share/px4_ros2_cpp/cmake/px4_ros2_cppConfig-version.cmake
+[130.724s] -- Symlinking: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/share/px4_ros2_cpp/package.xml
+[130.732s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/lib/libpx4_ros2_cpp.so
+[130.772s] -- Set runtime path of "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/lib/libpx4_ros2_cpp.so" to ""
+[130.772s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/share/px4_ros2_cpp/cmake/px4_ros2_cppExport.cmake
+[130.773s] -- Installing: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/share/px4_ros2_cpp/cmake/px4_ros2_cppExport-noconfig.cmake
+[130.780s] Invoked command in '/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/px4_ros2_cpp' returned '0': CMAKE_PREFIX_PATH=/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_msgs:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros_com:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/example_mode_with_executor_cpp:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/example_mode_vtol_cpp:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/example_mode_rtl_replacement_cpp:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/example_mode_manual_cpp:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/example_mode_goto_global_cpp:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/example_mode_goto_cpp:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/example_mode_fw_attitude_cpp:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/example_local_navigation_cpp:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/example_global_navigation_cpp:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/example_executor_with_multiple_modes_cpp:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/draw_flight_mode:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_sensor:/opt/ros/humble LD_LIBRARY_PATH=/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_msgs/lib:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros_com/lib:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/lib:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/px4_ros2_cpp

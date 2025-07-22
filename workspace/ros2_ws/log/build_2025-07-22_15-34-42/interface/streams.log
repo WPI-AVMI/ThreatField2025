@@ -1,0 +1,23 @@
+[0.015s] Invoking command in '/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_sensor:/opt/ros/humble /usr/bin/cmake --build /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface -- -j8 -l8
+[0.063s] [  3%] Built target interface__cpp
+[0.064s] [ 12%] Built target interface__rosidl_generator_c
+[0.079s] [ 12%] Built target ament_cmake_python_symlink_interface
+[0.089s] [ 25%] Built target interface__rosidl_typesupport_cpp
+[0.089s] [ 32%] Built target interface__rosidl_typesupport_fastrtps_cpp
+[0.089s] [ 41%] Built target interface__rosidl_typesupport_introspection_c
+[0.099s] [ 51%] Built target interface__rosidl_typesupport_introspection_cpp
+[0.102s] [ 61%] Built target interface__rosidl_typesupport_c
+[0.109s] [ 70%] Built target interface__rosidl_typesupport_fastrtps_c
+[0.130s] [ 70%] Built target interface
+[0.152s] [ 74%] Built target interface__py
+[0.173s] [ 80%] Built target interface__rosidl_generator_py
+[0.196s] [ 87%] Built target interface__rosidl_typesupport_fastrtps_c__pyext
+[0.197s] [ 93%] Built target interface__rosidl_typesupport_c__pyext
+[0.202s] [100%] Built target interface__rosidl_typesupport_introspection_c__pyext
+[0.451s] running egg_info
+[0.473s] writing interface.egg-info/PKG-INFO
+[0.473s] writing dependency_links to interface.egg-info/dependency_links.txt
+[0.473s] writing top-level names to interface.egg-info/top_level.txt
+[0.610s] reading manifest file 'interface.egg-info/SOURCES.txt'
+[0.610s] writing manifest file 'interface.egg-info/SOURCES.txt'
+[0.743s] [100%] Built target ament_cmake_python_build_interface_egg

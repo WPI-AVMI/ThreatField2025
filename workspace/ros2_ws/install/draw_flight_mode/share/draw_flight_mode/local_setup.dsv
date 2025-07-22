@@ -1,2 +1,1 @@
-source;share/draw_flight_mode/environment/ament_prefix_path.sh
-source;share/draw_flight_mode/environment/path.sh
+/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/draw_flight_mode/ament_cmake_environment_hooks/local_setup.dsv

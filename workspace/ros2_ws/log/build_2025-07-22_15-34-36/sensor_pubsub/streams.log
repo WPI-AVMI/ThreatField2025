@@ -1,0 +1,30 @@
+[0.008s] Invoking command in '/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/sensor_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_sensor:/opt/ros/humble /usr/bin/cmake --build /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/sensor_pubsub -- -j8 -l8
+[0.029s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.144s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.146s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.190s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.195s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.203s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.214s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.229s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.272s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.275s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.357s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.387s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.426s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.436s] -- Looking for pthread.h
+[0.497s] -- Looking for pthread.h - found
+[0.497s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.558s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.560s] -- Found Threads: TRUE  
+[0.604s] -- Found px4_msgs: 2.0.1 (/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_msgs/share/px4_msgs/cmake)
+[0.614s] -- Found interface: 0.0.0 (/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake)
+[0.626s] [31mCMake Error at CMakeLists.txt:21 (target_link_libraries):
+[0.626s]   Cannot specify link libraries for target "your_node_name" which is not
+[0.626s]   built by this project.
+[0.626s] 
+[0.627s] [0m
+[0.627s] -- Configuring incomplete, errors occurred!
+[0.627s] See also "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/sensor_pubsub/CMakeFiles/CMakeOutput.log".
+[0.634s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.636s] Invoked command in '/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/sensor_pubsub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_sensor:/opt/ros/humble /usr/bin/cmake --build /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/sensor_pubsub -- -j8 -l8

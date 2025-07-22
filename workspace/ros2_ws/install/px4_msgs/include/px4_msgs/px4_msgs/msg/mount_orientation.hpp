@@ -1,12 +1,1 @@
-// generated from rosidl_generator_cpp/resource/idl.hpp.em
-// generated code does not contain a copyright notice
-
-#ifndef PX4_MSGS__MSG__MOUNT_ORIENTATION_HPP_
-#define PX4_MSGS__MSG__MOUNT_ORIENTATION_HPP_
-
-#include "px4_msgs/msg/detail/mount_orientation__struct.hpp"
-#include "px4_msgs/msg/detail/mount_orientation__builder.hpp"
-#include "px4_msgs/msg/detail/mount_orientation__traits.hpp"
-#include "px4_msgs/msg/detail/mount_orientation__type_support.hpp"
-
-#endif  // PX4_MSGS__MSG__MOUNT_ORIENTATION_HPP_
+/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/px4_msgs/rosidl_generator_cpp/px4_msgs/msg/mount_orientation.hpp

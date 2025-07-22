@@ -1,0 +1,15 @@
+/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/sensor_pubsub/share/ament_index/resource_index/package_run_dependencies/sensor_pubsub
+/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/sensor_pubsub/share/ament_index/resource_index/parent_prefix_path/sensor_pubsub
+/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/sensor_pubsub/share/sensor_pubsub/environment/ament_prefix_path.sh
+/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/sensor_pubsub/share/sensor_pubsub/environment/ament_prefix_path.dsv
+/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/sensor_pubsub/share/sensor_pubsub/environment/path.sh
+/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/sensor_pubsub/share/sensor_pubsub/environment/path.dsv
+/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/sensor_pubsub/share/sensor_pubsub/local_setup.bash
+/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/sensor_pubsub/share/sensor_pubsub/local_setup.sh
+/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/sensor_pubsub/share/sensor_pubsub/local_setup.zsh
+/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/sensor_pubsub/share/sensor_pubsub/local_setup.dsv
+/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/sensor_pubsub/share/sensor_pubsub/package.dsv
+/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/sensor_pubsub/share/ament_index/resource_index/packages/sensor_pubsub
+/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/sensor_pubsub/share/sensor_pubsub/cmake/sensor_pubsubConfig.cmake
+/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/sensor_pubsub/share/sensor_pubsub/cmake/sensor_pubsubConfig-version.cmake
+/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/sensor_pubsub/share/sensor_pubsub/package.xml

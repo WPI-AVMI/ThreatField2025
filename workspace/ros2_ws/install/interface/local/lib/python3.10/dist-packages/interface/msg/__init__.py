@@ -1,1 +1,1 @@
-from interface.msg._sensor import Sensor  # noqa: F401
+/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface/rosidl_generator_py/interface/msg/__init__.py

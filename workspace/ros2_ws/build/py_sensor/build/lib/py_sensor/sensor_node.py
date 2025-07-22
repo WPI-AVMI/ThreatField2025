@@ -3,10 +3,8 @@ from rclpy.node import Node
 from interface.msg import Sensor
 import numpy as np
 from collections import deque
-
 from rclpy.qos import QoSProfile, ReliabilityPolicy, HistoryPolicy, DurabilityPolicy
 from px4_msgs.msg import OffboardControlMode, TrajectorySetpoint, VehicleCommand, VehicleLocalPosition, VehicleStatus
-
 
 
 Xq = deque(maxlen=8)
@@ -23,11 +21,19 @@ class MinimalPublisher(Node):
             reliability=ReliabilityPolicy.BEST_EFFORT,
             durability=DurabilityPolicy.TRANSIENT_LOCAL,
             history=HistoryPolicy.KEEP_LAST,
-            depth=5
+            depth=1
         )
-        self.publisher_ = self.create_publisher(Sensor, 'Sensor', 10)
-        self.subscription = self.create_subscription(VehicleLocalPosition,'/fmu/out/vehicle_local_position' ,self.callback_fun,qos_profile)
+
+
+        self.publisher_ = self.create_publisher(Sensor, '/Sensor', 10)
+
+        self.vehicle_local_position_subscriber = self.create_subscription(
+            VehicleLocalPosition, '/fmu/out/vehicle_local_position', self.vehicle_local_position_callback, qos_profile)
+        
+
         self.sensor = Sensor()
+        self.vehicle_local_position = VehicleLocalPosition()
+
             
     
     def Concentration_calc(self,X,Y,Z,T):
@@ -58,15 +64,14 @@ class MinimalPublisher(Node):
         return C
 
 
-    def normalizer(self,X,Y,Z,T):
+    def normalizer(self,X,Y,Z,T,L,T_init):
 
 
-        NX = X
-        NY = Y
-        NZ = Z*(-1)
-        NT = T/(10**6)
-        print(T)
-        print(NT)
+        NX = X/L
+        NY = Y/L
+        NZ = Z*(-1)/L
+        NT = (T-T_init)/(10**6)
+
         return [NX,NY,NZ,NT]
     
     def Grad_calc(self,XX,YY,ZZ,TT,CC):
@@ -85,15 +90,21 @@ class MinimalPublisher(Node):
         except np.linalg.LinAlgError:
             return []
 
-    def callback_fun(self, msg):
-
+    def vehicle_local_position_callback(self, vehicle_local_position):
     
+        L = 500
 
-        Norm = self.normalizer(msg.x,msg.y,msg.z,msg.timestamp)
-        X = Norm[0]
-        Y = Norm[1]
-        Z = Norm[2]
-        T = Norm[3]
+        T_init = 0
+        self.sensor.dx = float(vehicle_local_position.x)
+        self.sensor.dy = float(vehicle_local_position.y)
+        self.sensor.dz = float(vehicle_local_position.z)
+        self.sensor.dt = float(vehicle_local_position.timestamp)
+        self.publisher_.publish(self.sensor)
+
+        # Norm = self.normalizer(msg.x,msg.y,msg.z,msg.timestamp,L,T_init)
+        # X, Y, Z, T = Norm
+        # print(T)
+
 
 
         # Xq.append(X)

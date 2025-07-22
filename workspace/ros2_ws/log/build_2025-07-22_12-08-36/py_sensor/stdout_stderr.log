@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating py_sensor.egg-info
+writing py_sensor.egg-info/PKG-INFO
+writing dependency_links to py_sensor.egg-info/dependency_links.txt
+writing entry points to py_sensor.egg-info/entry_points.txt
+writing requirements to py_sensor.egg-info/requires.txt
+writing top-level names to py_sensor.egg-info/top_level.txt
+writing manifest file 'py_sensor.egg-info/SOURCES.txt'
+reading manifest file 'py_sensor.egg-info/SOURCES.txt'
+writing manifest file 'py_sensor.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_sensor/lib/python3.10/site-packages/py-sensor.egg-link (link to .)
+Installing sense script to /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_sensor/lib/py_sensor
+
+Installed /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/py_sensor
+running symlink_data
+creating /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_sensor/share/ament_index
+creating /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_sensor/share/ament_index/resource_index
+creating /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_sensor/share/ament_index/resource_index/packages
+symbolically linking /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/py_sensor/resource/py_sensor -> /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_sensor/share/ament_index/resource_index/packages
+symbolically linking /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/py_sensor/package.xml -> /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/py_sensor/share/py_sensor

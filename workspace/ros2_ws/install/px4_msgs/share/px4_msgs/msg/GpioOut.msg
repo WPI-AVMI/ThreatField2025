@@ -1,7 +1,1 @@
-# GPIO mask and state
-
-uint64 timestamp			# time since system start (microseconds)
-uint32 device_id			# Device id
-
-uint32 mask				# pin mask
-uint32 state				# pin state mask
+/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/src/px4_msgs/msg/GpioOut.msg

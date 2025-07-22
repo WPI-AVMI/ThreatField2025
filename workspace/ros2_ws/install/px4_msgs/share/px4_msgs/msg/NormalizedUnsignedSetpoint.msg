@@ -1,5 +1,1 @@
-uint64 timestamp        		# time since system start (microseconds)
-
-float32 normalized_setpoint          	# [0, 1]
-
-# TOPICS flaps_setpoint spoilers_setpoint
+/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/src/px4_msgs/msg/NormalizedUnsignedSetpoint.msg

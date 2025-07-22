@@ -36,7 +36,7 @@ def generate_launch_description():
 
     return LaunchDescription([
         micro_ros_agent,
-        sense_node,
         QGroundcontrol_node,
-        clock_translation_node
+        clock_translation_node,
+        sense_node,
     ])

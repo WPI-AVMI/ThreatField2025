@@ -1,7 +1,1 @@
-setup.py
-px4_ros_com/__init__.py
-px4_ros_com/module_to_import.py
-px4_ros_com.egg-info/PKG-INFO
-px4_ros_com.egg-info/SOURCES.txt
-px4_ros_com.egg-info/dependency_links.txt
-px4_ros_com.egg-info/top_level.txt
+/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/px4_ros_com/ament_cmake_python/px4_ros_com/px4_ros_com.egg-info/SOURCES.txt

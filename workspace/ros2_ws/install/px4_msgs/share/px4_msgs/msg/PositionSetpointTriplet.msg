@@ -1,8 +1,1 @@
-# Global position setpoint triplet in WGS84 coordinates.
-# This are the three next waypoints (or just the next two or one).
-
-uint64 timestamp		# time since system start (microseconds)
-
-PositionSetpoint previous
-PositionSetpoint current
-PositionSetpoint next
+/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/src/px4_msgs/msg/PositionSetpointTriplet.msg
