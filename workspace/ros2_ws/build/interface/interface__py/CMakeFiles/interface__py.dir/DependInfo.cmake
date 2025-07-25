@@ -17,6 +17,8 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface/rosidl_generator_py/interface/msg/__init__.py" "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface/rosidl_generator_py/interface/_interface_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface/rosidl_generator_py/interface/msg/_sensor.py" "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface/rosidl_generator_py/interface/_interface_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface/rosidl_generator_py/interface/msg/_sensor_s.c" "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface/rosidl_generator_py/interface/_interface_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface/rosidl_generator_py/interface/msg/_state.py" "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface/rosidl_generator_py/interface/_interface_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface/rosidl_generator_py/interface/msg/_state_s.c" "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface/rosidl_generator_py/interface/_interface_s.ep.rosidl_typesupport_fastrtps_c.c"
   )
 
 

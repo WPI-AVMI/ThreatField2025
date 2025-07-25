@@ -67,6 +67,7 @@ include CMakeFiles/interface.dir/compiler_depend.make
 include CMakeFiles/interface.dir/progress.make
 
 CMakeFiles/interface: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/src/interface/msg/Sensor.msg
+CMakeFiles/interface: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/src/interface/msg/State.msg
 
 interface: CMakeFiles/interface
 interface: CMakeFiles/interface.dir/build.make

@@ -1,2 +1,4 @@
 msg/Sensor.idl
 msg/Sensor.msg
+msg/State.idl
+msg/State.msg

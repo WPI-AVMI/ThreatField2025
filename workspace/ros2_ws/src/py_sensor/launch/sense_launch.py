@@ -34,9 +34,20 @@ def generate_launch_description():
         shell=True
     )
 
+    px4_launch = ExecuteProcess(
+        cmd=[
+            'make', 'px4_sitl', 'gz_x500'
+        ],
+        cwd=os.path.expanduser('~/PX4-Autopilot'),  # Adjust if your PX4 is in a different path
+        output='screen',
+        shell=True
+    )
+
+
+
     return LaunchDescription([
         micro_ros_agent,
         QGroundcontrol_node,
         clock_translation_node,
-        sense_node,
+        px4_launch,
     ])

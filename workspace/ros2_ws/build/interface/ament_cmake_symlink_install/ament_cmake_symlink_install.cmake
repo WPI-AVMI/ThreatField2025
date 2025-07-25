@@ -361,8 +361,14 @@ include("/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface/a
 # install(FILES "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface/rosidl_adapter/interface/msg/Sensor.idl" "DESTINATION" "share/interface/msg")
 ament_cmake_symlink_install_files("/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/src/interface" FILES "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface/rosidl_adapter/interface/msg/Sensor.idl" "DESTINATION" "share/interface/msg")
 
+# install(FILES "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface/rosidl_adapter/interface/msg/State.idl" "DESTINATION" "share/interface/msg")
+ament_cmake_symlink_install_files("/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/src/interface" FILES "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface/rosidl_adapter/interface/msg/State.idl" "DESTINATION" "share/interface/msg")
+
 # install(FILES "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/src/interface/msg/Sensor.msg" "DESTINATION" "share/interface/msg")
 ament_cmake_symlink_install_files("/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/src/interface" FILES "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/src/interface/msg/Sensor.msg" "DESTINATION" "share/interface/msg")
+
+# install(FILES "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/src/interface/msg/State.msg" "DESTINATION" "share/interface/msg")
+ament_cmake_symlink_install_files("/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/src/interface" FILES "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/src/interface/msg/State.msg" "DESTINATION" "share/interface/msg")
 
 # install(FILES "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/interface" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/src/interface" FILES "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/interface" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

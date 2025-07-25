@@ -1,6 +1,7 @@
 import rclpy
 from rclpy.node import Node
 from interface.msg import Sensor
+from interface.msg  import State
 import numpy as np
 from collections import deque
 from rclpy.qos import QoSProfile, ReliabilityPolicy, HistoryPolicy, DurabilityPolicy
@@ -25,33 +26,33 @@ class MinimalPublisher(Node):
         )
 
 
-        self.publisher_ = self.create_publisher(Sensor, '/Sensor', 10)
+        self.publisher_Sensor = self.create_publisher(Sensor, '/Sensor', 10)
+        self.publisher_Num = self.create_publisher(State, '/State', 10)
 
         self.vehicle_local_position_subscriber = self.create_subscription(
             VehicleLocalPosition, '/fmu/out/vehicle_local_position', self.vehicle_local_position_callback, qos_profile)
         
 
         self.sensor = Sensor()
+        self.state = State()
         self.vehicle_local_position = VehicleLocalPosition()
 
             
     
-    def Concentration_calc(self,X,Y,Z,T):
-
-        Xs = X
-        Ys = Y
-        Zs = Z
-        Ts = T
+    def Concentration_calc(self,Xs,Ys,Zs,Ts):
 
         Xr = 0.5 # release coord X
         Yr = 0.5 # release coord Z
         Zr = 0.5 # release coord Y
         Tr = 0 # release Time
-        U  = 0.1  # Wind Velocity X
+        U  = 1  # Wind Velocity X
         V  = 0  # Wind Velocity Y
         W  = 0  # Wind Velocity Z
-        Ks = 0.005      # Eddy Diffusion term
+        Ks = 0.0025      # Eddy Diffusion term
         As =  10**(-9) # Affects spread over time 
+
+
+
 
 
         Rcs2 = 4 * Ks
@@ -64,15 +65,18 @@ class MinimalPublisher(Node):
         return C
 
 
-    def normalizer(self,X,Y,Z,T,L,T_init):
+    def normalizer(self,X,Y,Z,T,T_init):
 
+        L0 = 200
+        Z0 = 200
+        V0 = 0.6
+        
+        Xs = X/L0
+        Ys = Y/L0
+        Zs = Z*(-1)/Z0
+        Ts = ((T-T_init)/(10**6))*V0/L0
 
-        NX = X/L
-        NY = Y/L
-        NZ = Z*(-1)/L
-        NT = (T-T_init)/(10**6)
-
-        return [NX,NY,NZ,NT]
+        return [Xs,Ys,Zs,Ts]
     
     def Grad_calc(self,XX,YY,ZZ,TT,CC):
         try:
@@ -84,53 +88,59 @@ class MinimalPublisher(Node):
             l_mat = np.matmul(np.matmul(np.transpose(DRi),W),DRi)
             r_mat = np.matmul(np.matmul(np.transpose(DRi),W),c_matrix)
             Grad  = np.linalg.solve(l_mat, r_mat)
-        
             return Grad
         
         except np.linalg.LinAlgError:
-            return []
+            Grad = []
+            return Grad
 
-    def vehicle_local_position_callback(self, vehicle_local_position):
+    def vehicle_local_position_callback(self, msg):
     
-        L = 500
+        
+        if not hasattr(self, 'T_init'):
+            self.T_init = msg.timestamp 
 
-        T_init = 0
-        self.sensor.dx = float(vehicle_local_position.x)
-        self.sensor.dy = float(vehicle_local_position.y)
-        self.sensor.dz = float(vehicle_local_position.z)
-        self.sensor.dt = float(vehicle_local_position.timestamp)
-        self.publisher_.publish(self.sensor)
 
-        # Norm = self.normalizer(msg.x,msg.y,msg.z,msg.timestamp,L,T_init)
-        # X, Y, Z, T = Norm
-        # print(T)
+        Norm = self.normalizer(msg.x,msg.y,msg.z,msg.timestamp,self.T_init)
+        X, Y, Z, T = Norm
 
 
 
-        # Xq.append(X)
-        # Yq.append(Y)
-        # Zq.append(Z)
-        # Tq.append(T)
-        # Cq.append(self.Concentration_calc(X,Y,Z,T))
+        Xq.append(X)
+        Yq.append(Y)
+        Zq.append(Z)
+        Tq.append(T)
+        C = self.Concentration_calc(X,Y,Z,T)
 
 
-        # if len(Cq) == 8:
-        #    XX = list(Xq)
-        #    YY = list(Yq)
-        #    ZZ = list(Zq)
-        #    TT = list(Tq)
-        #    CC = list(Cq)
-        #    Grad = self.Grad_calc(XX,YY,ZZ,TT,CC)
+        self.state.x = X
+        self.state.y = Y
+        self.state.z = Z
+        self.state.t = T
+        self.state.c = C
+        
+        self.publisher_Num.publish(self.state)
+        Cq.append(C)
 
-        #    if Grad == []:
-        #        self.get_logger().info('Error publishing Linear Solve Matrix Singularity'  )
-        #    else: 
-        #         self.sensor.dx = Grad[0]
-        #         self.sensor.dy = Grad[1]
-        #         self.sensor.dz = Grad[2]
-        #         self.sensor.dt = Grad[3]
-        #         self.publisher_.publish(self.sensor)
-        #         self.get_logger().info('Publishing: dc/dx: %f dc/dy: %f dc/dz: %f dc/dt: %f'  % (Grad[0], Grad[1],Grad[2], Grad[3]))
+
+        if len(Cq) == 8:
+           XX = list(Xq)
+           YY = list(Yq)
+           ZZ = list(Zq)
+           TT = list(Tq)
+           CC = list(Cq)
+           Grad = self.Grad_calc(XX,YY,ZZ,TT,CC)
+           
+
+           if len(Grad)==0:
+               self.get_logger().info('Error publishing Linear Solve Matrix Singularity'  )
+           else: 
+                self.sensor.dx = float(Grad[0])
+                self.sensor.dy = float(Grad[1])
+                self.sensor.dz = float(Grad[2])
+                self.sensor.dt = float(Grad[3])
+                self.publisher_Sensor.publish(self.sensor)
+                self.get_logger().info('Pub: dc/dx: %E dc/dy: %E dc/dz: %E dc/dt: %E'  % (Grad[0], Grad[1],Grad[2], Grad[3]))
 
 
         
