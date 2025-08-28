@@ -1,5 +1,11 @@
 # Overview
 
-This repository contains files for the threat field simulator research conducted at WPI's Autonomous Vehicles Mobility Institue (AVMI). The system is comprised of three main subsystems: the projector system, camera system, and mobile robot. The projector system is visualize a threat field by generating a color image representing the values of a function in 2D space and projecting this field on the floor of the workspace. The camera system consists of four webcams connected to a Raspberry Pi which can be used for perception of the threat field. Finally, a mobile robot is used to sense the field and navigate the workspace, facilitating a platform for conducting real-world experiments. More details about this setup are provided in the documentation.
+This repository contains files for the threat field simulator research conducted by WPI's
+Aerospace Engineering Department under the supervision of Dr Gatsonis and Dr Demetriou. The purpose of the experiment is to setup an environment replicating a dynamic gas plume field through which a autonomous vehicle traverses through as to test vehicle navigation algorithms as well as plume dynamics prediction algorithms. The repository contains all files relating to the experiment including images, videos and reference documents used for its development.
+
+The experiment itself runs as a simulation in gazebo implementing vehicle dynamics and controls of a fixed wing aircraft through PX4 and computation of navigation goals and predictive algorithms through ROS2 nodes. The experiment can be run using the following command 
+
+ros2 launch sense_launch.py 
+from the /workspace/ros2_ws/src/py_sensor/launch directory. This will launch an instance of PX4, microDDS, QgrouncdControl and the ROS2 nodes needed. More details about this setup are provided in the manual named Threat Field Experiment manual.
 
 ![Cover Image](https://github.com/WPI-AVMI/ThreatField2025/blob/main/cover_image.png)
