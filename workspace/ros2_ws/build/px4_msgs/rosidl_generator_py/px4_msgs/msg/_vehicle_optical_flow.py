@@ -161,9 +161,9 @@ class VehicleOpticalFlow(metaclass=Metaclass_VehicleOpticalFlow):
             return False
         if self.device_id != other.device_id:
             return False
-        if all(self.pixel_flow != other.pixel_flow):
+        if any(self.pixel_flow != other.pixel_flow):
             return False
-        if all(self.delta_angle != other.delta_angle):
+        if any(self.delta_angle != other.delta_angle):
             return False
         if self.distance_m != other.distance_m:
             return False

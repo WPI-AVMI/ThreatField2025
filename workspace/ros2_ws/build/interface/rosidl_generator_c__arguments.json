@@ -1,10 +1,10 @@
 {
   "package_name": "interface",
-  "output_dir": "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface/rosidl_generator_c/interface",
+  "output_dir": "/home/eldavo07/ThreatField2025/workspace/ros2_ws/build/interface/rosidl_generator_c/interface",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource",
   "idl_tuples": [
-    "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface/rosidl_adapter/interface:msg/Sensor.idl",
-    "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface/rosidl_adapter/interface:msg/State.idl"
+    "/home/eldavo07/ThreatField2025/workspace/ros2_ws/build/interface/rosidl_adapter/interface:msg/Sensor.idl",
+    "/home/eldavo07/ThreatField2025/workspace/ros2_ws/build/interface/rosidl_adapter/interface:msg/State.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
@@ -20,7 +20,7 @@
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
-    "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface/rosidl_adapter/interface/msg/Sensor.idl",
-    "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface/rosidl_adapter/interface/msg/State.idl"
+    "/home/eldavo07/ThreatField2025/workspace/ros2_ws/build/interface/rosidl_adapter/interface/msg/Sensor.idl",
+    "/home/eldavo07/ThreatField2025/workspace/ros2_ws/build/interface/rosidl_adapter/interface/msg/State.idl"
   ]
 }

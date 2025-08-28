@@ -185,17 +185,17 @@ class SensorGyroFft(metaclass=Metaclass_SensorGyroFft):
             return False
         if self.resolution_hz != other.resolution_hz:
             return False
-        if all(self.peak_frequencies_x != other.peak_frequencies_x):
+        if any(self.peak_frequencies_x != other.peak_frequencies_x):
             return False
-        if all(self.peak_frequencies_y != other.peak_frequencies_y):
+        if any(self.peak_frequencies_y != other.peak_frequencies_y):
             return False
-        if all(self.peak_frequencies_z != other.peak_frequencies_z):
+        if any(self.peak_frequencies_z != other.peak_frequencies_z):
             return False
-        if all(self.peak_snr_x != other.peak_snr_x):
+        if any(self.peak_snr_x != other.peak_snr_x):
             return False
-        if all(self.peak_snr_y != other.peak_snr_y):
+        if any(self.peak_snr_y != other.peak_snr_y):
             return False
-        if all(self.peak_snr_z != other.peak_snr_z):
+        if any(self.peak_snr_z != other.peak_snr_z):
             return False
         return True
 

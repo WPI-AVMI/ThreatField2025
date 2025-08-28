@@ -132,7 +132,7 @@ class TaskStackInfo(metaclass=Metaclass_TaskStackInfo):
             return False
         if self.stack_free != other.stack_free:
             return False
-        if all(self.task_name != other.task_name):
+        if any(self.task_name != other.task_name):
             return False
         return True
 

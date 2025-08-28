@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/example_local_navigation_cpp/example_local_navigation" "TARGETS" "example_local_navigation" "DESTINATION" "lib/example_local_navigation_cpp")

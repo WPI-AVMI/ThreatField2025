@@ -142,7 +142,7 @@ class ActuatorOutputs(metaclass=Metaclass_ActuatorOutputs):
             return False
         if self.noutputs != other.noutputs:
             return False
-        if all(self.output != other.output):
+        if any(self.output != other.output):
             return False
         return True
 

@@ -138,7 +138,7 @@ class UnregisterExtComponent(metaclass=Metaclass_UnregisterExtComponent):
             return False
         if self.timestamp != other.timestamp:
             return False
-        if all(self.name != other.name):
+        if any(self.name != other.name):
             return False
         if self.arming_check_id != other.arming_check_id:
             return False

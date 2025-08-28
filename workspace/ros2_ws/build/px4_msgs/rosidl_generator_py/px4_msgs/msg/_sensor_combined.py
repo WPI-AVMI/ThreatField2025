@@ -189,13 +189,13 @@ class SensorCombined(metaclass=Metaclass_SensorCombined):
             return False
         if self.timestamp != other.timestamp:
             return False
-        if all(self.gyro_rad != other.gyro_rad):
+        if any(self.gyro_rad != other.gyro_rad):
             return False
         if self.gyro_integral_dt != other.gyro_integral_dt:
             return False
         if self.accelerometer_timestamp_relative != other.accelerometer_timestamp_relative:
             return False
-        if all(self.accelerometer_m_s2 != other.accelerometer_m_s2):
+        if any(self.accelerometer_m_s2 != other.accelerometer_m_s2):
             return False
         if self.accelerometer_integral_dt != other.accelerometer_integral_dt:
             return False

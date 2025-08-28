@@ -116,7 +116,7 @@ class ActuatorControlsStatus(metaclass=Metaclass_ActuatorControlsStatus):
             return False
         if self.timestamp != other.timestamp:
             return False
-        if all(self.control_power != other.control_power):
+        if any(self.control_power != other.control_power):
             return False
         return True
 

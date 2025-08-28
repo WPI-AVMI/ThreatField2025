@@ -125,9 +125,9 @@ class WheelEncoders(metaclass=Metaclass_WheelEncoders):
             return False
         if self.timestamp != other.timestamp:
             return False
-        if all(self.wheel_speed != other.wheel_speed):
+        if any(self.wheel_speed != other.wheel_speed):
             return False
-        if all(self.wheel_angle != other.wheel_angle):
+        if any(self.wheel_angle != other.wheel_angle):
             return False
         return True
 

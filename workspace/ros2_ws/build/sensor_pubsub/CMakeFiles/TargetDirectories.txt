@@ -1,9 +1,0 @@
-/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/sensor_pubsub/CMakeFiles/uninstall.dir
-/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/sensor_pubsub/CMakeFiles/sensor_pubsub_uninstall.dir
-/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/sensor_pubsub/CMakeFiles/test.dir
-/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/sensor_pubsub/CMakeFiles/edit_cache.dir
-/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/sensor_pubsub/CMakeFiles/rebuild_cache.dir
-/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/sensor_pubsub/CMakeFiles/list_install_components.dir
-/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/sensor_pubsub/CMakeFiles/install.dir
-/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/sensor_pubsub/CMakeFiles/install/local.dir
-/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/sensor_pubsub/CMakeFiles/install/strip.dir

@@ -1,1 +1,0 @@
-/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface/rosidl_generator_c/interface/msg/detail/num__type_support.h

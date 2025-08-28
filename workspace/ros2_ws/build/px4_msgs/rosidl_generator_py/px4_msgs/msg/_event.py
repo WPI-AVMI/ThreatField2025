@@ -150,7 +150,7 @@ class Event(metaclass=Metaclass_Event):
             return False
         if self.event_sequence != other.event_sequence:
             return False
-        if all(self.arguments != other.arguments):
+        if any(self.arguments != other.arguments):
             return False
         if self.log_levels != other.log_levels:
             return False

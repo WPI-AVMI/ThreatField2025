@@ -1,1 +1,11 @@
-/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/src/px4_msgs/msg/ParameterSetValueRequest.msg
+# ParameterSetValueRequest : Used by a remote or primary to update the value for a parameter at the other end
+
+uint64 timestamp
+uint16 parameter_index
+
+int32 int_value             # Optional value for an integer parameter
+float32 float_value         # Optional value for a float parameter
+
+uint8 ORB_QUEUE_LENGTH = 32
+
+# TOPICS parameter_set_value_request parameter_remote_set_value_request parameter_primary_set_value_request

@@ -1,1 +1,3 @@
-/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/px4_ros_com/ament_cmake_environment_hooks/pythonpath.sh
+# generated from ament_package/template/environment_hook/pythonpath.sh.in
+
+ament_prepend_unique_value PYTHONPATH "$AMENT_CURRENT_PREFIX/local/lib/python3.10/dist-packages"

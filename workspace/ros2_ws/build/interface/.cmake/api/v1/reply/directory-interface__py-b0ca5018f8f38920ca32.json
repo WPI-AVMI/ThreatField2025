@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "interface__py",
+		"source" : "/home/eldavo07/ThreatField2025/workspace/ros2_ws/build/interface/interface__py"
+	}
+}

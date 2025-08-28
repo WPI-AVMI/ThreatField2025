@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-6c69af0d82604392e7b2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "example_executor_with_multiple_modes_cpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "example_executor_with_multiple_modes::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example_executor_with_multiple_modes-de301cd397abe4048ce1.json",
+					"name" : "example_executor_with_multiple_modes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "example_executor_with_multiple_modes_cpp_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example_executor_with_multiple_modes_cpp_uninstall-754aeb60b88599c43ce3.json",
+					"name" : "example_executor_with_multiple_modes_cpp_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-6de4d7a2d7f916e350c6.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/eldavo07/ThreatField2025/workspace/ros2_ws/build/example_executor_with_multiple_modes_cpp",
+		"source" : "/home/eldavo07/ThreatField2025/workspace/ros2_ws/src/px4-ros2-interface-lib/examples/cpp/modes/executor_with_multiple_modes"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -132,7 +132,7 @@ class OrbTestMedium(metaclass=Metaclass_OrbTestMedium):
             return False
         if self.val != other.val:
             return False
-        if all(self.junk != other.junk):
+        if any(self.junk != other.junk):
             return False
         return True
 

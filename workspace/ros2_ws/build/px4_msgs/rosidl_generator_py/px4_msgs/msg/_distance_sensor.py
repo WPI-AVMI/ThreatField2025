@@ -358,7 +358,7 @@ class DistanceSensor(metaclass=Metaclass_DistanceSensor):
             return False
         if self.v_fov != other.v_fov:
             return False
-        if all(self.q != other.q):
+        if any(self.q != other.q):
             return False
         if self.orientation != other.orientation:
             return False

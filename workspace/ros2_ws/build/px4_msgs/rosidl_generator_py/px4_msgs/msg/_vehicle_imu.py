@@ -195,9 +195,9 @@ class VehicleImu(metaclass=Metaclass_VehicleImu):
             return False
         if self.gyro_device_id != other.gyro_device_id:
             return False
-        if all(self.delta_angle != other.delta_angle):
+        if any(self.delta_angle != other.delta_angle):
             return False
-        if all(self.delta_velocity != other.delta_velocity):
+        if any(self.delta_velocity != other.delta_velocity):
             return False
         if self.delta_angle_dt != other.delta_angle_dt:
             return False

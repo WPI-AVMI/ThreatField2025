@@ -217,9 +217,9 @@ class VehicleImuStatus(metaclass=Metaclass_VehicleImuStatus):
             return False
         if self.gyro_device_id != other.gyro_device_id:
             return False
-        if all(self.accel_clipping != other.accel_clipping):
+        if any(self.accel_clipping != other.accel_clipping):
             return False
-        if all(self.gyro_clipping != other.gyro_clipping):
+        if any(self.gyro_clipping != other.gyro_clipping):
             return False
         if self.accel_error_count != other.accel_error_count:
             return False
@@ -239,13 +239,13 @@ class VehicleImuStatus(metaclass=Metaclass_VehicleImuStatus):
             return False
         if self.delta_angle_coning_metric != other.delta_angle_coning_metric:
             return False
-        if all(self.mean_accel != other.mean_accel):
+        if any(self.mean_accel != other.mean_accel):
             return False
-        if all(self.mean_gyro != other.mean_gyro):
+        if any(self.mean_gyro != other.mean_gyro):
             return False
-        if all(self.var_accel != other.var_accel):
+        if any(self.var_accel != other.var_accel):
             return False
-        if all(self.var_gyro != other.var_gyro):
+        if any(self.var_gyro != other.var_gyro):
             return False
         if self.temperature_accel != other.temperature_accel:
             return False

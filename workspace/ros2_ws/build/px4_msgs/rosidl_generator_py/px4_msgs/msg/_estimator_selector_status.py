@@ -206,15 +206,15 @@ class EstimatorSelectorStatus(metaclass=Metaclass_EstimatorSelectorStatus):
             return False
         if self.mag_device_id != other.mag_device_id:
             return False
-        if all(self.combined_test_ratio != other.combined_test_ratio):
+        if any(self.combined_test_ratio != other.combined_test_ratio):
             return False
-        if all(self.relative_test_ratio != other.relative_test_ratio):
+        if any(self.relative_test_ratio != other.relative_test_ratio):
             return False
         if self.healthy != other.healthy:
             return False
-        if all(self.accumulated_gyro_error != other.accumulated_gyro_error):
+        if any(self.accumulated_gyro_error != other.accumulated_gyro_error):
             return False
-        if all(self.accumulated_accel_error != other.accumulated_accel_error):
+        if any(self.accumulated_accel_error != other.accumulated_accel_error):
             return False
         if self.gyro_fault_detected != other.gyro_fault_detected:
             return False

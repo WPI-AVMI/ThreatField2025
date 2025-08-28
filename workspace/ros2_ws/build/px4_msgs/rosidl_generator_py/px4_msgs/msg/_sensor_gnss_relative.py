@@ -205,9 +205,9 @@ class SensorGnssRelative(metaclass=Metaclass_SensorGnssRelative):
             return False
         if self.reference_station_id != other.reference_station_id:
             return False
-        if all(self.position != other.position):
+        if any(self.position != other.position):
             return False
-        if all(self.position_accuracy != other.position_accuracy):
+        if any(self.position_accuracy != other.position_accuracy):
             return False
         if self.heading != other.heading:
             return False

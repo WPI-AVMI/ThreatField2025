@@ -156,7 +156,7 @@ class ActuatorMotors(metaclass=Metaclass_ActuatorMotors):
             return False
         if self.reversible_flags != other.reversible_flags:
             return False
-        if all(self.control != other.control):
+        if any(self.control != other.control):
             return False
         return True
 

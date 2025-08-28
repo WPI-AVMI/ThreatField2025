@@ -204,7 +204,7 @@ class ObstacleDistance(metaclass=Metaclass_ObstacleDistance):
             return False
         if self.sensor_type != other.sensor_type:
             return False
-        if all(self.distances != other.distances):
+        if any(self.distances != other.distances):
             return False
         if self.increment != other.increment:
             return False

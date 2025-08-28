@@ -169,9 +169,9 @@ class VehicleLocalPositionSetpoint(metaclass=Metaclass_VehicleLocalPositionSetpo
             return False
         if self.vz != other.vz:
             return False
-        if all(self.acceleration != other.acceleration):
+        if any(self.acceleration != other.acceleration):
             return False
-        if all(self.thrust != other.thrust):
+        if any(self.thrust != other.thrust):
             return False
         if self.yaw != other.yaw:
             return False

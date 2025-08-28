@@ -190,7 +190,7 @@ class GimbalDeviceSetAttitude(metaclass=Metaclass_GimbalDeviceSetAttitude):
             return False
         if self.flags != other.flags:
             return False
-        if all(self.q != other.q):
+        if any(self.q != other.q):
             return False
         if self.angular_velocity_x != other.angular_velocity_x:
             return False

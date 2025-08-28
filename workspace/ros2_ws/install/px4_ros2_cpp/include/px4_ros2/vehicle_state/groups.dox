@@ -1,1 +1,3 @@
-/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/src/px4-ros2-interface-lib/px4_ros2_cpp/include/px4_ros2/vehicle_state/groups.dox
+/*!
+\defgroup vehicle_state Vehicle State
+*/

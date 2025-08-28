@@ -262,21 +262,21 @@ class VehicleOdometry(metaclass=Metaclass_VehicleOdometry):
             return False
         if self.pose_frame != other.pose_frame:
             return False
-        if all(self.position != other.position):
+        if any(self.position != other.position):
             return False
-        if all(self.q != other.q):
+        if any(self.q != other.q):
             return False
         if self.velocity_frame != other.velocity_frame:
             return False
-        if all(self.velocity != other.velocity):
+        if any(self.velocity != other.velocity):
             return False
-        if all(self.angular_velocity != other.angular_velocity):
+        if any(self.angular_velocity != other.angular_velocity):
             return False
-        if all(self.position_variance != other.position_variance):
+        if any(self.position_variance != other.position_variance):
             return False
-        if all(self.orientation_variance != other.orientation_variance):
+        if any(self.orientation_variance != other.orientation_variance):
             return False
-        if all(self.velocity_variance != other.velocity_variance):
+        if any(self.velocity_variance != other.velocity_variance):
             return False
         if self.reset_counter != other.reset_counter:
             return False

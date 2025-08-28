@@ -1,8 +1,8 @@
-# Install script for directory: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/src/px4-ros2-interface-lib/examples/cpp/modes/goto
+# Install script for directory: /home/eldavo07/ThreatField2025/workspace/ros2_ws/src/px4-ros2-interface-lib/examples/cpp/modes/goto
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/example_mode_goto_cpp")
+  set(CMAKE_INSTALL_PREFIX "/home/eldavo07/ThreatField2025/workspace/ros2_ws/install/example_mode_goto_cpp")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,7 +43,82 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/example_mode_goto_cpp/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/example_mode_goto_cpp/example_mode_goto" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/example_mode_goto_cpp/example_mode_goto")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/example_mode_goto_cpp/example_mode_goto"
+         RPATH "")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/example_mode_goto_cpp" TYPE EXECUTABLE FILES "/home/eldavo07/ThreatField2025/workspace/ros2_ws/build/example_mode_goto_cpp/example_mode_goto")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/example_mode_goto_cpp/example_mode_goto" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/example_mode_goto_cpp/example_mode_goto")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/example_mode_goto_cpp/example_mode_goto"
+         OLD_RPATH "/home/eldavo07/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp/lib:/opt/ros/humble/lib:/home/eldavo07/ThreatField2025/workspace/ros2_ws/install/px4_msgs/lib:"
+         NEW_RPATH "")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/example_mode_goto_cpp/example_mode_goto")
+    endif()
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/eldavo07/ThreatField2025/workspace/ros2_ws/build/example_mode_goto_cpp/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/example_mode_goto_cpp")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/eldavo07/ThreatField2025/workspace/ros2_ws/build/example_mode_goto_cpp/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/example_mode_goto_cpp")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_mode_goto_cpp/environment" TYPE FILE FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_mode_goto_cpp/environment" TYPE FILE FILES "/home/eldavo07/ThreatField2025/workspace/ros2_ws/build/example_mode_goto_cpp/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_mode_goto_cpp/environment" TYPE FILE FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_mode_goto_cpp/environment" TYPE FILE FILES "/home/eldavo07/ThreatField2025/workspace/ros2_ws/build/example_mode_goto_cpp/ament_cmake_environment_hooks/path.dsv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_mode_goto_cpp" TYPE FILE FILES "/home/eldavo07/ThreatField2025/workspace/ros2_ws/build/example_mode_goto_cpp/ament_cmake_environment_hooks/local_setup.bash")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_mode_goto_cpp" TYPE FILE FILES "/home/eldavo07/ThreatField2025/workspace/ros2_ws/build/example_mode_goto_cpp/ament_cmake_environment_hooks/local_setup.sh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_mode_goto_cpp" TYPE FILE FILES "/home/eldavo07/ThreatField2025/workspace/ros2_ws/build/example_mode_goto_cpp/ament_cmake_environment_hooks/local_setup.zsh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_mode_goto_cpp" TYPE FILE FILES "/home/eldavo07/ThreatField2025/workspace/ros2_ws/build/example_mode_goto_cpp/ament_cmake_environment_hooks/local_setup.dsv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_mode_goto_cpp" TYPE FILE FILES "/home/eldavo07/ThreatField2025/workspace/ros2_ws/build/example_mode_goto_cpp/ament_cmake_environment_hooks/package.dsv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/eldavo07/ThreatField2025/workspace/ros2_ws/build/example_mode_goto_cpp/ament_cmake_index/share/ament_index/resource_index/packages/example_mode_goto_cpp")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_mode_goto_cpp/cmake" TYPE FILE FILES
+    "/home/eldavo07/ThreatField2025/workspace/ros2_ws/build/example_mode_goto_cpp/ament_cmake_core/example_mode_goto_cppConfig.cmake"
+    "/home/eldavo07/ThreatField2025/workspace/ros2_ws/build/example_mode_goto_cpp/ament_cmake_core/example_mode_goto_cppConfig-version.cmake"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/example_mode_goto_cpp" TYPE FILE FILES "/home/eldavo07/ThreatField2025/workspace/ros2_ws/src/px4-ros2-interface-lib/examples/cpp/modes/goto/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -54,5 +129,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/example_mode_goto_cpp/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/eldavo07/ThreatField2025/workspace/ros2_ws/build/example_mode_goto_cpp/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -176,7 +176,7 @@ class RegisterExtComponentRequest(metaclass=Metaclass_RegisterExtComponentReques
             return False
         if self.request_id != other.request_id:
             return False
-        if all(self.name != other.name):
+        if any(self.name != other.name):
             return False
         if self.px4_ros2_api_version != other.px4_ros2_api_version:
             return False

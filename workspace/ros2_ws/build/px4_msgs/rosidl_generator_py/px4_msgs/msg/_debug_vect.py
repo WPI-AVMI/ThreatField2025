@@ -128,7 +128,7 @@ class DebugVect(metaclass=Metaclass_DebugVect):
             return False
         if self.timestamp != other.timestamp:
             return False
-        if all(self.name != other.name):
+        if any(self.name != other.name):
             return False
         if self.x != other.x:
             return False

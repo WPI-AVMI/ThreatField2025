@@ -143,9 +143,9 @@ class DebugArray(metaclass=Metaclass_DebugArray):
             return False
         if self.id != other.id:
             return False
-        if all(self.name != other.name):
+        if any(self.name != other.name):
             return False
-        if all(self.data != other.data):
+        if any(self.data != other.data):
             return False
         return True
 

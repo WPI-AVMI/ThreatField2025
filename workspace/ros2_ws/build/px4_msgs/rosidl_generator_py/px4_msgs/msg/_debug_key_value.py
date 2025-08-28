@@ -120,7 +120,7 @@ class DebugKeyValue(metaclass=Metaclass_DebugKeyValue):
             return False
         if self.timestamp != other.timestamp:
             return False
-        if all(self.key != other.key):
+        if any(self.key != other.key):
             return False
         if self.value != other.value:
             return False

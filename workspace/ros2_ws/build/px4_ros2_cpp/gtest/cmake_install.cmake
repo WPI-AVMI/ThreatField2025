@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp")
+  set(CMAKE_INSTALL_PREFIX "/home/eldavo07/ThreatField2025/workspace/ros2_ws/install/px4_ros2_cpp")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

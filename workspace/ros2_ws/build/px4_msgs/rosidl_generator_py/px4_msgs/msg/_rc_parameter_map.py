@@ -190,17 +190,17 @@ class RcParameterMap(metaclass=Metaclass_RcParameterMap):
             return False
         if self.valid != other.valid:
             return False
-        if all(self.param_index != other.param_index):
+        if any(self.param_index != other.param_index):
             return False
-        if all(self.param_id != other.param_id):
+        if any(self.param_id != other.param_id):
             return False
-        if all(self.scale != other.scale):
+        if any(self.scale != other.scale):
             return False
-        if all(self.value0 != other.value0):
+        if any(self.value0 != other.value0):
             return False
-        if all(self.value_min != other.value_min):
+        if any(self.value_min != other.value_min):
             return False
-        if all(self.value_max != other.value_max):
+        if any(self.value_max != other.value_max):
             return False
         return True
 

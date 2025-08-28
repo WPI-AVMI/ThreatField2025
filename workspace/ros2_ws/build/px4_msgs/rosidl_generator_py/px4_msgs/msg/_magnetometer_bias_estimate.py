@@ -148,11 +148,11 @@ class MagnetometerBiasEstimate(metaclass=Metaclass_MagnetometerBiasEstimate):
             return False
         if self.timestamp != other.timestamp:
             return False
-        if all(self.bias_x != other.bias_x):
+        if any(self.bias_x != other.bias_x):
             return False
-        if all(self.bias_y != other.bias_y):
+        if any(self.bias_y != other.bias_y):
             return False
-        if all(self.bias_z != other.bias_z):
+        if any(self.bias_z != other.bias_z):
             return False
         if self.valid != other.valid:
             return False

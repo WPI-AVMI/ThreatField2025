@@ -132,7 +132,7 @@ class VehicleMagnetometer(metaclass=Metaclass_VehicleMagnetometer):
             return False
         if self.device_id != other.device_id:
             return False
-        if all(self.magnetometer_ga != other.magnetometer_ga):
+        if any(self.magnetometer_ga != other.magnetometer_ga):
             return False
         if self.calibration_count != other.calibration_count:
             return False

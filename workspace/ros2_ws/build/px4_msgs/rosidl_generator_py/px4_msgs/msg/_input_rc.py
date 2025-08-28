@@ -326,7 +326,7 @@ class InputRc(metaclass=Metaclass_InputRc):
             return False
         if self.input_source != other.input_source:
             return False
-        if all(self.values != other.values):
+        if any(self.values != other.values):
             return False
         if self.link_quality != other.link_quality:
             return False

@@ -1,1 +1,6 @@
-/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/src/interface/msg/State.msg
+float32 x
+float32 y
+float32 z
+float32 t
+float32 c
+

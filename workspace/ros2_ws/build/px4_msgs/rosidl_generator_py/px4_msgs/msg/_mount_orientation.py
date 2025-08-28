@@ -116,7 +116,7 @@ class MountOrientation(metaclass=Metaclass_MountOrientation):
             return False
         if self.timestamp != other.timestamp:
             return False
-        if all(self.attitude_euler_angle != other.attitude_euler_angle):
+        if any(self.attitude_euler_angle != other.attitude_euler_angle):
             return False
         return True
 

@@ -152,7 +152,7 @@ class GpsInjectData(metaclass=Metaclass_GpsInjectData):
             return False
         if self.flags != other.flags:
             return False
-        if all(self.data != other.data):
+        if any(self.data != other.data):
             return False
         return True
 

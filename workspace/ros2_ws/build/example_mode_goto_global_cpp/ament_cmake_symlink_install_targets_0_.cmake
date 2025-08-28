@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/example_mode_goto_global_cpp/example_mode_goto_global" "TARGETS" "example_mode_goto_global" "DESTINATION" "lib/example_mode_goto_global_cpp")

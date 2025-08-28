@@ -120,7 +120,7 @@ class BatteryInfo(metaclass=Metaclass_BatteryInfo):
             return False
         if self.id != other.id:
             return False
-        if all(self.serial_number != other.serial_number):
+        if any(self.serial_number != other.serial_number):
             return False
         return True
 

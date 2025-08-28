@@ -150,7 +150,7 @@ class VehicleRatesSetpoint(metaclass=Metaclass_VehicleRatesSetpoint):
             return False
         if self.yaw != other.yaw:
             return False
-        if all(self.thrust_body != other.thrust_body):
+        if any(self.thrust_body != other.thrust_body):
             return False
         if self.reset_integral != other.reset_integral:
             return False

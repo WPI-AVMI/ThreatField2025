@@ -230,7 +230,7 @@ class MavlinkTunnel(metaclass=Metaclass_MavlinkTunnel):
             return False
         if self.payload_length != other.payload_length:
             return False
-        if all(self.payload != other.payload):
+        if any(self.payload != other.payload):
             return False
         return True
 

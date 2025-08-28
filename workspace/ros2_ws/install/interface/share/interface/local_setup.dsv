@@ -1,1 +1,4 @@
-/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface/ament_cmake_environment_hooks/local_setup.dsv
+source;share/interface/environment/ament_prefix_path.sh
+source;share/interface/environment/library_path.sh
+source;share/interface/environment/path.sh
+source;share/interface/environment/pythonpath.sh

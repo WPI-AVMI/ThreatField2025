@@ -142,7 +142,7 @@ class UavcanParameterValue(metaclass=Metaclass_UavcanParameterValue):
             return False
         if self.node_id != other.node_id:
             return False
-        if all(self.param_id != other.param_id):
+        if any(self.param_id != other.param_id):
             return False
         if self.param_index != other.param_index:
             return False

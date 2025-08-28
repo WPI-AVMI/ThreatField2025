@@ -294,9 +294,9 @@ class AutotuneAttitudeControlStatus(metaclass=Metaclass_AutotuneAttitudeControlS
             return False
         if self.timestamp != other.timestamp:
             return False
-        if all(self.coeff != other.coeff):
+        if any(self.coeff != other.coeff):
             return False
-        if all(self.coeff_var != other.coeff_var):
+        if any(self.coeff_var != other.coeff_var):
             return False
         if self.fitness != other.fitness:
             return False
@@ -314,7 +314,7 @@ class AutotuneAttitudeControlStatus(metaclass=Metaclass_AutotuneAttitudeControlS
             return False
         if self.att_p != other.att_p:
             return False
-        if all(self.rate_sp != other.rate_sp):
+        if any(self.rate_sp != other.rate_sp):
             return False
         if self.u_filt != other.u_filt:
             return False

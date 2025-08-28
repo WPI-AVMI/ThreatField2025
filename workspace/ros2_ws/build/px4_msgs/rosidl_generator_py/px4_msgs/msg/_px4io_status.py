@@ -308,15 +308,15 @@ class Px4ioStatus(metaclass=Metaclass_Px4ioStatus):
             return False
         if self.arming_termination_failsafe != other.arming_termination_failsafe:
             return False
-        if all(self.pwm != other.pwm):
+        if any(self.pwm != other.pwm):
             return False
-        if all(self.pwm_disarmed != other.pwm_disarmed):
+        if any(self.pwm_disarmed != other.pwm_disarmed):
             return False
-        if all(self.pwm_failsafe != other.pwm_failsafe):
+        if any(self.pwm_failsafe != other.pwm_failsafe):
             return False
-        if all(self.pwm_rate_hz != other.pwm_rate_hz):
+        if any(self.pwm_rate_hz != other.pwm_rate_hz):
             return False
-        if all(self.raw_inputs != other.raw_inputs):
+        if any(self.raw_inputs != other.raw_inputs):
             return False
         return True
 

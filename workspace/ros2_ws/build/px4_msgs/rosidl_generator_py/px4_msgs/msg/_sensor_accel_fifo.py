@@ -164,11 +164,11 @@ class SensorAccelFifo(metaclass=Metaclass_SensorAccelFifo):
             return False
         if self.samples != other.samples:
             return False
-        if all(self.x != other.x):
+        if any(self.x != other.x):
             return False
-        if all(self.y != other.y):
+        if any(self.y != other.y):
             return False
-        if all(self.z != other.z):
+        if any(self.z != other.z):
             return False
         return True
 

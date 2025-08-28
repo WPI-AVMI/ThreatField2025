@@ -217,11 +217,11 @@ class EstimatorSensorBias(metaclass=Metaclass_EstimatorSensorBias):
             return False
         if self.gyro_device_id != other.gyro_device_id:
             return False
-        if all(self.gyro_bias != other.gyro_bias):
+        if any(self.gyro_bias != other.gyro_bias):
             return False
         if self.gyro_bias_limit != other.gyro_bias_limit:
             return False
-        if all(self.gyro_bias_variance != other.gyro_bias_variance):
+        if any(self.gyro_bias_variance != other.gyro_bias_variance):
             return False
         if self.gyro_bias_valid != other.gyro_bias_valid:
             return False
@@ -229,11 +229,11 @@ class EstimatorSensorBias(metaclass=Metaclass_EstimatorSensorBias):
             return False
         if self.accel_device_id != other.accel_device_id:
             return False
-        if all(self.accel_bias != other.accel_bias):
+        if any(self.accel_bias != other.accel_bias):
             return False
         if self.accel_bias_limit != other.accel_bias_limit:
             return False
-        if all(self.accel_bias_variance != other.accel_bias_variance):
+        if any(self.accel_bias_variance != other.accel_bias_variance):
             return False
         if self.accel_bias_valid != other.accel_bias_valid:
             return False
@@ -241,11 +241,11 @@ class EstimatorSensorBias(metaclass=Metaclass_EstimatorSensorBias):
             return False
         if self.mag_device_id != other.mag_device_id:
             return False
-        if all(self.mag_bias != other.mag_bias):
+        if any(self.mag_bias != other.mag_bias):
             return False
         if self.mag_bias_limit != other.mag_bias_limit:
             return False
-        if all(self.mag_bias_variance != other.mag_bias_variance):
+        if any(self.mag_bias_variance != other.mag_bias_variance):
             return False
         if self.mag_bias_valid != other.mag_bias_valid:
             return False

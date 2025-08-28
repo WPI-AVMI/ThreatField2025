@@ -120,7 +120,7 @@ class OpenDroneIdArmStatus(metaclass=Metaclass_OpenDroneIdArmStatus):
             return False
         if self.status != other.status:
             return False
-        if all(self.error != other.error):
+        if any(self.error != other.error):
             return False
         return True
 

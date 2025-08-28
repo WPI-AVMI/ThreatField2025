@@ -194,7 +194,7 @@ class DatamanResponse(metaclass=Metaclass_DatamanResponse):
             return False
         if self.index != other.index:
             return False
-        if all(self.data != other.data):
+        if any(self.data != other.data):
             return False
         if self.status != other.status:
             return False

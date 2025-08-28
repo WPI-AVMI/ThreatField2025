@@ -1,1 +1,0 @@
-/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/src/interface/msg/Num.msg

@@ -148,7 +148,7 @@ class FollowTargetStatus(metaclass=Metaclass_FollowTargetStatus):
             return False
         if self.angular_rate_setpoint != other.angular_rate_setpoint:
             return False
-        if all(self.desired_position_raw != other.desired_position_raw):
+        if any(self.desired_position_raw != other.desired_position_raw):
             return False
         if self.in_emergency_ascent != other.in_emergency_ascent:
             return False

@@ -142,7 +142,7 @@ class DatamanRequest(metaclass=Metaclass_DatamanRequest):
             return False
         if self.index != other.index:
             return False
-        if all(self.data != other.data):
+        if any(self.data != other.data):
             return False
         if self.data_length != other.data_length:
             return False

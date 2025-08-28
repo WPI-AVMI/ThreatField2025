@@ -1,1 +1,4 @@
-/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/src/interface/msg/Sensor.msg
+float64 dx
+float64 dy
+float64 dz
+float64 dt

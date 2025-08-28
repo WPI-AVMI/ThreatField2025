@@ -1,1 +1,1 @@
-/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/draw_flight_mode/ament_cmake_environment_hooks/ament_prefix_path.dsv
+prepend-non-duplicate;AMENT_PREFIX_PATH;

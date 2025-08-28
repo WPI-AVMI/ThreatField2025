@@ -177,17 +177,17 @@ class SatelliteInfo(metaclass=Metaclass_SatelliteInfo):
             return False
         if self.count != other.count:
             return False
-        if all(self.svid != other.svid):
+        if any(self.svid != other.svid):
             return False
-        if all(self.used != other.used):
+        if any(self.used != other.used):
             return False
-        if all(self.elevation != other.elevation):
+        if any(self.elevation != other.elevation):
             return False
-        if all(self.azimuth != other.azimuth):
+        if any(self.azimuth != other.azimuth):
             return False
-        if all(self.snr != other.snr):
+        if any(self.snr != other.snr):
             return False
-        if all(self.prn != other.prn):
+        if any(self.prn != other.prn):
             return False
         return True
 

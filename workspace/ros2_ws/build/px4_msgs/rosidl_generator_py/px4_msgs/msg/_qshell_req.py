@@ -134,7 +134,7 @@ class QshellReq(metaclass=Metaclass_QshellReq):
             return False
         if self.timestamp != other.timestamp:
             return False
-        if all(self.cmd != other.cmd):
+        if any(self.cmd != other.cmd):
             return False
         if self.strlen != other.strlen:
             return False

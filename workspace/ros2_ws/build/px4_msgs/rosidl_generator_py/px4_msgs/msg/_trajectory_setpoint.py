@@ -163,13 +163,13 @@ class TrajectorySetpoint(metaclass=Metaclass_TrajectorySetpoint):
             return False
         if self.timestamp != other.timestamp:
             return False
-        if all(self.position != other.position):
+        if any(self.position != other.position):
             return False
-        if all(self.velocity != other.velocity):
+        if any(self.velocity != other.velocity):
             return False
-        if all(self.acceleration != other.acceleration):
+        if any(self.acceleration != other.acceleration):
             return False
-        if all(self.jerk != other.jerk):
+        if any(self.jerk != other.jerk):
             return False
         if self.yaw != other.yaw:
             return False

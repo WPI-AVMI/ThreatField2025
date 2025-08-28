@@ -156,7 +156,7 @@ class CameraCapture(metaclass=Metaclass_CameraCapture):
             return False
         if self.ground_distance != other.ground_distance:
             return False
-        if all(self.q != other.q):
+        if any(self.q != other.q):
             return False
         if self.result != other.result:
             return False

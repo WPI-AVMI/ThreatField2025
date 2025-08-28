@@ -143,9 +143,9 @@ class VehicleAngularVelocity(metaclass=Metaclass_VehicleAngularVelocity):
             return False
         if self.timestamp_sample != other.timestamp_sample:
             return False
-        if all(self.xyz != other.xyz):
+        if any(self.xyz != other.xyz):
             return False
-        if all(self.xyz_derivative != other.xyz_derivative):
+        if any(self.xyz_derivative != other.xyz_derivative):
             return False
         return True
 

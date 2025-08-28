@@ -1,1 +1,8 @@
-/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/src/px4-ros2-interface-lib/px4_ros2_cpp/include/px4_ros2/navigation/groups.dox
+/*!
+\defgroup navigation Navigation
+*/
+
+/*!
+\defgroup navigation_experimental Experimental
+\ingroup navigation
+*/

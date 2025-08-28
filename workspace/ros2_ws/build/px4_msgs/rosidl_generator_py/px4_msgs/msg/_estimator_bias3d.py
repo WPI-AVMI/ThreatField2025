@@ -164,15 +164,15 @@ class EstimatorBias3d(metaclass=Metaclass_EstimatorBias3d):
             return False
         if self.device_id != other.device_id:
             return False
-        if all(self.bias != other.bias):
+        if any(self.bias != other.bias):
             return False
-        if all(self.bias_var != other.bias_var):
+        if any(self.bias_var != other.bias_var):
             return False
-        if all(self.innov != other.innov):
+        if any(self.innov != other.innov):
             return False
-        if all(self.innov_var != other.innov_var):
+        if any(self.innov_var != other.innov_var):
             return False
-        if all(self.innov_test_ratio != other.innov_test_ratio):
+        if any(self.innov_test_ratio != other.innov_test_ratio):
             return False
         return True
 

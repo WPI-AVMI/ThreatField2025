@@ -174,7 +174,7 @@ class SensorAccel(metaclass=Metaclass_SensorAccel):
             return False
         if self.error_count != other.error_count:
             return False
-        if all(self.clip_counter != other.clip_counter):
+        if any(self.clip_counter != other.clip_counter):
             return False
         if self.samples != other.samples:
             return False

@@ -1,1 +1,1 @@
-/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/draw_flight_mode/ament_cmake_environment_hooks/path.dsv
+prepend-non-duplicate-if-exists;PATH;bin

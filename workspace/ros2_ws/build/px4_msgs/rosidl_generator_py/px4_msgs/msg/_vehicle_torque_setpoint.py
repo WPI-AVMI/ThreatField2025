@@ -122,7 +122,7 @@ class VehicleTorqueSetpoint(metaclass=Metaclass_VehicleTorqueSetpoint):
             return False
         if self.timestamp_sample != other.timestamp_sample:
             return False
-        if all(self.xyz != other.xyz):
+        if any(self.xyz != other.xyz):
             return False
         return True
 

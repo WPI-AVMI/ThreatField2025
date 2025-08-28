@@ -1,0 +1,259 @@
+[0.012s] Invoking command in '/home/eldavo07/ThreatField2025/workspace/ros2_ws/build/interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eldavo07/ThreatField2025/workspace/ros2_ws/install/py_sensor:/opt/ros/humble /usr/bin/cmake /home/eldavo07/ThreatField2025/workspace/ros2_ws/src/interface -DCMAKE_INSTALL_PREFIX=/home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface
+[0.082s] -- The C compiler identification is GNU 11.4.0
+[0.141s] -- The CXX compiler identification is GNU 11.4.0
+[0.150s] -- Detecting C compiler ABI info
+[0.217s] -- Detecting C compiler ABI info - done
+[0.225s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.226s] -- Detecting C compile features
+[0.227s] -- Detecting C compile features - done
+[0.230s] -- Detecting CXX compiler ABI info
+[0.308s] -- Detecting CXX compiler ABI info - done
+[0.315s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.316s] -- Detecting CXX compile features
+[0.316s] -- Detecting CXX compile features - done
+[0.321s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.679s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.772s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.808s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.814s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.824s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.839s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.858s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.907s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.177s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.510s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.640s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.667s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.668s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.699s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.699s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.699s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.699s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.723s] -- Found PythonExtra: .so  
+[1.761s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.784s] -- Added test 'lint_cmake' to check CMake code style
+[1.786s] -- Added test 'xmllint' to check XML markup files
+[1.790s] -- Configuring done
+[1.825s] -- Generating done
+[1.836s] -- Build files have been written to: /home/eldavo07/ThreatField2025/workspace/ros2_ws/build/interface
+[1.844s] Invoked command in '/home/eldavo07/ThreatField2025/workspace/ros2_ws/build/interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eldavo07/ThreatField2025/workspace/ros2_ws/install/py_sensor:/opt/ros/humble /usr/bin/cmake /home/eldavo07/ThreatField2025/workspace/ros2_ws/src/interface -DCMAKE_INSTALL_PREFIX=/home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface
+[1.846s] Invoking command in '/home/eldavo07/ThreatField2025/workspace/ros2_ws/build/interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eldavo07/ThreatField2025/workspace/ros2_ws/install/py_sensor:/opt/ros/humble /usr/bin/cmake --build /home/eldavo07/ThreatField2025/workspace/ros2_ws/build/interface -- -j12 -l12
+[1.887s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.898s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.907s] [  5%] Built target ament_cmake_python_copy_interface
+[2.160s] running egg_info
+[2.161s] creating interface.egg-info
+[2.180s] writing interface.egg-info/PKG-INFO
+[2.181s] writing dependency_links to interface.egg-info/dependency_links.txt
+[2.181s] writing top-level names to interface.egg-info/top_level.txt
+[2.181s] writing manifest file 'interface.egg-info/SOURCES.txt'
+[2.246s] [  5%] Built target interface__cpp
+[2.259s] [ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.259s] [ 10%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.259s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.262s] reading manifest file 'interface.egg-info/SOURCES.txt'
+[2.263s] writing manifest file 'interface.egg-info/SOURCES.txt'
+[2.271s] [ 15%] [32mBuilding C object CMakeFiles/interface__rosidl_generator_c.dir/rosidl_generator_c/interface/msg/detail/sensor__functions.c.o[0m
+[2.276s] [ 17%] [32mBuilding C object CMakeFiles/interface__rosidl_generator_c.dir/rosidl_generator_c/interface/msg/detail/state__functions.c.o[0m
+[2.303s] [ 17%] Built target ament_cmake_python_build_interface_egg
+[2.365s] [ 20%] [32m[1mLinking C shared library libinterface__rosidl_generator_c.so[0m
+[2.414s] [ 20%] Built target interface__rosidl_generator_c
+[2.428s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.428s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.432s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.622s] [ 30%] [32mBuilding CXX object CMakeFiles/interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface/msg/sensor__type_support.cpp.o[0m
+[2.627s] [ 33%] [32mBuilding CXX object CMakeFiles/interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface/msg/state__type_support.cpp.o[0m
+[2.678s] [ 35%] [32mBuilding CXX object CMakeFiles/interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interface/msg/detail/dds_fastrtps/sensor__type_support.cpp.o[0m
+[2.682s] [ 38%] [32mBuilding CXX object CMakeFiles/interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interface/msg/detail/dds_fastrtps/state__type_support.cpp.o[0m
+[2.688s] [ 41%] [32mBuilding CXX object CMakeFiles/interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interface/msg/detail/state__type_support.cpp.o[0m
+[2.690s] [ 43%] [32mBuilding CXX object CMakeFiles/interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interface/msg/detail/sensor__type_support.cpp.o[0m
+[2.915s] [ 46%] [32mBuilding CXX object CMakeFiles/interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/interface/msg/sensor__type_support.cpp.o[0m
+[2.915s] [ 48%] [32mBuilding CXX object CMakeFiles/interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/interface/msg/state__type_support.cpp.o[0m
+[2.983s] [ 51%] [32m[1mLinking CXX shared library libinterface__rosidl_typesupport_c.so[0m
+[3.071s] [ 51%] Built target interface__rosidl_typesupport_c
+[3.121s] [ 53%] [32mBuilding C object CMakeFiles/interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interface/msg/detail/state__type_support.c.o[0m
+[3.122s] [ 56%] [32mBuilding C object CMakeFiles/interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interface/msg/detail/sensor__type_support.c.o[0m
+[3.148s] [ 58%] [32mBuilding CXX object CMakeFiles/interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interface/msg/detail/state__type_support_c.cpp.o[0m
+[3.148s] [ 61%] [32mBuilding CXX object CMakeFiles/interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interface/msg/detail/sensor__type_support_c.cpp.o[0m
+[3.192s] [ 64%] [32m[1mLinking C shared library libinterface__rosidl_typesupport_introspection_c.so[0m
+[3.259s] [ 64%] Built target interface__rosidl_typesupport_introspection_c
+[3.261s] [ 66%] [32m[1mLinking CXX shared library libinterface__rosidl_typesupport_cpp.so[0m
+[3.320s] [ 66%] Built target interface__rosidl_typesupport_cpp
+[3.389s] [ 69%] [32m[1mLinking CXX shared library libinterface__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.436s] [ 71%] [32m[1mLinking CXX shared library libinterface__rosidl_typesupport_introspection_cpp.so[0m
+[3.491s] [ 71%] Built target interface__rosidl_typesupport_introspection_cpp
+[3.491s] [ 71%] Built target interface__rosidl_typesupport_fastrtps_cpp
+[3.640s] [ 74%] [32m[1mLinking CXX shared library libinterface__rosidl_typesupport_fastrtps_c.so[0m
+[3.721s] [ 74%] Built target interface__rosidl_typesupport_fastrtps_c
+[3.744s] [ 74%] Built target interface
+[3.765s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.197s] [ 76%] Built target interface__py
+[4.218s] [ 82%] [32mBuilding C object CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/msg/_sensor_s.c.o[0m
+[4.218s] [ 82%] [32mBuilding C object CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/msg/_state_s.c.o[0m
+[4.339s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/interface/libinterface__rosidl_generator_py.so[0m
+[4.379s] [ 84%] Built target interface__rosidl_generator_py
+[4.400s] [ 92%] [32mBuilding C object CMakeFiles/interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interface/_interface_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.401s] [ 92%] [32mBuilding C object CMakeFiles/interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interface/_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.401s] [ 92%] [32mBuilding C object CMakeFiles/interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interface/_interface_s.ep.rosidl_typesupport_c.c.o[0m
+[4.509s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/interface/interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.509s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/interface/interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.516s] [100%] [32m[1mLinking C shared library rosidl_generator_py/interface/interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.547s] [100%] Built target interface__rosidl_typesupport_c__pyext
+[4.548s] [100%] Built target interface__rosidl_typesupport_introspection_c__pyext
+[4.556s] [100%] Built target interface__rosidl_typesupport_fastrtps_c__pyext
+[4.568s] Invoked command in '/home/eldavo07/ThreatField2025/workspace/ros2_ws/build/interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eldavo07/ThreatField2025/workspace/ros2_ws/install/py_sensor:/opt/ros/humble /usr/bin/cmake --build /home/eldavo07/ThreatField2025/workspace/ros2_ws/build/interface -- -j12 -l12
+[4.579s] Invoking command in '/home/eldavo07/ThreatField2025/workspace/ros2_ws/build/interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eldavo07/ThreatField2025/workspace/ros2_ws/install/py_sensor:/opt/ros/humble /usr/bin/cmake --install /home/eldavo07/ThreatField2025/workspace/ros2_ws/build/interface
+[4.588s] -- Install configuration: ""
+[4.588s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/share/ament_index/resource_index/rosidl_interfaces/interface
+[4.588s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface
+[4.588s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg
+[4.588s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/rosidl_generator_c__visibility_control.h
+[4.589s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/state.h
+[4.589s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/sensor.h
+[4.589s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail
+[4.589s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/sensor__functions.h
+[4.589s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/sensor__struct.h
+[4.589s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/state__functions.h
+[4.589s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/sensor__type_support.h
+[4.589s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/sensor__functions.c
+[4.589s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/state__functions.c
+[4.590s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/state__type_support.h
+[4.590s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/state__struct.h
+[4.590s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/environment/library_path.sh
+[4.590s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/environment/library_path.dsv
+[4.590s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/lib/libinterface__rosidl_generator_c.so
+[4.591s] -- Set runtime path of "/home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/lib/libinterface__rosidl_generator_c.so" to ""
+[4.591s] -- Up-to-date: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface
+[4.591s] -- Up-to-date: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg
+[4.591s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.591s] -- Up-to-date: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail
+[4.591s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/state__rosidl_typesupport_fastrtps_c.h
+[4.591s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/sensor__rosidl_typesupport_fastrtps_c.h
+[4.592s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/lib/libinterface__rosidl_typesupport_fastrtps_c.so
+[4.592s] -- Set runtime path of "/home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/lib/libinterface__rosidl_typesupport_fastrtps_c.so" to ""
+[4.592s] -- Up-to-date: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface
+[4.592s] -- Up-to-date: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg
+[4.592s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.592s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/sensor.hpp
+[4.592s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/state.hpp
+[4.593s] -- Up-to-date: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail
+[4.593s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/sensor__struct.hpp
+[4.593s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/state__type_support.hpp
+[4.593s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/state__traits.hpp
+[4.593s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/sensor__type_support.hpp
+[4.593s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/sensor__builder.hpp
+[4.593s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/sensor__traits.hpp
+[4.593s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/state__struct.hpp
+[4.594s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/state__builder.hpp
+[4.594s] -- Up-to-date: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface
+[4.594s] -- Up-to-date: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg
+[4.594s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.594s] -- Up-to-date: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail
+[4.594s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/state__rosidl_typesupport_fastrtps_cpp.hpp
+[4.594s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/sensor__rosidl_typesupport_fastrtps_cpp.hpp
+[4.594s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/dds_fastrtps
+[4.594s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/lib/libinterface__rosidl_typesupport_fastrtps_cpp.so
+[4.595s] -- Set runtime path of "/home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/lib/libinterface__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.595s] -- Up-to-date: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface
+[4.595s] -- Up-to-date: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg
+[4.595s] -- Up-to-date: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail
+[4.595s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/sensor__type_support.c
+[4.596s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/state__rosidl_typesupport_introspection_c.h
+[4.596s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/state__type_support.c
+[4.596s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/sensor__rosidl_typesupport_introspection_c.h
+[4.596s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.596s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/lib/libinterface__rosidl_typesupport_introspection_c.so
+[4.596s] -- Set runtime path of "/home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/lib/libinterface__rosidl_typesupport_introspection_c.so" to ""
+[4.597s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/lib/libinterface__rosidl_typesupport_c.so
+[4.597s] -- Set runtime path of "/home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/lib/libinterface__rosidl_typesupport_c.so" to ""
+[4.597s] -- Up-to-date: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface
+[4.597s] -- Up-to-date: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg
+[4.597s] -- Up-to-date: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail
+[4.597s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/state__type_support.cpp
+[4.598s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/state__rosidl_typesupport_introspection_cpp.hpp
+[4.598s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/sensor__type_support.cpp
+[4.598s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/include/interface/interface/msg/detail/sensor__rosidl_typesupport_introspection_cpp.hpp
+[4.598s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/lib/libinterface__rosidl_typesupport_introspection_cpp.so
+[4.598s] -- Set runtime path of "/home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/lib/libinterface__rosidl_typesupport_introspection_cpp.so" to ""
+[4.598s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/lib/libinterface__rosidl_typesupport_cpp.so
+[4.599s] -- Set runtime path of "/home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/lib/libinterface__rosidl_typesupport_cpp.so" to ""
+[4.599s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/environment/pythonpath.sh
+[4.599s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/environment/pythonpath.dsv
+[4.599s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface-0.0.0-py3.10.egg-info
+[4.599s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface-0.0.0-py3.10.egg-info/top_level.txt
+[4.600s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.600s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.600s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface-0.0.0-py3.10.egg-info/PKG-INFO
+[4.600s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface
+[4.600s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.600s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/_interface_s.ep.rosidl_typesupport_c.c
+[4.600s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.600s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/libinterface__rosidl_generator_py.so
+[4.600s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.601s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.601s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/__init__.py
+[4.601s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/_interface_s.ep.rosidl_typesupport_introspection_c.c
+[4.601s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/msg
+[4.601s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/msg/_state_s.c
+[4.601s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/msg/_sensor.py
+[4.601s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/msg/_state.py
+[4.602s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/msg/__init__.py
+[4.602s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/msg/_sensor_s.c
+[4.642s] Listing '/home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface'...
+[4.642s] Compiling '/home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/__init__.py'...
+[4.642s] Listing '/home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/msg'...
+[4.642s] Compiling '/home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/msg/__init__.py'...
+[4.642s] Compiling '/home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/msg/_sensor.py'...
+[4.642s] Compiling '/home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/msg/_state.py'...
+[4.647s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.648s] -- Set runtime path of "/home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.648s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.648s] -- Set runtime path of "/home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.649s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.649s] -- Set runtime path of "/home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.649s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/lib/libinterface__rosidl_generator_py.so
+[4.650s] -- Set runtime path of "/home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/lib/libinterface__rosidl_generator_py.so" to ""
+[4.650s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/msg/Sensor.idl
+[4.650s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/msg/State.idl
+[4.650s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/msg/Sensor.msg
+[4.650s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/msg/State.msg
+[4.650s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/share/ament_index/resource_index/package_run_dependencies/interface
+[4.650s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/share/ament_index/resource_index/parent_prefix_path/interface
+[4.651s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/environment/ament_prefix_path.sh
+[4.651s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/environment/ament_prefix_path.dsv
+[4.651s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/environment/path.sh
+[4.651s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/environment/path.dsv
+[4.651s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/local_setup.bash
+[4.651s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/local_setup.sh
+[4.652s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/local_setup.zsh
+[4.652s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/local_setup.dsv
+[4.652s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/package.dsv
+[4.652s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/share/ament_index/resource_index/packages/interface
+[4.652s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/export_interface__rosidl_generator_cExport.cmake
+[4.652s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/export_interface__rosidl_generator_cExport-noconfig.cmake
+[4.653s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/export_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[4.653s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/export_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.653s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/export_interface__rosidl_generator_cppExport.cmake
+[4.653s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/export_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.653s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/export_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.654s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/interface__rosidl_typesupport_introspection_cExport.cmake
+[4.654s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.654s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/interface__rosidl_typesupport_cExport.cmake
+[4.654s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/interface__rosidl_typesupport_cExport-noconfig.cmake
+[4.654s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/interface__rosidl_typesupport_introspection_cppExport.cmake
+[4.654s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.655s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/interface__rosidl_typesupport_cppExport.cmake
+[4.655s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/interface__rosidl_typesupport_cppExport-noconfig.cmake
+[4.655s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/export_interface__rosidl_generator_pyExport.cmake
+[4.655s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/export_interface__rosidl_generator_pyExport-noconfig.cmake
+[4.655s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/rosidl_cmake-extras.cmake
+[4.655s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.656s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/ament_cmake_export_libraries-extras.cmake
+[4.656s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/ament_cmake_export_targets-extras.cmake
+[4.656s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.656s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.656s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.656s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/interfaceConfig.cmake
+[4.656s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/cmake/interfaceConfig-version.cmake
+[4.657s] -- Installing: /home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface/share/interface/package.xml
+[4.659s] Invoked command in '/home/eldavo07/ThreatField2025/workspace/ros2_ws/build/interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eldavo07/ThreatField2025/workspace/ros2_ws/install/py_sensor:/opt/ros/humble /usr/bin/cmake --install /home/eldavo07/ThreatField2025/workspace/ros2_ws/build/interface

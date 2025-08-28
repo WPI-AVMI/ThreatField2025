@@ -130,7 +130,7 @@ class MavlinkLog(metaclass=Metaclass_MavlinkLog):
             return False
         if self.timestamp != other.timestamp:
             return False
-        if all(self.text != other.text):
+        if any(self.text != other.text):
             return False
         if self.severity != other.severity:
             return False

@@ -185,23 +185,23 @@ class SensorsStatusImu(metaclass=Metaclass_SensorsStatusImu):
             return False
         if self.accel_device_id_primary != other.accel_device_id_primary:
             return False
-        if all(self.accel_device_ids != other.accel_device_ids):
+        if any(self.accel_device_ids != other.accel_device_ids):
             return False
-        if all(self.accel_inconsistency_m_s_s != other.accel_inconsistency_m_s_s):
+        if any(self.accel_inconsistency_m_s_s != other.accel_inconsistency_m_s_s):
             return False
         if self.accel_healthy != other.accel_healthy:
             return False
-        if all(self.accel_priority != other.accel_priority):
+        if any(self.accel_priority != other.accel_priority):
             return False
         if self.gyro_device_id_primary != other.gyro_device_id_primary:
             return False
-        if all(self.gyro_device_ids != other.gyro_device_ids):
+        if any(self.gyro_device_ids != other.gyro_device_ids):
             return False
-        if all(self.gyro_inconsistency_rad_s != other.gyro_inconsistency_rad_s):
+        if any(self.gyro_inconsistency_rad_s != other.gyro_inconsistency_rad_s):
             return False
         if self.gyro_healthy != other.gyro_healthy:
             return False
-        if all(self.gyro_priority != other.gyro_priority):
+        if any(self.gyro_priority != other.gyro_priority):
             return False
         return True
 

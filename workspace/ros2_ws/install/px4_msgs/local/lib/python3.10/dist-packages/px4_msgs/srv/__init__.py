@@ -1,1 +1,1 @@
-/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/px4_msgs/rosidl_generator_py/px4_msgs/srv/__init__.py
+from px4_msgs.srv._vehicle_command import VehicleCommand  # noqa: F401

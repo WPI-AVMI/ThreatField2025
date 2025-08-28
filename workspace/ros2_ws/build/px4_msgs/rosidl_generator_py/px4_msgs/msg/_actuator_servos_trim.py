@@ -128,7 +128,7 @@ class ActuatorServosTrim(metaclass=Metaclass_ActuatorServosTrim):
             return False
         if self.timestamp != other.timestamp:
             return False
-        if all(self.trim != other.trim):
+        if any(self.trim != other.trim):
             return False
         return True
 

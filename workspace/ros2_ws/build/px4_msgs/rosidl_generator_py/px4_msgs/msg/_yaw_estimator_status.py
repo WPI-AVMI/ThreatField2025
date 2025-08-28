@@ -167,13 +167,13 @@ class YawEstimatorStatus(metaclass=Metaclass_YawEstimatorStatus):
             return False
         if self.yaw_composite_valid != other.yaw_composite_valid:
             return False
-        if all(self.yaw != other.yaw):
+        if any(self.yaw != other.yaw):
             return False
-        if all(self.innov_vn != other.innov_vn):
+        if any(self.innov_vn != other.innov_vn):
             return False
-        if all(self.innov_ve != other.innov_ve):
+        if any(self.innov_ve != other.innov_ve):
             return False
-        if all(self.weight != other.weight):
+        if any(self.weight != other.weight):
             return False
         return True
 

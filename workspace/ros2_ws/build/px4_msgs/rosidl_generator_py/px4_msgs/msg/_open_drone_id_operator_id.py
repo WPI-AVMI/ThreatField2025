@@ -127,11 +127,11 @@ class OpenDroneIdOperatorId(metaclass=Metaclass_OpenDroneIdOperatorId):
             return False
         if self.timestamp != other.timestamp:
             return False
-        if all(self.id_or_mac != other.id_or_mac):
+        if any(self.id_or_mac != other.id_or_mac):
             return False
         if self.operator_id_type != other.operator_id_type:
             return False
-        if all(self.operator_id != other.operator_id):
+        if any(self.operator_id != other.operator_id):
             return False
         return True
 

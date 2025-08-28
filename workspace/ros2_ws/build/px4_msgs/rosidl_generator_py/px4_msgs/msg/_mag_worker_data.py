@@ -186,15 +186,15 @@ class MagWorkerData(metaclass=Metaclass_MagWorkerData):
             return False
         if self.calibration_interval_perside_us != other.calibration_interval_perside_us:
             return False
-        if all(self.calibration_counter_total != other.calibration_counter_total):
+        if any(self.calibration_counter_total != other.calibration_counter_total):
             return False
         if self.side_data_collected != other.side_data_collected:
             return False
-        if all(self.x != other.x):
+        if any(self.x != other.x):
             return False
-        if all(self.y != other.y):
+        if any(self.y != other.y):
             return False
-        if all(self.z != other.z):
+        if any(self.z != other.z):
             return False
         return True
 

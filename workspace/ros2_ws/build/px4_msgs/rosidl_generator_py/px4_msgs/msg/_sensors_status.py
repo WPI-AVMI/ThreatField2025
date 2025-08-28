@@ -161,13 +161,13 @@ class SensorsStatus(metaclass=Metaclass_SensorsStatus):
             return False
         if self.device_id_primary != other.device_id_primary:
             return False
-        if all(self.device_ids != other.device_ids):
+        if any(self.device_ids != other.device_ids):
             return False
-        if all(self.inconsistency != other.inconsistency):
+        if any(self.inconsistency != other.inconsistency):
             return False
         if self.healthy != other.healthy:
             return False
-        if all(self.priority != other.priority):
+        if any(self.priority != other.priority):
             return False
         if self.enabled != other.enabled:
             return False

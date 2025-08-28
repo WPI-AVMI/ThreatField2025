@@ -160,7 +160,7 @@ class GotoSetpoint(metaclass=Metaclass_GotoSetpoint):
             return False
         if self.timestamp != other.timestamp:
             return False
-        if all(self.position != other.position):
+        if any(self.position != other.position):
             return False
         if self.flag_control_heading != other.flag_control_heading:
             return False

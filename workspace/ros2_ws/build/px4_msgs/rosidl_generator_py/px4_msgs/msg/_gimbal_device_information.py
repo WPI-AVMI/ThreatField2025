@@ -282,11 +282,11 @@ class GimbalDeviceInformation(metaclass=Metaclass_GimbalDeviceInformation):
             return False
         if self.timestamp != other.timestamp:
             return False
-        if all(self.vendor_name != other.vendor_name):
+        if any(self.vendor_name != other.vendor_name):
             return False
-        if all(self.model_name != other.model_name):
+        if any(self.model_name != other.model_name):
             return False
-        if all(self.custom_name != other.custom_name):
+        if any(self.custom_name != other.custom_name):
             return False
         if self.firmware_version != other.firmware_version:
             return False

@@ -1,1 +1,6 @@
-/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/px4_msgs/ament_cmake_python/px4_msgs/px4_msgs.egg-info/SOURCES.txt
+setup.py
+px4_msgs/__init__.py
+px4_msgs.egg-info/PKG-INFO
+px4_msgs.egg-info/SOURCES.txt
+px4_msgs.egg-info/dependency_links.txt
+px4_msgs.egg-info/top_level.txt

@@ -160,7 +160,7 @@ class OpenDroneIdSystem(metaclass=Metaclass_OpenDroneIdSystem):
             return False
         if self.timestamp != other.timestamp:
             return False
-        if all(self.id_or_mac != other.id_or_mac):
+        if any(self.id_or_mac != other.id_or_mac):
             return False
         if self.operator_location_type != other.operator_location_type:
             return False

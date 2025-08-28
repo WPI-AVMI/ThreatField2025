@@ -150,7 +150,7 @@ class GimbalControls(metaclass=Metaclass_GimbalControls):
             return False
         if self.timestamp_sample != other.timestamp_sample:
             return False
-        if all(self.control != other.control):
+        if any(self.control != other.control):
             return False
         return True
 

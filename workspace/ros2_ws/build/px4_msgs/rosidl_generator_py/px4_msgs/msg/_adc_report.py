@@ -139,9 +139,9 @@ class AdcReport(metaclass=Metaclass_AdcReport):
             return False
         if self.device_id != other.device_id:
             return False
-        if all(self.channel_id != other.channel_id):
+        if any(self.channel_id != other.channel_id):
             return False
-        if all(self.raw_data != other.raw_data):
+        if any(self.raw_data != other.raw_data):
             return False
         if self.resolution != other.resolution:
             return False

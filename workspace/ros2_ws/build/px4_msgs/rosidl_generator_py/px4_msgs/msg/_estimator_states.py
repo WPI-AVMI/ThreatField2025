@@ -135,11 +135,11 @@ class EstimatorStates(metaclass=Metaclass_EstimatorStates):
             return False
         if self.timestamp_sample != other.timestamp_sample:
             return False
-        if all(self.states != other.states):
+        if any(self.states != other.states):
             return False
         if self.n_states != other.n_states:
             return False
-        if all(self.covariances != other.covariances):
+        if any(self.covariances != other.covariances):
             return False
         return True
 

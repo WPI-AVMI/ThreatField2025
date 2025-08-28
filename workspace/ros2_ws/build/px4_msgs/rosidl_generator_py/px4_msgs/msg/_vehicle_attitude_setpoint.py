@@ -143,9 +143,9 @@ class VehicleAttitudeSetpoint(metaclass=Metaclass_VehicleAttitudeSetpoint):
             return False
         if self.yaw_sp_move_rate != other.yaw_sp_move_rate:
             return False
-        if all(self.q_d != other.q_d):
+        if any(self.q_d != other.q_d):
             return False
-        if all(self.thrust_body != other.thrust_body):
+        if any(self.thrust_body != other.thrust_body):
             return False
         return True
 

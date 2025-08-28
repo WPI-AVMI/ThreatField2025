@@ -132,7 +132,7 @@ class LogMessage(metaclass=Metaclass_LogMessage):
             return False
         if self.severity != other.severity:
             return False
-        if all(self.text != other.text):
+        if any(self.text != other.text):
             return False
         return True
 

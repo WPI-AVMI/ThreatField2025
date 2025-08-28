@@ -391,11 +391,11 @@ class RcChannels(metaclass=Metaclass_RcChannels):
             return False
         if self.timestamp_last_valid != other.timestamp_last_valid:
             return False
-        if all(self.channels != other.channels):
+        if any(self.channels != other.channels):
             return False
         if self.channel_count != other.channel_count:
             return False
-        if all(self.function != other.function):
+        if any(self.function != other.function):
             return False
         if self.rssi != other.rssi:
             return False

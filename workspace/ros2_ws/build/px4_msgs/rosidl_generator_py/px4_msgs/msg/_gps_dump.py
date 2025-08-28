@@ -138,7 +138,7 @@ class GpsDump(metaclass=Metaclass_GpsDump):
             return False
         if self.len != other.len:
             return False
-        if all(self.data != other.data):
+        if any(self.data != other.data):
             return False
         return True
 

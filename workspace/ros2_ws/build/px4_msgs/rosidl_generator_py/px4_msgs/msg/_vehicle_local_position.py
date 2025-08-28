@@ -377,7 +377,7 @@ class VehicleLocalPosition(metaclass=Metaclass_VehicleLocalPosition):
             return False
         if self.z != other.z:
             return False
-        if all(self.delta_xy != other.delta_xy):
+        if any(self.delta_xy != other.delta_xy):
             return False
         if self.xy_reset_counter != other.xy_reset_counter:
             return False
@@ -393,7 +393,7 @@ class VehicleLocalPosition(metaclass=Metaclass_VehicleLocalPosition):
             return False
         if self.z_deriv != other.z_deriv:
             return False
-        if all(self.delta_vxy != other.delta_vxy):
+        if any(self.delta_vxy != other.delta_vxy):
             return False
         if self.vxy_reset_counter != other.vxy_reset_counter:
             return False

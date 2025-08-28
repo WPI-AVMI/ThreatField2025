@@ -594,7 +594,7 @@ class EstimatorStatus(metaclass=Metaclass_EstimatorStatus):
             return False
         if self.timestamp_sample != other.timestamp_sample:
             return False
-        if all(self.output_tracking_error != other.output_tracking_error):
+        if any(self.output_tracking_error != other.output_tracking_error):
             return False
         if self.gps_check_fail_flags != other.gps_check_fail_flags:
             return False

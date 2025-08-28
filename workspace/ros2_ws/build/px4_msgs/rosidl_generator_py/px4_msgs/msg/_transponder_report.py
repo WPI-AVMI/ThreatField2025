@@ -425,7 +425,7 @@ class TransponderReport(metaclass=Metaclass_TransponderReport):
             return False
         if self.ver_velocity != other.ver_velocity:
             return False
-        if all(self.callsign != other.callsign):
+        if any(self.callsign != other.callsign):
             return False
         if self.emitter_type != other.emitter_type:
             return False
@@ -435,7 +435,7 @@ class TransponderReport(metaclass=Metaclass_TransponderReport):
             return False
         if self.squawk != other.squawk:
             return False
-        if all(self.uas_id != other.uas_id):
+        if any(self.uas_id != other.uas_id):
             return False
         return True
 

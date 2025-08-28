@@ -1,1 +1,8 @@
-/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/src/px4_msgs/msg/FixedWingRunwayControl.msg
+# Auxiliary control fields for fixed-wing runway takeoff/landing
+
+# Passes information from the FixedWingModeManager to the FixedWingAttitudeController
+
+uint64 timestamp # [us] time since system start
+
+bool wheel_steering_enabled		# Flag that enables the wheel steering.
+float32 wheel_steering_nudging_rate	# [norm] [@range -1, 1] [FRD] Manual wheel nudging, added to controller output. NAN is interpreted as 0.

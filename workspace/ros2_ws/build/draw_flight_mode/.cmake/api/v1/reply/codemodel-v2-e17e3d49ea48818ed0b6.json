@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-8e70e73462e65a696563.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "draw_flight_mode",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "draw_flight_mode_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-draw_flight_mode_uninstall-32ac6bfad6092fc93c62.json",
+					"name" : "draw_flight_mode_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "draw_r::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-draw_r-8c744010ecd17f47cb9d.json",
+					"name" : "draw_r",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-e6866478b7d968c98788.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/eldavo07/ThreatField2025/workspace/ros2_ws/build/draw_flight_mode",
+		"source" : "/home/eldavo07/ThreatField2025/workspace/ros2_ws/src/px4_ros2_custom_flight_mode"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

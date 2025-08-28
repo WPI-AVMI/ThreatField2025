@@ -132,7 +132,7 @@ class MessageFormatRequest(metaclass=Metaclass_MessageFormatRequest):
             return False
         if self.protocol_version != other.protocol_version:
             return False
-        if all(self.topic_name != other.topic_name):
+        if any(self.topic_name != other.topic_name):
             return False
         return True
 

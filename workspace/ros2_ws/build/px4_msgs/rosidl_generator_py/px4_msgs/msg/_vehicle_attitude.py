@@ -147,9 +147,9 @@ class VehicleAttitude(metaclass=Metaclass_VehicleAttitude):
             return False
         if self.timestamp_sample != other.timestamp_sample:
             return False
-        if all(self.q != other.q):
+        if any(self.q != other.q):
             return False
-        if all(self.delta_q_reset != other.delta_q_reset):
+        if any(self.delta_q_reset != other.delta_q_reset):
             return False
         if self.quat_reset_counter != other.quat_reset_counter:
             return False

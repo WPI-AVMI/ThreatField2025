@@ -213,9 +213,9 @@ class SensorOpticalFlow(metaclass=Metaclass_SensorOpticalFlow):
             return False
         if self.device_id != other.device_id:
             return False
-        if all(self.pixel_flow != other.pixel_flow):
+        if any(self.pixel_flow != other.pixel_flow):
             return False
-        if all(self.delta_angle != other.delta_angle):
+        if any(self.delta_angle != other.delta_angle):
             return False
         if self.delta_angle_available != other.delta_angle_available:
             return False

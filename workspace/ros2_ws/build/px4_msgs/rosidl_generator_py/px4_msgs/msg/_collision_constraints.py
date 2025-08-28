@@ -125,9 +125,9 @@ class CollisionConstraints(metaclass=Metaclass_CollisionConstraints):
             return False
         if self.timestamp != other.timestamp:
             return False
-        if all(self.original_setpoint != other.original_setpoint):
+        if any(self.original_setpoint != other.original_setpoint):
             return False
-        if all(self.adapted_setpoint != other.adapted_setpoint):
+        if any(self.adapted_setpoint != other.adapted_setpoint):
             return False
         return True
 

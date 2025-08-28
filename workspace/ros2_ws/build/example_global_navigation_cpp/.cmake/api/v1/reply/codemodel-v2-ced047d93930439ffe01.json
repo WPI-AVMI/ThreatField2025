@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-51be2130aa19d5029a3d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "example_global_navigation_cpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "example_global_navigation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example_global_navigation-e19cdb97e543df094f60.json",
+					"name" : "example_global_navigation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "example_global_navigation_cpp_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example_global_navigation_cpp_uninstall-565d96d4b6c7ea82c430.json",
+					"name" : "example_global_navigation_cpp_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-1bda1c32c2ea2ea1bd7a.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/eldavo07/ThreatField2025/workspace/ros2_ws/build/example_global_navigation_cpp",
+		"source" : "/home/eldavo07/ThreatField2025/workspace/ros2_ws/src/px4-ros2-interface-lib/examples/cpp/navigation/global_navigation"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

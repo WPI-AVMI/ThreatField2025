@@ -216,7 +216,7 @@ class GimbalManagerSetAttitude(metaclass=Metaclass_GimbalManagerSetAttitude):
             return False
         if self.gimbal_device_id != other.gimbal_device_id:
             return False
-        if all(self.q != other.q):
+        if any(self.q != other.q):
             return False
         if self.angular_velocity_x != other.angular_velocity_x:
             return False

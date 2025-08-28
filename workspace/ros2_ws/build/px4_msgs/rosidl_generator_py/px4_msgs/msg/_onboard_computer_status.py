@@ -255,39 +255,39 @@ class OnboardComputerStatus(metaclass=Metaclass_OnboardComputerStatus):
             return False
         if self.type != other.type:
             return False
-        if all(self.cpu_cores != other.cpu_cores):
+        if any(self.cpu_cores != other.cpu_cores):
             return False
-        if all(self.cpu_combined != other.cpu_combined):
+        if any(self.cpu_combined != other.cpu_combined):
             return False
-        if all(self.gpu_cores != other.gpu_cores):
+        if any(self.gpu_cores != other.gpu_cores):
             return False
-        if all(self.gpu_combined != other.gpu_combined):
+        if any(self.gpu_combined != other.gpu_combined):
             return False
         if self.temperature_board != other.temperature_board:
             return False
-        if all(self.temperature_core != other.temperature_core):
+        if any(self.temperature_core != other.temperature_core):
             return False
-        if all(self.fan_speed != other.fan_speed):
+        if any(self.fan_speed != other.fan_speed):
             return False
         if self.ram_usage != other.ram_usage:
             return False
         if self.ram_total != other.ram_total:
             return False
-        if all(self.storage_type != other.storage_type):
+        if any(self.storage_type != other.storage_type):
             return False
-        if all(self.storage_usage != other.storage_usage):
+        if any(self.storage_usage != other.storage_usage):
             return False
-        if all(self.storage_total != other.storage_total):
+        if any(self.storage_total != other.storage_total):
             return False
-        if all(self.link_type != other.link_type):
+        if any(self.link_type != other.link_type):
             return False
-        if all(self.link_tx_rate != other.link_tx_rate):
+        if any(self.link_tx_rate != other.link_tx_rate):
             return False
-        if all(self.link_rx_rate != other.link_rx_rate):
+        if any(self.link_rx_rate != other.link_rx_rate):
             return False
-        if all(self.link_tx_max != other.link_tx_max):
+        if any(self.link_tx_max != other.link_tx_max):
             return False
-        if all(self.link_rx_max != other.link_rx_max):
+        if any(self.link_rx_max != other.link_rx_max):
             return False
         return True
 

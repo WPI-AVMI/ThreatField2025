@@ -128,7 +128,7 @@ class MessageFormatResponse(metaclass=Metaclass_MessageFormatResponse):
             return False
         if self.protocol_version != other.protocol_version:
             return False
-        if all(self.topic_name != other.topic_name):
+        if any(self.topic_name != other.topic_name):
             return False
         if self.success != other.success:
             return False

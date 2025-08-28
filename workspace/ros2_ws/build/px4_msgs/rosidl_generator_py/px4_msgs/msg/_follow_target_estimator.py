@@ -178,11 +178,11 @@ class FollowTargetEstimator(metaclass=Metaclass_FollowTargetEstimator):
             return False
         if self.alt_est != other.alt_est:
             return False
-        if all(self.pos_est != other.pos_est):
+        if any(self.pos_est != other.pos_est):
             return False
-        if all(self.vel_est != other.vel_est):
+        if any(self.vel_est != other.vel_est):
             return False
-        if all(self.acc_est != other.acc_est):
+        if any(self.acc_est != other.acc_est):
             return False
         if self.prediction_count != other.prediction_count:
             return False

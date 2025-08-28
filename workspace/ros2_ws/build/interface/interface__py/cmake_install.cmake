@@ -1,8 +1,8 @@
-# Install script for directory: /home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface/interface__py
+# Install script for directory: /home/eldavo07/ThreatField2025/workspace/ros2_ws/build/interface/interface__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/install/interface")
+  set(CMAKE_INSTALL_PREFIX "/home/eldavo07/ThreatField2025/workspace/ros2_ws/install/interface")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

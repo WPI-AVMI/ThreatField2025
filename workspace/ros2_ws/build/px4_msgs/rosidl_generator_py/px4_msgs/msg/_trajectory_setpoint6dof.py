@@ -161,17 +161,17 @@ class TrajectorySetpoint6dof(metaclass=Metaclass_TrajectorySetpoint6dof):
             return False
         if self.timestamp != other.timestamp:
             return False
-        if all(self.position != other.position):
+        if any(self.position != other.position):
             return False
-        if all(self.velocity != other.velocity):
+        if any(self.velocity != other.velocity):
             return False
-        if all(self.acceleration != other.acceleration):
+        if any(self.acceleration != other.acceleration):
             return False
-        if all(self.jerk != other.jerk):
+        if any(self.jerk != other.jerk):
             return False
-        if all(self.quaternion != other.quaternion):
+        if any(self.quaternion != other.quaternion):
             return False
-        if all(self.angular_velocity != other.angular_velocity):
+        if any(self.angular_velocity != other.angular_velocity):
             return False
         return True
 

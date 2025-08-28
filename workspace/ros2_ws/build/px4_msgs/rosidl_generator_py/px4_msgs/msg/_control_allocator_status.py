@@ -192,13 +192,13 @@ class ControlAllocatorStatus(metaclass=Metaclass_ControlAllocatorStatus):
             return False
         if self.torque_setpoint_achieved != other.torque_setpoint_achieved:
             return False
-        if all(self.unallocated_torque != other.unallocated_torque):
+        if any(self.unallocated_torque != other.unallocated_torque):
             return False
         if self.thrust_setpoint_achieved != other.thrust_setpoint_achieved:
             return False
-        if all(self.unallocated_thrust != other.unallocated_thrust):
+        if any(self.unallocated_thrust != other.unallocated_thrust):
             return False
-        if all(self.actuator_saturation != other.actuator_saturation):
+        if any(self.actuator_saturation != other.actuator_saturation):
             return False
         if self.handled_motor_failure_mask != other.handled_motor_failure_mask:
             return False

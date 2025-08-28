@@ -1,1 +1,18 @@
-/home/avmi-lab-user/ThreatField2025/workspace/ros2_ws/build/interface/rosidl_adapter/interface/msg/Sensor.idl
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from interface/msg/Sensor.msg
+// generated code does not contain a copyright notice
+
+
+module interface {
+  module msg {
+    struct Sensor {
+      double dx;
+
+      double dy;
+
+      double dz;
+
+      double dt;
+    };
+  };
+};

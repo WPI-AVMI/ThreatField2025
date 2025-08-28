@@ -137,9 +137,9 @@ class RoverPositionSetpoint(metaclass=Metaclass_RoverPositionSetpoint):
             return False
         if self.timestamp != other.timestamp:
             return False
-        if all(self.position_ned != other.position_ned):
+        if any(self.position_ned != other.position_ned):
             return False
-        if all(self.start_ned != other.start_ned):
+        if any(self.start_ned != other.start_ned):
             return False
         if self.cruising_speed != other.cruising_speed:
             return False

@@ -238,19 +238,19 @@ class EstimatorInnovations(metaclass=Metaclass_EstimatorInnovations):
             return False
         if self.timestamp_sample != other.timestamp_sample:
             return False
-        if all(self.gps_hvel != other.gps_hvel):
+        if any(self.gps_hvel != other.gps_hvel):
             return False
         if self.gps_vvel != other.gps_vvel:
             return False
-        if all(self.gps_hpos != other.gps_hpos):
+        if any(self.gps_hpos != other.gps_hpos):
             return False
         if self.gps_vpos != other.gps_vpos:
             return False
-        if all(self.ev_hvel != other.ev_hvel):
+        if any(self.ev_hvel != other.ev_hvel):
             return False
         if self.ev_vvel != other.ev_vvel:
             return False
-        if all(self.ev_hpos != other.ev_hpos):
+        if any(self.ev_hpos != other.ev_hpos):
             return False
         if self.ev_vpos != other.ev_vpos:
             return False
@@ -258,17 +258,17 @@ class EstimatorInnovations(metaclass=Metaclass_EstimatorInnovations):
             return False
         if self.baro_vpos != other.baro_vpos:
             return False
-        if all(self.aux_hvel != other.aux_hvel):
+        if any(self.aux_hvel != other.aux_hvel):
             return False
-        if all(self.flow != other.flow):
+        if any(self.flow != other.flow):
             return False
         if self.heading != other.heading:
             return False
-        if all(self.mag_field != other.mag_field):
+        if any(self.mag_field != other.mag_field):
             return False
-        if all(self.gravity != other.gravity):
+        if any(self.gravity != other.gravity):
             return False
-        if all(self.drag != other.drag):
+        if any(self.drag != other.drag):
             return False
         if self.airspeed != other.airspeed:
             return False

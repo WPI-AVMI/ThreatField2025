@@ -496,7 +496,7 @@ class BatteryStatus(metaclass=Metaclass_BatteryStatus):
             return False
         if self.interface_error != other.interface_error:
             return False
-        if all(self.voltage_cell_v != other.voltage_cell_v):
+        if any(self.voltage_cell_v != other.voltage_cell_v):
             return False
         if self.max_cell_voltage_delta != other.max_cell_voltage_delta:
             return False

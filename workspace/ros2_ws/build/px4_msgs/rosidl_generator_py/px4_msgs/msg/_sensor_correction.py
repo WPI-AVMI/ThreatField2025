@@ -303,45 +303,45 @@ class SensorCorrection(metaclass=Metaclass_SensorCorrection):
             return False
         if self.timestamp != other.timestamp:
             return False
-        if all(self.accel_device_ids != other.accel_device_ids):
+        if any(self.accel_device_ids != other.accel_device_ids):
             return False
-        if all(self.accel_temperature != other.accel_temperature):
+        if any(self.accel_temperature != other.accel_temperature):
             return False
-        if all(self.accel_offset_0 != other.accel_offset_0):
+        if any(self.accel_offset_0 != other.accel_offset_0):
             return False
-        if all(self.accel_offset_1 != other.accel_offset_1):
+        if any(self.accel_offset_1 != other.accel_offset_1):
             return False
-        if all(self.accel_offset_2 != other.accel_offset_2):
+        if any(self.accel_offset_2 != other.accel_offset_2):
             return False
-        if all(self.accel_offset_3 != other.accel_offset_3):
+        if any(self.accel_offset_3 != other.accel_offset_3):
             return False
-        if all(self.gyro_device_ids != other.gyro_device_ids):
+        if any(self.gyro_device_ids != other.gyro_device_ids):
             return False
-        if all(self.gyro_temperature != other.gyro_temperature):
+        if any(self.gyro_temperature != other.gyro_temperature):
             return False
-        if all(self.gyro_offset_0 != other.gyro_offset_0):
+        if any(self.gyro_offset_0 != other.gyro_offset_0):
             return False
-        if all(self.gyro_offset_1 != other.gyro_offset_1):
+        if any(self.gyro_offset_1 != other.gyro_offset_1):
             return False
-        if all(self.gyro_offset_2 != other.gyro_offset_2):
+        if any(self.gyro_offset_2 != other.gyro_offset_2):
             return False
-        if all(self.gyro_offset_3 != other.gyro_offset_3):
+        if any(self.gyro_offset_3 != other.gyro_offset_3):
             return False
-        if all(self.mag_device_ids != other.mag_device_ids):
+        if any(self.mag_device_ids != other.mag_device_ids):
             return False
-        if all(self.mag_temperature != other.mag_temperature):
+        if any(self.mag_temperature != other.mag_temperature):
             return False
-        if all(self.mag_offset_0 != other.mag_offset_0):
+        if any(self.mag_offset_0 != other.mag_offset_0):
             return False
-        if all(self.mag_offset_1 != other.mag_offset_1):
+        if any(self.mag_offset_1 != other.mag_offset_1):
             return False
-        if all(self.mag_offset_2 != other.mag_offset_2):
+        if any(self.mag_offset_2 != other.mag_offset_2):
             return False
-        if all(self.mag_offset_3 != other.mag_offset_3):
+        if any(self.mag_offset_3 != other.mag_offset_3):
             return False
-        if all(self.baro_device_ids != other.baro_device_ids):
+        if any(self.baro_device_ids != other.baro_device_ids):
             return False
-        if all(self.baro_temperature != other.baro_temperature):
+        if any(self.baro_temperature != other.baro_temperature):
             return False
         if self.baro_offset_0 != other.baro_offset_0:
             return False
