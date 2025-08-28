@@ -4,3 +4,6 @@ interface.egg-info/PKG-INFO
 interface.egg-info/SOURCES.txt
 interface.egg-info/dependency_links.txt
 interface.egg-info/top_level.txt
+interface/msg/__init__.py
+interface/msg/_sensor.py
+interface/msg/_state.py

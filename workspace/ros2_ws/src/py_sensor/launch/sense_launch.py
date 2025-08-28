@@ -27,16 +27,18 @@ def generate_launch_description():
 
     QGroundcontrol_node = ExecuteProcess(
         cmd=[[
-            '/home/avmi-lab-user/Downloads/QGroundControl-x86_64.AppImage'
+            '../../../QGroundControl-x86_64.AppImage'
             
         ]],
+
+
         output='screen',
         shell=True
     )
 
     px4_launch = ExecuteProcess(
         cmd=[
-            'make', 'px4_sitl', 'gz_x500'
+            'make', 'px4_sitl', 'gz_advanced_plane'
         ],
         cwd=os.path.expanduser('~/PX4-Autopilot'),  # Adjust if your PX4 is in a different path
         output='screen',
